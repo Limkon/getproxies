@@ -8,16 +8,19 @@ import sys
 def convert_to_vmess(json_data):
     # 在此编写将 JSON 数据转换为 V2Ray（Vmess）格式的代码
     # 返回转换后的 V2Ray（Vmess）链接
+    vmess_link = ''  # 定义变量
     return vmess_link
 
 def convert_to_vmess(yaml_data):
     # 在此编写将 YAML 数据转换为 V2Ray（Vmess）格式的代码
     # 返回转换后的 V2Ray（Vmess）链接
+    vmess_link = ''  # 定义变量
     return vmess_link
 
 def decode_base64(encoded_data):
     # 在此编写解密 Base64 编码的内容的代码
     # 返回解密后的内容
+    decoded_data = ''  # 定义变量
     return decoded_data
 
 def extract_links(content):
