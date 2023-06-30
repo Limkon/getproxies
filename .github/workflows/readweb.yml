@@ -30,6 +30,9 @@ jobs:
           if [ ! -d "data" ]; then
             mkdir data
           fi
+          if [ ! -d "share" ]; then
+            mkdir share
+          fi
   
       - name: Remove duplicate URLs
         run: python ./tools/remove_duplicates.py sec_urls
