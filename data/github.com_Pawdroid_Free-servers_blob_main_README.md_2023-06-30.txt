@@ -1,0 +1,1036 @@
+
+
+Skip to content
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+            Sign up
+          
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Product
+        
+
+
+
+
+
+
+
+
+
+
+
+
+Actions
+        Automate any workflow
+      
+
+
+
+
+
+
+
+Packages
+        Host and manage packages
+      
+
+
+
+
+
+
+
+Security
+        Find and fix vulnerabilities
+      
+
+
+
+
+
+
+
+Codespaces
+        Instant dev environments
+      
+
+
+
+
+
+
+
+Copilot
+        Write better code with AI
+      
+
+
+
+
+
+
+
+Code review
+        Manage code changes
+      
+
+
+
+
+
+
+
+Issues
+        Plan and track work
+      
+
+
+
+
+
+
+
+Discussions
+        Collaborate outside of code
+      
+
+
+
+
+Explore
+
+
+
+      All features
+
+    
+
+
+
+      Documentation
+
+    
+
+
+
+
+
+      GitHub Skills
+
+    
+
+
+
+
+
+      Blog
+
+    
+
+
+
+
+
+
+
+
+
+        Solutions
+        
+
+
+
+
+
+For
+
+
+
+      Enterprise
+
+    
+
+
+
+      Teams
+
+    
+
+
+
+      Startups
+
+    
+
+
+
+      Education
+
+    
+
+
+
+
+
+
+By Solution
+
+
+
+      CI/CD & Automation
+
+    
+
+
+
+      DevOps
+
+    
+
+
+
+
+
+      DevSecOps
+
+    
+
+
+
+
+
+
+Case Studies
+
+
+
+      Customer Stories
+
+    
+
+
+
+      Resources
+
+    
+
+
+
+
+
+
+
+
+
+        Open Source
+        
+
+
+
+
+
+
+
+
+
+GitHub Sponsors
+        Fund open source developers
+      
+
+
+
+
+
+
+
+
+The ReadME Project
+        GitHub community articles
+      
+
+
+
+
+Repositories
+
+
+
+      Topics
+
+    
+
+
+
+      Trending
+
+    
+
+
+
+      Collections
+
+    
+
+
+
+
+
+
+Pricing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+No suggested jump to results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this user
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+ 
+
+
+
+
+              Sign in
+            
+
+
+              Sign up
+            
+
+
+
+
+
+
+
+
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Pawdroid
+ 
+/
+
+Free-servers
+
+Public
+
+
+
+
+
+ 
+
+Notifications
+
+
+
+ 
+
+Fork
+    308
+
+
+
+
+ 
+
+
+          Star
+ 4.4k
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Code
+
+
+
+
+
+
+
+Pull requests
+1
+
+
+
+
+
+
+Actions
+
+
+
+
+
+
+
+Projects
+0
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Insights
+
+
+
+ 
+ 
+
+
+
+More
+
+
+ 
+
+
+                  Code
+ 
+
+
+                  Pull requests
+ 
+
+
+                  Actions
+ 
+
+
+                  Projects
+ 
+
+
+                  Security
+ 
+
+
+                  Insights
+ 
+
+
+
+
+
+
+
+
+
+Permalink
+
+
+
+
+
+
+
+main
+
+
+
+
+
+Switch branches/tags
+
+
+
+
+
+
+
+
+
+
+Branches
+Tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all branches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+Name already in use
+
+
+
+
+
+
+
+
+
+      A tag already exists with the provided branch name. Many Git commands accept both tag and branch names, so creating this branch may cause unexpected behavior. Are you sure you want to create this branch?
+
+
+
+    Cancel
+
+    Create
+
+
+
+
+Free-servers/README.md
+
+    Go to file
+
+
+ 
+
+
+
+ 
+
+
+Go to file
+T
+ 
+
+ 
+Go to line
+L
+
+ 
+
+
+
+    
+            Copy path
+
+ 
+
+
+
+Copy permalink
+
+ 
+
+
+
+
+
+
+
+
+This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
+
+
+
+
+
+
+ 
+
+
+ 
+Cannot retrieve contributors at this time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+免费节点及订阅地址：
+本页面由某人实时手动挨个节点测速，但不同地区运营商网络仍有差异，可能会有超时节点。
+节点列表：(这里仅展示部分节点，查看全部节点请下载app)
+上方节点（部分）永久订阅地址：https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+建议国内iOS用户及早 App Store下载 留存，可能会在未来的某个时间下架
+Clash、SS等客户端订阅地址一键转换：
+V2ray/SSR安卓苹果手机/电脑客户端下载
+V2Ray客户端下载
+Windows7/8/10-V2ray WinPC电脑客户端程序下载
+Android/小米MIUI/华为EMUI-V2ray安卓手机客户端Apk程序下载
+MacOS-V2ray 苹果电脑客户端程序下载
+Linux–V2ray Ubuntu/Centos电脑客户端程序下载
+iOS-V2ray苹果手机客户端App程序下载
+ShadowsocksR/SSR客户端下载
+Windows7/8/10-SSR小飞机 WinPC电脑客户端程序下载
+Android/小米MIUI/华为EMUI-SSR小飞机 安卓手机客户端Apk程序下载
+MacOS-SSR小飞机 苹果电脑客户端程序下载
+iOS-SSR小飞机 苹果手机客户端App程序下载
+
+
+
+
+
+
+      55 lines (52 sloc)
+      
+    9.54 KB
+  
+
+
+ 
+
+
+  
+
+
+ 
+
+ 
+Raw
+
+
+ 
+Blame
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+ Edit this file
+E
+
+
+              Open in GitHub Desktop
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Open with Desktop
+                
+
+
+
+              View raw
+            
+
+
+
+
+
+                View blame
+              
+
+
+
+
+
+
+免费节点及订阅地址：
+
+优质节点每天实时测速更新，6小时更新一次
+
+本页面由某人实时手动挨个节点测速，但不同地区运营商网络仍有差异，可能会有超时节点。
+
+吃饭->睡觉->测节点。
+
+节点列表：(这里仅展示部分节点，查看全部节点请下载app)
+vmess://eyJhZGQiOiAic3BlZWRpcC5ldS5vcmciLCAiYWlkIjogMCwgImhvc3QiOiAibmxfbmF0LnY1MC5vbmUiLCAiaWQiOiAiZjhjNjBhNWItZWM2Ny00Y2NjLWJjOTEtZDI5N2ZlNzliOTc3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi93YXVnZnVpZ3Zod29hIiwgInBvcnQiOiAyMDUyLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTgyODJcdTcwYjkiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTgyODJcdTcwYjkiLCAiYWRkIjogImNmLnl4am5vZGUuY29tIiwgInBvcnQiOiAiODAiLCAiaWQiOiAiMDljMWQzMmQtNDQ1OC00ZWJmLWIzNmQtNGRkNzMyYmFlM2FhIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJkcDMueXhqbm9kZS5jb20iLCAicGF0aCI6ICIveXh6YnAiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+trojan://32068eda-adad-431a-bfd4-2f7d4c73507c@pqawsjp1.gsjc.cfd:443?sni=18-140-66-207.nhost.00cdn.com#%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%AC%E9%83%BD%E4%BA%9A%E9%A9%AC%E9%80%8A%28Amazon%29%E5%85%AC%E5%8F%B8%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
+vmess://eyJhZGQiOiAiMTM3LjE3NS4yOS4zMyIsICJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIFYyQ1JPU1MuQ09NIiwgInBvcnQiOiA1Mzk4NiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU1ZTdmXHU0ZTFjXHU3NzAxXHU1ZTdmXHU1ZGRlXHU1ZTAyIFx1NzUzNVx1NGZlMSIsICJhZGQiOiAiaW4wNi5teTExODgub3JnIiwgInBvcnQiOiA2MzAwMywgImlkIjogImY5ZDU2OTBjLTA4ZTktMzAyYS05NjU0LWY3Y2ZlZTkyMTViYSIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAiYXUwMS1yaWNoLnRlbmNlbnQuYmVzdCIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTgyODJcdTcwYjkiLCAiYWRkIjogImNmNS52cG42Ni5ldS5vcmciLCAicG9ydCI6IDgwODAsICJpZCI6ICI1ZjA5ODAyOC1lYTIyLTQyZWEtYWJmZC05MjIyY2IyOThiNzQiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogInZjZXUudnBuNjYuZXUub3JnIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTgyODJcdTcwYjkiLCAiYWRkIjogInZpc2EuY29tIiwgInBvcnQiOiAiMjA4MiIsICJpZCI6ICIzM2YzZTEzNi1jY2RhLTQ5NTktYTljYi1jMDllZWE0Y2RhNzciLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogImMuZ2hoeW11YS50ayIsICJwYXRoIjogIi8iLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICIxMDQuMzEuMTYuMjgiLCAicG9ydCI6ICI4MCIsICJpZCI6ICI1OGZlMTU0Mi01MjkwLTQwYWQtODE1YS03NzcwN2E4MWFmZTUiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogImNhNC50ZWhtZTIuZnVuIiwgInBhdGgiOiAiL0lPZWJoTE1obDFDVGJGSGJMOTVteWZSWDIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+
+上方节点（部分）永久订阅地址：https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+上方订阅地址二维码
+
+更多节点、免费订阅地址及订阅转换请下载本站提供的共享节点app软件ShadowShare导出节点使用，支持iOS、Android下载，Android用户建议直接使用shadowrocket for android安卓小火箭，内置所有免费节点。
+建议国内iOS用户及早 App Store下载 留存，可能会在未来的某个时间下架
+
+Clash、SS等客户端订阅地址一键转换：
+SS/SSR/V2ray客户端若无法直接使用SSR节点链接，用下面链接的工具转换成订阅地址后，SSR/SSD/Surge/Quantum/Surfboard/Loon等手机、电脑的客户端就可以使用了：
+https://acl4ssr-sub.github.io
+V2ray/SSR安卓苹果手机/电脑客户端下载
+V2Ray客户端下载
+最新版V2ray Windows客户端、V2ray安卓客户端、苹果电脑V2ray MacOS客户端和苹果手机V2ray iOS客户端以及V2ray Linux客户端下载链接也一并送上。
+Windows7/8/10-V2ray WinPC电脑客户端程序下载
+V2rayN下载官网下载V2rayW下载官网下载Clash下载官网下载V2rayS下载官网下载Mellow下载官网下载Qv2ray下载官网下载
+Android/小米MIUI/华为EMUI-V2ray安卓手机客户端Apk程序下载
+V2rayNG下载官网下载安卓小火箭下载官网下载BifrostV下载市场下载Clash下载官网下载Kitsunebi下载市场下载
+MacOS-V2ray 苹果电脑客户端程序下载
+V2rayU下载官网下载V2rayX下载官网下载ClashX下载官网下载
+Linux–V2ray Ubuntu/Centos电脑客户端程序下载
+Qv2ray下载官网下载Mellow下载官网下载V2rayL下载官方安装文档
+iOS-V2ray苹果手机客户端App程序下载
+苹果AppStore市场里还没有免费的V2ray iOS客户端，付费的app目前有小火箭Shadowrocket、pepi、i2Ray、Kitsunebi和Quantumult（圈儿，圈叉）可用。
+ShadowsocksR/SSR客户端下载
+ShadowsocksR简称SSR，还有酸酸乳、粉色小飞机、纸飞机这些可爱的昵称，使用较为广泛。
+整理了最新版SSR Windows客户端、SSR安卓客户端、苹果电脑SSR MacOS客户端和苹果手机SSR iOS客户端的下载地址分享给大家。
+Windows7/8/10-SSR小飞机 WinPC电脑客户端程序下载
+官网下载
+Android/小米MIUI/华为EMUI-SSR小飞机 安卓手机客户端Apk程序下载
+官网下载
+MacOS-SSR小飞机 苹果电脑客户端程序下载
+官网下载
+iOS-SSR小飞机 苹果手机客户端App程序下载
+iPhone或者iPad打开苹果App Store，搜索Mume(暮梅)、Potatso Lite、FastSocks、Shadowrocket（小火箭）。
+
+
+
+
+
+
+
+
+
+    Go
+
+ 
+
+
+
+
+
+
+
+
+
+Footer
+
+
+
+
+
+
+
+ 
+        © 2023 GitHub, Inc.
+        
+
+
+
+Footer navigation
+
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    You can’t perform that action at this time.
+  
+
+
+
+
+
+
+
