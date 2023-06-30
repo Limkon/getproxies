@@ -1,0 +1,737 @@
+
+
+
+
+
+
+
+
+
+优质免费节点每天测速更新2022（6小时更新一次） – v2cross
+优质免费节点每天测速更新2022（6小时更新一次） – v2cross
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+论坛
+优质免费节点
+服务器
+
+服务器推荐
+搬瓦工攻略
+Just My Socks
+Vultr 攻略
+远程管理工具
+一键测试脚本
+IP黑名单检测网站
+PayPal
+TCP阻断解决
+
+
+SS
+
+SS搭建
+
+SS 一键脚本
+
+
+SS客户端
+
+SS 各平台客户端
+SS Windows客户端
+SS 安卓客户端
+SS、V2Ray、Trojan 通用安卓客户端
+SS iOS客户端
+SS 路由器客户端
+
+
+
+
+SSR
+
+SSR搭建
+
+SSR一键脚本
+SSR限制用户连接数量及速度
+SSR多用户多端口
+
+
+SSR客户端
+
+SSR各平台客户端
+SSR Windows客户端
+SSR 安卓手机客户端
+SSR iOS客户端
+SSR 路由器客户端
+
+
+
+
+V2Ray
+
+V2Ray搭建
+
+V2Ray一键安装脚本
+V2Ray一键安装脚本汇总
+
+
+V2Ray客户端
+
+V2Ray各平台客户端
+V2Ray Windows客户端
+V2Ray安卓客户端
+V2Ray iOS客户端
+V2Ray MAC客户端
+
+
+
+
+Trojan
+
+Trojan搭建
+
+Trojan管理面板一键脚本
+Trojan/Trojan-Go一键脚本
+
+
+Trojan客户端
+
+Trojan-Go各平台客户端
+Trojan-Qt5各平台客户端
+Trojan Windows客户端
+Trojan Mac客户端
+Trojan 安卓客户端
+Trojan iOS客户端
+
+
+
+
+Wireguard
+
+WireGuard一键脚本秋水版
+WireGuard一键脚本三合一版
+
+CentOS WireGuard一键脚本
+Debian WireGuard一键脚本
+Ubuntu WireGuard一键脚本
+
+
+WireGuard各平台客户端
+WireGuard安卓客户端
+WireGuard Windows客户端
+WireGuard Windows客户端TunSafe
+WireGuard Mac客户端
+
+
+优化加速
+
+加速效果对比
+原版BBR一键脚本
+魔改BBR一键脚本
+LotServer一键脚本
+锐速Windows
+锐速一键脚本
+KCPTUN一键脚本
+KCPTUN客户端
+
+
+技术教程
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+当前位置：v2cross > SS免费节点 > 优质免费节点每天测速更新2022（6小时更新一次）	
+
+
+
+
+
+
+
+ 
+
+
+v2cross.com 
+
+
+
+SS免费节点 
+
+ss免费节点 
+
+V2Ray 免费节点 
+
+
+
+
+30秒前 
+
+
+
+优质免费节点每天测速更新2022（6小时更新一次）  
+
+
+
+
+
+
+免费节点及订阅地址：
+
+优质节点每天实时测速更新，6小时更新一次
+
+本页面由站长实时手动挨个节点测速，完成后更新页面。
+
+吃饭->睡觉->测节点。
+
+节点列表：(这里仅展示部分节点，查看全部节点请下载app)
+更新时间：2023-06-30 21:00:05
+trojan://[email protected]:42014#%E7%BE%8E%E5%9B%BD+%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E%E6%B4%9B%E6%9D%89%E7%9F%B6IT7%E7%BD%91%E7%BB%9C
+vmess://eyJhZGQiOiAiMTk4LjIuMjAzLjUzIiwgInYiOiAiMiIsICJwcyI6ICJcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTZkMWJcdTY3NDlcdTc3ZjYgUGV0YUV4cHJlc3MiLCAicG9ydCI6IDQ0NjcyLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgImFpZCI6ICI2NCIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIn0=
+vmess://eyJhZGQiOiAiMTkyLjc0LjI0My42MCIsICJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIFx1NTJhMFx1NTIyOVx1Nzk4Zlx1NWMzY1x1NGU5YVx1NWRkZVx1NTcyM1x1NGY1NVx1NTg1ZVBFRyBURUNIXHU2NTcwXHU2MzZlXHU0ZTJkXHU1ZmMzIiwgInBvcnQiOiA1MDI0NiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU0ZTBhXHU2ZDc3XHU1ZTAyIFx1ODA1NFx1OTAxYSIsICJhZGQiOiAiaW4wNS5teTExODgub3JnIiwgInBvcnQiOiA2MzA5NiwgImlkIjogImY5ZDU2OTBjLTA4ZTktMzAyYS05NjU0LWY3Y2ZlZTkyMTViYSIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAiaGtiZ3AwMS1tZy50ZW5jZW50LmJlc3QiLCAicGF0aCI6ICIvIiwgInRscyI6ICIifQ==
+trojan://[email protected]:443?peer=18-140-66-207.nhost.00cdn.com&tfo=1#%E7%BE%8E%E5%9B%BD+Xerox
+vmess://eyJhZGQiOiAiNjcuMjEuOTUuNzMiLCAidiI6ICIyIiwgInBzIjogIlx1N2Y4ZVx1NTZmZCBcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTZkMWJcdTY3NDlcdTc3ZjZTaGFya3RlY2hcdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMiLCAicG9ydCI6IDUzMzE0LCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgImFpZCI6ICI2NCIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIn0=
+vmess://eyJhZGQiOiAiMTA5Ljc0LjIwMS4yMCIsICJ2IjogIjIiLCAicHMiOiAiXHU4MmYxXHU1NmZkIFYyQ1JPU1MuQ09NIiwgInBvcnQiOiA0NDMsICJpZCI6ICI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInR5cGUiOiAiIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiL2NoYXQiLCAidGxzIjogInRscyJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICJuczEudjItdmlwLmZ1biIsICJwb3J0IjogIjgwIiwgImlkIjogIjhhYmU5NDk2LTVlMjQtNGU0OS1iNTY2LWRjZjg2MTE2MDE3ZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiZGU1LmlydGVoLmZ1biIsICJwYXRoIjogIi9pOTlMZ3ZTYXNsYnNQTExRUTdqNloiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTgyODJcdTcwYjkiLCAiYWRkIjogIjEwNC4yNy45NS4yMiIsICJwb3J0IjogIjIwNTIiLCAiaWQiOiAiM2NkNGY4NTktMTA0OC00ZmRmLWQ4ZDgtNGRiZmFhOWU4YTgwIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJ0eHgudnRjc3MudG9wIiwgInBhdGgiOiAiL3F3ZXIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+trojan://[email protected]:443?peer=download.xn--mes358aby2apfg.com&tfo=1#%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM
+vmess://eyJhZGQiOiAiMTU2LjI1MS4xMzUuMTQiLCAidiI6ICIyIiwgInBzIjogIlx1N2Y4ZVx1NTZmZFx1NTJhMFx1NTIyOVx1Nzk4Zlx1NWMzY1x1NGU5YVx1NWRkZVx1NmQxYlx1Njc0OVx1NzdmNiBWMkNST1NTLkNPTSIsICJwb3J0IjogNTMzMDIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAiYWlkIjogIjY0IiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICIiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIvIiwgInRscyI6ICIifQ==
+trojan://[email protected]:443?security=tls&type=tcp&headerType=none#%E7%BE%8E%E5%9B%BD+V2CROSS.COM
+trojan://[email protected]:443?peer=18-140-66-207.nhost.00cdn.com&tfo=1#%E6%96%B0%E5%8A%A0%E5%9D%A1+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
+trojan://[email protected]:443?sni=downloadus.xn--mes358a9urctx.com#%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM
+本次节点订阅地址：https://9527521.xyz/pubconfig/WVkLw5IC3G1bAOSd
+订阅地址二维码
+
+更多节点、免费订阅地址及订阅转换请下载本站提供的共享节点app软件ShadowShare导出节点使用
+
+Clash、SS等客户端订阅地址一键转换：
+SS/SSR/V2ray客户端若无法直接使用SSR节点链接，用下面链接的工具转换成订阅地址后，SSR/SSD/Surge/Quantum/Surfboard/Loon等手机、电脑的客户端就可以使用了：
+https://acl4ssr-sub.github.io
+V2ray/SSR安卓苹果手机/电脑客户端下载
+V2Ray客户端下载
+最新版V2ray Windows客户端、V2ray安卓客户端、苹果电脑V2ray MacOS客户端和苹果手机V2ray iOS客户端以及V2ray Linux客户端下载链接也一并送上。
+Windows7/8/10-V2ray WinPC电脑客户端程序下载
+
+
+
+
+V2rayN下载
+官网下载
+
+
+V2rayW下载
+官网下载
+
+
+Clash下载
+官网下载
+
+
+V2rayS下载
+官网下载
+
+
+Mellow下载
+官网下载
+
+
+Qv2ray下载
+官网下载
+
+
+
+
+Android/小米MIUI/华为EMUI-V2ray安卓手机客户端Apk程序下载
+
+
+
+
+V2rayNG下载
+官网下载
+
+
+BifrostV下载
+市场下载
+
+
+Clash下载
+官网下载
+
+
+Kitsunebi下载
+市场下载
+
+
+
+
+MacOS-V2ray 苹果电脑客户端程序下载
+
+
+
+
+V2rayU下载
+官网下载
+
+
+V2rayX下载
+官网下载
+
+
+ClashX下载
+官网下载
+
+
+
+
+Linux–V2ray Ubuntu/Centos电脑客户端程序下载
+
+
+
+
+Qv2ray下载
+官网下载
+
+
+Mellow下载
+官网下载
+
+
+V2rayL下载
+官方安装文档
+
+
+
+
+iOS-V2ray苹果手机客户端App程序下载
+苹果AppStore市场里还没有免费的V2ray iOS客户端，付费的app目前有小火箭Shadowrocket、pepi、i2Ray、Kitsunebi和Quantumult（圈儿，圈叉）可用。
+ShadowsocksR/SSR客户端下载
+ShadowsocksR简称SSR，还有酸酸乳、粉色小飞机、纸飞机这些可爱的昵称，使用较为广泛。
+整理了最新版SSR Windows客户端、SSR安卓客户端、苹果电脑SSR MacOS客户端和苹果手机SSR iOS客户端的下载地址分享给大家。
+Windows7/8/10-SSR小飞机 WinPC电脑客户端程序下载
+官网下载
+Android/小米MIUI/华为EMUI-SSR小飞机 安卓手机客户端Apk程序下载
+官网下载
+MacOS-SSR小飞机 苹果电脑客户端程序下载
+官网下载
+iOS-SSR小飞机 苹果手机客户端App程序下载
+iPhone或者iPad打开苹果App Store，搜索Mume(暮梅)、Potatso Lite、FastSocks、Shadowrocket（小火箭）。
+
+
+
+
+
+
+
+
+v2cross.com
+
+
+
+
+
+See author's posts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+v2cross.com
+ 普通 
+
+
+
+分享到：
+
+
+
+
+ 
+
+
+
+相关推荐
+
+
+
+
+
+
+
+
+
+
+
+
+
+ss免费节点 不限流量-3  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+日本节点——VLESS、Vmess、Trojan、Socks、Trojan  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7-13 Vmess 节点 （续更）  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7-14 ss 免费节点  
+
+
+
+
+
+
+
+
+
+搜索
+
+共享节点App——支持iOS、Android下载关于本站 本网站不对中国大陆地区开放，请来自中国大陆的用户自行退出本网站。
+
+
+
+近期文章
+
+
+优质免费节点每天测速更新2022（6小时更新一次）
+
+
+PC端验证码入口
+
+
+V2CROSS 论坛正式开始运营啦！！！
+
+
+甲骨文 (oracle) 免费4核24G内存VPS！一键脚本部署开ARM机器！
+
+
+最新加速协议Hysteria 协议！够拯救线路拉胯的 VPS！降低延迟、提升线路质量！
+
+
+近期评论iywhtfn发表在《优质免费节点每天测速更新2022（6小时更新一次）》啊阿达发表在《优质免费节点每天测速更新2022（6小时更新一次）》HELRT发表在《优质免费节点每天测速更新2022（6小时更新一次）》罗非鱼发表在《优质免费节点每天测速更新2022（6小时更新一次）》分类目录
+
+Brook搭建
+
+Goflyway搭建
+
+Insurance
+
+Linux系统设置
+
+Online education
+
+Shadowrocket 使用常见问题
+
+ShadowShare 使用常见问题
+
+Shadowsocks搭建
+
+SSR客户端
+
+SSR搭建
+
+SS免费节点
+
+ss免费节点
+
+SS客户端
+
+Trojan-Go
+
+Trojan免费节点
+
+Trojan客户端
+
+Trojan搭建
+
+Trojan节点
+
+V2Ray 免费节点
+
+V2Ray入门教程
+
+V2Ray客户端
+
+V2Ray搭建
+
+VPS促销
+
+VPS促销
+
+VPS各类安装脚本
+
+VPS推荐-评测
+
+Wireguard搭建
+
+Xray
+
+专题类别
+
+优化加速
+
+优惠VPS
+
+免费VPN下载
+
+免费机场
+
+周边教程
+
+客户端
+
+技术教程
+
+服务器
+
+未分类
+
+软路由
+
+
+热门标签Brook搭建 (7)
+Goflyway搭建 (5)
+Insurance (1)
+Linux系统设置 (4)
+Online education (1)
+Shadowrocket 使用常见问题 (9)
+ShadowShare 使用常见问题 (3)
+Shadowsocks搭建 (8)
+SSR客户端 (1)
+SSR搭建 (23)
+SS免费节点 (5)
+ss免费节点 (2)
+SS客户端 (2)
+Trojan-Go (3)
+Trojan免费节点 (7)
+Trojan客户端 (2)
+Trojan搭建 (29)
+Trojan节点 (3)
+V2Ray 免费节点 (7)
+V2Ray入门教程 (2)
+V2Ray客户端 (2)
+V2Ray搭建 (36)
+VPS促销 (6)
+VPS促销 (6)
+VPS各类安装脚本 (21)
+VPS推荐-评测 (6)
+Wireguard搭建 (11)
+Xray (10)
+专题类别 (2)
+优化加速 (46)
+优惠VPS (6)
+免费VPN下载 (7)
+免费机场 (1)
+周边教程 (26)
+客户端 (13)
+技术教程 (81)
+服务器 (36)
+未分类 (1)
+软路由 (10)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+the way to cross.
+
+
+
+
+共享节点APP
+
+
+
+ShadowShare 
+
+
+
+
+免费VPN
+
+
+
+Shadowrocket for android 
+
+
+
+
+快速搜索
+
+
+
+
+
+
+
+
+
+
+ 
+友情链接：
+
+
+
+
+© 2022 v2cross. All rights reserved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

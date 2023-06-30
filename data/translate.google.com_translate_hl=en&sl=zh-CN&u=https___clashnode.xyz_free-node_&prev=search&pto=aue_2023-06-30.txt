@@ -1,0 +1,457 @@
+
+
+
+
+
+
+
+
+
+免费 Clash 节点——2023 中国国内可用的免费翻墙VPN加速器、Clash节点还有哪些？
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Clash Tun
+
+
+     Clash Tun 
+     2023 好用的 Clash 节点推荐
+    
+
+2023 机场推荐
+免费 Clash 节点
+付费 Clash 节点
+
+稳定 Clash 翻墙机场推荐
+老牌 Clash 翻墙机场推荐
+便宜 Clash 翻墙机场推荐
+ 
+Clash 软件下载
+翻墙后
+博客
+
+
+
+
+ 关注我们
+
+电报频道
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+免费 Clash 节点
+
+
+从互联网收集的 Clash 免费节点，需要翻墙者自己将订阅链接导入到 Clash 软件中使用，Windows、Mac、Android 的 Clash 均为免费软件，iOS 端的 Clash 客户端为付费软件，名为 Stash，价格 $3.99 美元。还未安装 Clash 客户端请查看 Clash 下载页面，完成安装后再复制订阅链接导入使用。免费节点稳定性和速度有限，如需稳定科学上网，请使用付费机场，查看：机场推荐
+ 
+ 
+
+
+
+
+免费 Clash 节点池分享 | Free Clash Node
+（🕤 2023-06-18 更新）
+最新免费 Clash 节点分享，节点包含美国、日本、台湾、香港、新加坡等地常用节点。
+复制 Clash 订阅链接，导入 Clash 中即可使用，免费节点无可用性验证，随时可能失效，只建议临时用途使用。请自行筛选可用订阅节点。
+尚未使用过 Clash ？点此查看 Clash 使用教程
+需要高速稳定节点？付费高速机场推荐
+最新Clash节点订阅：
+https://v2y.xyz/api/v1/client/subscribe?token=2533ce3df935ebaf4143fcc3df068ebd
+https://kbjc.top/api/v1/client/subscribe?token=97b97e1b77c70ffcc598033700188a26
+http://mtw.so/5TZnZH
+https://suo.yt/F9aueOe
+https://sub.cm/iFRGOmJ
+http://1i8.cn/nwdtl
+https://my5353.com/YeNZR
+https://bakapie.cf/api/v1/client/subscribe?token=764255b17754ededb45c551d3ee9083f&flag=clash
+https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBcWNyX0lvTkZNV0FlX21WLWxnMkRiclhvNHM_ZT1MZVI4Ym8
+https://amz.fun/XO7Pk
+https://sub.cloudflare.quest
+https://my5353.com/kunkun
+https://sub.sharecentre.online/sub
+https://sub.sharecentre.online/clash/scp.yml
+https://openit.ml/Clash.yaml
+https://github.xiaoku666.tk/
+https://raw.githubusercontent.com/yu-steven/openit/main/Clash.yaml
+https://openit.daycat.space/clash
+https://tt.vg/freeclash
+https://ghproxy.com/https://raw.githubusercontent.com/kxswa/k/k/clash
+https://git.io/emzclash
+https://cdn.jsdelivr.net/gh/oslook/clash-freenode@main/clash.yaml
+https://cdn.statically.io/gh/oslook/clash-freenode/main/clash.yaml
+https://proxypool.toshiki.top/clash/proxies
+https://tsutsu.top/JEmV1o5
+http://hazz.win/KmpQdY
+https://dllx.tk/GreenFishYYDS
+https://openit.ml/long
+https://raw.fastgit.org/freefq/free/master/v2
+https://v1.mk/NJxbGcv
+https://suo.yt/1myZcHj
+https://sub.cm/kzBXnMV
+免费Clash 节点收集自互联网，可用性无保证，随时可能失效。建议自购节点使用。
+免费机场，注册可试用5天，还可额外领取30天套餐：免费试用
+如需稳定高速节点线路，请选择： 高速Clash节点
+订阅 Telegram 频道：https://t.me/clashtun（防失联，不迷路）
+查看 免费的 Shadowsocks、V2ray、Trojan 翻墙节点，持续更新中。
+付费 Clash 节点推荐
+市面上有很多免费VPN，但大多数免费VPN都可能存在一定的安全隐患，ClashTun 不建议使用免费VPN，公益的 Clash 节点项目有时候是不错的选择，但是稳定性不好，也常常失效，如果线路有用于办公或学习需要，则推荐使用更稳定的线路，付费节点可提供高速稳定的翻墙体验。
+付费机场推荐：
+排名不分先后顺序。建议翻墙者购买月付套餐，满意之后再决定购买更长时间套餐，另外，一定要有备用的翻墙梯子，避免完全失联。
+
+1.WgetCloud 全球加速 – 2023 稳定翻墙机场首选
+
+Trojan 多协议机场
+高端专线翻墙机场
+新用户注册8折优惠
+
+WgetCloud （原 GaCloud） 是一家主打稳定翻墙的机场服务商，采用国内优质 BGP 服务器接入，亚马逊 Global Accelerator 专线加速。WgetCloud 由海外团队运作，使用 Trojan 协议，套餐价格相对偏贵，属于高端翻墙机场，适合追求极致稳定的翻墙用户，如外贸工作、开发人员使用。支持定制套餐，重度翻墙用户或团队用户可在官网「增值服务」中进行流量和设备数量自定义套餐。套餐定制也支持流量包和限时1年时长的按量付费套餐。新用户注册即自动开启8折优惠，此外还赠送一张 Netflix 奈飞会员账号7天卡券。
+套餐价格：
+
+基础专线：月付：￥49/月，120G流量/月。季付：￥147/季，180G流量/月。年付：￥588/年，240G流量/月。
+优质专线：月付：￥59/月，120G流量/月。季付：￥177/季，180G流量/月。年付：￥708/年，240G流量/月。
+精品专线：月付：￥69/月，120G流量/月。季付：￥207/季，180G流量/月。年付：￥828/年，240G流量/月。
+
+客户端支持：
+
+Windows 系统：全球加速 Windows 版；Clash for Windows
+macOS 系统：全球加速 Mac 版；ClashX
+安卓系统：Clash；Surfboard
+iOS：Shadowrocket；Stash（Clash for iOS）
+
+WgetCloud 机场官网 ｜ WgetCloud 全球加速怎么样？
+ 
+
+2.SpeedCAT 闪电猫机场
+
+IPLC 专线节点
+高端翻墙机场
+Shadowsocks 翻墙机场
+
+
+      闪电猫 SpeedCAT 机场是一家主推高端稳定IPLC专线的翻墙机场，采用 Shadowsocks专用翻墙协议。SpeedCAT 机场除了支持免费试用之外，也常有优惠活动推出，年付还有一定程度优惠。此外，SpeedCAT 机场的流媒体解锁也十分不错，Netflix、Disney+ 解锁都比较稳定。
+     
+套餐价格：
+
+流行猫：￥220年，600G流量整年。
+迷你猫：¥19/月，100G流量/月。
+闪电猫：¥35/月，200G流量/月。
+霹雳猫：¥79/月，500G流量/月。
+雷神猫：¥155/月，1000G流量/月。
+
+客户端支持：
+
+Windows 系统：Clash for Windows
+macOS 系统：ClashX
+安卓系统：Clash；Surfboard
+iOS：Shadowrocket；Stash（Clash for iOS）
+
+闪电猫机场官网 ｜ 闪电猫机场怎么样？
+
+3.SSRDOG 机场 – V2ray 机场首选
+
+V2ray 翻墙机场
+IPLC/IEPL 专线机场
+年付套餐赠送2个月
+
+SSRDOG 是一家运营始于2022年的翻墙机场，采用V2ray安全协议，国内有多个接入点，线路有 IEPL 和 IPLC 专线，支持 Netflix、Disney+、YouTube Premium 及 AI 助手 ChatGPT。SSRDOG 机场有定制的一键翻墙VPN客户端，支持安卓、Mac 和 Windows 。iOS 用户推荐使用 Clash for iOS – Stash 代理软件。SSRDOG 机场注册可免费试用，套餐年付有优惠，还有不限时长按量付费套餐便宜又好用，可以说是性价比机场中的翘楚。
+套餐价格：
+
+轻量套餐：￥25/月，150G流量，限速300Mbps。
+标准套餐：￥35/月，300G流量，限速500Mbps。
+企业套餐：￥75/月，850G流量，限速1000Mbps。
+
+客户端支持：
+
+Windows 系统：SSRDOG Windows 版；Clash for Windows
+macOS 系统：SSRDOG Mac 版；ClashX
+安卓系统：SSRDOG 安卓版；Clash
+iOS：Shadowrocket；Stash（Clash for iOS）
+
+SSRDOG 机场官网 ｜SSRDOG 机场怎么样？
+
+4.Nexitally 奶昔机场 – 2023 高端翻墙加速
+
+Shadowsocks/Trojan 翻墙机场
+高端翻墙机场
+稳定专线机场
+
+Nexitally 奶昔机场是一家成立于2017年的翻墙机场，支持 Shadowsocks、Trojan 多种专用翻墙协议。Nexitally 不同于那些采用 SSpanel和V2board 面板的机场，其面板为自主开发，彰显技术实力，同时采用高端专线出墙，国内多线服务器接入，保证任何时候都可以顺利翻墙出海，非常适合办公等商务需求的用户。针对个人用户，Nexitally 也能很好的满足观影需求，支持Netflix、Disney+等流媒体解锁。
+套餐价格：
+
+Smart Air：￥71/月；￥360/半年；￥624/年。200G/月，至多2个IP。
+Smart Access：￥111.87/月；￥577.2/半年；￥1048.92/年。500G/月，至多2个IP。
+
+客户端支持：
+
+Windows 系统：Nexitally Windows版；Clash for Windows
+macOS 系统：Nexitally Mac 版；ClashX
+安卓系统：Nexitally 安卓版；Clash
+iOS：Shadowrocket；Stash（Clash for iOS）
+
+Nexitally 机场官网 ｜ Nexitally 奶昔机场怎么样？
+ 
+
+5.Anyland 机场
+
+稳定中转机场
+专线加速节点
+一键翻墙VPN客户端
+
+anyland 是一家成立于2021年12月的翻墙机场，支持 Trojan 和 Shadowsocks 翻墙协议，国内三线接入。Anyland 机场拥有定制的一键翻墙客户端，支持 Mac 和 Windows 平台，Android 用户推荐使用 Clash 或 Surfboard，iOS 用户需要自行购买 Shadowrocket 或 Stash 搭配使用。
+套餐价格：
+
+体验套餐：￥11.8/月，100G流量。
+Basic 套餐：￥20/月，160G流量。
+Plus 套餐，￥38/月，380G流量。
+
+客户端支持：
+
+Windows 系统：Anyland Windows 客户端；Clash for Windows
+macOS 系统：Anyland Mac 客户端；ClashX
+安卓系统：Clash；Surfboard
+iOS：Shadowrocket；Stash（Clash for iOS）
+
+Anyland 官网 ｜ 如何使用 Anyland 机场？
+
+6.FlyingBird 飞鸟机场
+
+Shadowsocks 翻墙机场
+IPLC 内网专线加速
+
+FlyingBird 飞鸟机场是一家新晋 Shadowsocks 翻墙服务商，采用国内中转和IEPL内网专线节点，服务稳定可靠。电脑和安卓系统可以使用推荐的 Clash 客户端，iOS需要搭配第三方付费软件如 Shadowrocket 或 Stash 使用。FlyingBird 飞鸟机场对年付套餐优惠力度较大，所有套餐季付9折，半年85折，年付8折。除了优惠力度大之外，飞鸟机场对 Netflix、Disney+ 流媒体解锁支持度也很好。
+套餐价格：
+
+青铜套餐：¥15/月，100G流量/月，不限速不限设备。
+白银套餐：¥30/月，200G流量/月，不限速不限设备。
+黄金套餐：¥75/月，500G流量/月，不限速不限设备。
+钻石套餐：¥150/月，1000G流量/月，不限速不限设备。
+
+客户端支持：
+
+Windows 系统：Clash for Windows
+macOS 系统：ClashX
+安卓系统：Clash；Surfboard
+iOS：Shadowrocket；Stash（Clash for iOS）
+
+FlyingBird 官网 ｜ FlyingBird 飞鸟机场怎么样？
+
+7.速云梯 – 2023 便宜翻墙机场
+
+稳定中转机场
+IPLC专线翻墙机场
+SSR/V2ray 机场
+
+速云梯机场是老牌机场橘子云分站，性价比更高，提供海量 SSR/V2ray 翻墙协议节点，有国内中转和IPLC内网专线。IPLC专线不经过 GFW，即便是敏感时期，稳定性也有保证，不担心被封锁。年付有一定程度优惠。
+套餐价格：
+
+入门版：￥15.9/月，100G流量。
+基础版：￥25.9/月，200G流量。
+标准版：￥35.9/月，350G流量。
+旗舰版：￥55.9/月，600G流量。
+
+客户端支持：
+
+Windows 系统：Clash for Windows
+macOS 系统：ClashX
+安卓系统：Clash；Surfboard
+iOS：Shadowrocket；Stash（Clash for iOS）
+
+速云梯官网 ｜ 速云梯机场怎么样？
+
+8.橘子云 – 便宜老牌翻墙机场
+
+老牌翻墙机场
+稳定中转机场
+IPLC专线翻墙机场
+
+橘子云是一家运营时间超过2年的翻墙服务商，提供SSR和V2ray翻墙协议节点，国内中转和IPLC内网专线。IPLC专线不经过 GFW，即便是敏感时期，稳定性也有保证，不担心被封锁。此外，橘子云机场也常有优惠活动，套餐包年优惠额度比较大。
+套餐价格：
+
+入门版：￥19.9/月，100G流量，限速60M，限3台设备。不可使用IPLC专线节点。
+基础版：￥29.9/月，200G流量，限速150M，限5台设备。不可使用IPLC专线节点。
+标准版：￥39.9/月，350G流量，限速300M，限8台设备。不可使用IPLC专线节点。
+旗舰版：￥59.9/月，600G流量，不限速，限16台设备。包含IPLC在内的全节点解锁。
+旗舰大流量：￥99/月，1200G流量，不限速，限16台设备。包含IPLC在内的全节点解锁。
+
+客户端支持：
+
+Windows 系统：Clash for Windows
+macOS 系统：ClashX
+安卓系统：Clash；Surfboard
+iOS：Shadowrocket；Stash（Clash for iOS）
+
+橘子云官网 ｜ 橘子云机场怎么样？
+ 
+ 
+
+9.Tomato Cloud – 老牌中转机场
+
+SSR/V2ray 翻墙机场
+中转/IPLC 专线
+
+Tomato Cloud 是一家运营时间超过5年的老牌机场，支持 SSR、V2ray 协议，少量节点采用 Trojan 协议，全中转节点。Tomato Cloud 还拥有针对新手的定制客户端，支持 Windows 和安卓系统，对 Netflix、Disney+ 流媒体解锁服务也还不错。
+套餐价格：
+
+Basic：$48/年，128G流量/月。
+Plus：$78/年，256G流量/月。
+Pro：$120/年，512G流量/月。
+Business：$240/年，1024G流量/月。
+
+客户端支持：
+
+Windows 系统：TomatoCloud Windows 客户端；Clash for Windows
+macOS 系统：ClashX
+安卓系统：TomatoCloud 安卓端；Clash
+iOS：Shadowrocket；Stash（Clash for iOS）
+
+TomatoCloud 官网 ｜ TomatoCloud 怎么样？
+ 
+
+10.Faston 机场
+
+Shadowsocks 翻墙机场
+IEPL 专线机场
+7折优惠码：si4vG4lM
+
+Faston 是一家创立于2022年的新晋机场服务商，由加拿大华人公司运营，翻墙协议采用流行的 Shadowsocks 协议，国内有多个电信运营商入口，IEPL 专线节点。机场创立之初便走高端路线，除了常用的香港、日本、新加坡、美国节点外，还有一些小众冷门地区节点提供，对 Netflix、Disney+ 和 Youtube Premium 解锁支持度也十分不错。除了常规包月套餐之外，也有按量付费流量包提供。
+套餐价格：
+
+标准：￥28/月，126G流量/月。
+进阶：￥48/月，216G流量/月。
+专业：￥88/月，396G流量/月。
+尊享：￥168/月，756G流量/月。
+
+客户端支持：
+
+Windows 系统：Clash for Windows
+macOS 系统：ClashX
+安卓系统：Clash；Surfboard
+iOS：Shadowrocket；Stash（Clash for iOS）
+
+Faston 机场官网 ｜ Faston 机场怎么样？
+更多付费机场，请访问：https://clashnode.xyz/clash-nodes-providers/
+ 
+免费 Clash 节点安全吗？
+免费节点和付费节点安全性其实差别不大，由于使用的都是 AES-256 等加密模式，用户基本的安全性是有保障的，免费节点最大的问题其实是不稳定，不能保证节点可用性，用户需要花费大量时间在网上寻找能用的节点。
+免费 Clash 节点怎么用？
+免费 Clash 节点都是以订阅链接的形式分享的，将订阅链接导入到 Clash 配置中即可。Clash for Windows 选择在 Profiles 选项中，将链接粘贴进「Download from URL」一栏，然后选择 Download。
+如果想将这些免费订阅用于 Quantumult X、Loon、Surge、V2rayNG、Surfboard 等其他流行的代理客户端，可能需要用到在线订阅转换网站。订阅转换网站请一定要用来源可靠的，ClashNode 早先分享过几个可靠的订阅转换网站，可以参考一下。
+免费 Clash 节点好用吗？
+由于免费，免费节点线路往往是超负荷运行，过多的用户连接导致免费节点无法用来观看视频，即使是平时加载网页，速度也不会很快。免费 Clash 节点提供者一般没有详细的使用文档，当你遇到问题，可能无从下手，不知道该如何解决，而付费 Clash 机场梯子服务商就不同，一般有针对各个客户端的详细文档，也有一些常见问题解答，遇到问题也可以通过工单寻求人工帮助。
+所以，如果是因为工作或学习需要翻墙/科学上网，请购买付费 Clash 机场节点服务，享受高速、稳定的 Clash节点，付费机场推荐：https://clashnode.xyz/clash-nodes-providers/
+ClashNode 有免费 V2ray 节点分享吗？
+正如上面我们提到的一样，翻墙者可以很方便的使用在线订阅转换网站将任何订阅链接或节点转换为 V2rayN、V2ray Desktop、V2rayNG 等软件使用的链接。请查看上方分享的的订阅转换网站。
+更多 – Clash 客户端教程和安装地址
+Clash for Windows：Windows 系统最流行的翻墙代理客户端，官方不支持中文界面，有第三方汉化版本可供下载。
+Clash for Mac：Mac 上最流行的 Clash 客户端名为 ClashX，也有另一款由 Clash for Windows 开发者开发的 Mac 版 Clash 客户端。
+Clash for Android：在安卓系统上，Clash 就叫 Clash ，使用方式支持一键导入或复制订阅链接导入。
+Clash for iOS ：Clash 在 iOS 客户端名为 Stash ，付费软件，需要进入非中国区 App Store 才能进行正常下载安装。
+
+
+Clash for Windows 使用教程
+Clash for Mac 使用教程
+Clash for Android 使用教程
+Clash for iOS 使用教程
+
+Clash 客户端官方、第三方下载地址：
+ Windows 版  Mac 版  Android 版  iOS 版
+更多翻墙客户端下载：Windows/Mac/iOS/安卓 翻墙软件 Clash、SagerNet、v2rayNG、Shadowrocket、Stash、Quantumult X 国内下载地址
+Clash 翻墙节点推荐：2023 稳定好用的翻墙机场推荐
+ 
+提示：ClashNode 博客并非 Clash 客户端官网，本站仅为广大翻墙者分享、推荐好用的免费、付费 Clash 节点/机场。
+ 
+
+
+
+
+
+© 2022-2023   Clash Tun  关于本站 网站地图 
+
+
+
+
+
+
+切换注册登录
+ 用户名或邮箱
+
+
+ 找回密码 密码
+
+
+
+
+ 记住我
+
+
+
+切换登录注册
+ 昵称
+
+
+ 邮箱
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

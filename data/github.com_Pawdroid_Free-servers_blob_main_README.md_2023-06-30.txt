@@ -1,0 +1,1157 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Free-servers/README.md at main · Pawdroid/Free-servers · GitHub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+            Sign up
+          
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Product
+        
+
+
+
+
+
+
+
+
+
+
+
+
+Actions
+        Automate any workflow
+      
+
+
+
+
+
+
+
+Packages
+        Host and manage packages
+      
+
+
+
+
+
+
+
+Security
+        Find and fix vulnerabilities
+      
+
+
+
+
+
+
+
+Codespaces
+        Instant dev environments
+      
+
+
+
+
+
+
+
+Copilot
+        Write better code with AI
+      
+
+
+
+
+
+
+
+Code review
+        Manage code changes
+      
+
+
+
+
+
+
+
+Issues
+        Plan and track work
+      
+
+
+
+
+
+
+
+Discussions
+        Collaborate outside of code
+      
+
+
+
+
+Explore
+
+
+
+      All features
+
+    
+
+
+
+      Documentation
+
+    
+
+
+
+
+
+      GitHub Skills
+
+    
+
+
+
+
+
+      Blog
+
+    
+
+
+
+
+
+
+
+
+
+        Solutions
+        
+
+
+
+
+
+For
+
+
+
+      Enterprise
+
+    
+
+
+
+      Teams
+
+    
+
+
+
+      Startups
+
+    
+
+
+
+      Education
+
+    
+
+
+
+
+
+
+By Solution
+
+
+
+      CI/CD & Automation
+
+    
+
+
+
+      DevOps
+
+    
+
+
+
+
+
+      DevSecOps
+
+    
+
+
+
+
+
+
+Case Studies
+
+
+
+      Customer Stories
+
+    
+
+
+
+      Resources
+
+    
+
+
+
+
+
+
+
+
+
+        Open Source
+        
+
+
+
+
+
+
+
+
+
+GitHub Sponsors
+        Fund open source developers
+      
+
+
+
+
+
+
+
+
+The ReadME Project
+        GitHub community articles
+      
+
+
+
+
+Repositories
+
+
+
+      Topics
+
+    
+
+
+
+      Trending
+
+    
+
+
+
+      Collections
+
+    
+
+
+
+
+
+
+Pricing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+No suggested jump to results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this user
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+ 
+
+
+
+
+              Sign in
+            
+
+
+              Sign up
+            
+
+
+
+
+
+
+
+
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Pawdroid
+ 
+/
+
+Free-servers
+
+Public
+
+
+
+
+
+ 
+
+Notifications
+
+
+
+ 
+
+Fork
+    308
+
+
+
+
+ 
+
+
+          Star
+ 4.4k
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Code
+
+
+
+
+
+
+
+Pull requests
+1
+
+
+
+
+
+
+Actions
+
+
+
+
+
+
+
+Projects
+0
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Insights
+
+
+
+ 
+ 
+
+
+
+More
+
+
+ 
+
+
+                  Code
+ 
+
+
+                  Pull requests
+ 
+
+
+                  Actions
+ 
+
+
+                  Projects
+ 
+
+
+                  Security
+ 
+
+
+                  Insights
+ 
+
+
+
+
+
+
+
+
+
+Permalink
+
+
+
+
+
+
+
+main
+
+
+
+
+
+Switch branches/tags
+
+
+
+
+
+
+
+
+
+
+Branches
+Tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all branches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+Name already in use
+
+
+
+
+
+
+
+
+
+      A tag already exists with the provided branch name. Many Git commands accept both tag and branch names, so creating this branch may cause unexpected behavior. Are you sure you want to create this branch?
+
+
+
+    Cancel
+
+    Create
+
+
+
+
+Free-servers/README.md
+
+    Go to file
+
+
+ 
+
+
+
+ 
+
+
+Go to file
+T
+ 
+
+ 
+Go to line
+L
+
+ 
+
+
+
+    
+            Copy path
+
+ 
+
+
+
+Copy permalink
+
+ 
+
+
+
+
+
+
+
+
+This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
+
+
+
+
+
+
+ 
+
+
+ 
+Cannot retrieve contributors at this time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+免费节点及订阅地址：
+本页面由某人实时手动挨个节点测速，但不同地区运营商网络仍有差异，可能会有超时节点。
+节点列表：(这里仅展示部分节点，查看全部节点请下载app)
+上方节点（部分）永久订阅地址：https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+建议国内iOS用户及早 App Store下载 留存，可能会在未来的某个时间下架
+Clash、SS等客户端订阅地址一键转换：
+V2ray/SSR安卓苹果手机/电脑客户端下载
+V2Ray客户端下载
+Windows7/8/10-V2ray WinPC电脑客户端程序下载
+Android/小米MIUI/华为EMUI-V2ray安卓手机客户端Apk程序下载
+MacOS-V2ray 苹果电脑客户端程序下载
+Linux–V2ray Ubuntu/Centos电脑客户端程序下载
+iOS-V2ray苹果手机客户端App程序下载
+ShadowsocksR/SSR客户端下载
+Windows7/8/10-SSR小飞机 WinPC电脑客户端程序下载
+Android/小米MIUI/华为EMUI-SSR小飞机 安卓手机客户端Apk程序下载
+MacOS-SSR小飞机 苹果电脑客户端程序下载
+iOS-SSR小飞机 苹果手机客户端App程序下载
+
+
+
+
+
+
+      63 lines (60 sloc)
+      
+    11.4 KB
+  
+
+
+ 
+
+
+  
+
+
+ 
+
+ 
+Raw
+
+
+ 
+Blame
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+ Edit this file
+E
+
+
+              Open in GitHub Desktop
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Open with Desktop
+                
+
+
+
+              View raw
+            
+
+
+
+
+
+                View blame
+              
+
+
+
+
+
+
+免费节点及订阅地址：
+
+优质节点每天实时测速更新，6小时更新一次
+
+本页面由某人实时手动挨个节点测速，但不同地区运营商网络仍有差异，可能会有超时节点。
+
+吃饭->睡觉->测节点。
+
+节点列表：(这里仅展示部分节点，查看全部节点请下载app)
+vmess://eyJhZGQiOiAiMTU2LjIyNS42Ny4zOSIsICJ2IjogIjIiLCAicHMiOiAiXHU1MzU3XHU5NzVlIFYyQ1JPU1MuQ09NIiwgInBvcnQiOiA0NDgyMCwgImlkIjogImRlNDkxODAyLTIzM2UtNDdmMi04YzZjLWQxOWJjZjViZDU2YiIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+vmess://eyJhZGQiOiAiNDUuOTIuMTYwLjEzOCIsICJ2IjogIjIiLCAicHMiOiAiXHU2YjI3XHU3NmRmIFYyQ1JPU1MuQ09NIiwgInBvcnQiOiA1MzYwMiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTgyODJcdTcwYjkiLCAiYWRkIjogIjEwNC4yNC4yMjYuNzkiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiOWZmYmI4MTYtYjRiYi00OTNmLWI1NTgtZGY1MjdiNzY3NDU2IiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJzdGFyLW9uZS5jZmQiLCAicGF0aCI6ICIvcG9ydHMvMTAxNzgiLCAidGxzIjogInRscyIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+vmess://eyJhZGQiOiAiMTQyLjQuMTEwLjEyNCIsICJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIFx1NTJhMFx1NTIyOVx1Nzk4Zlx1NWMzY1x1NGU5YVx1NWRkZVx1NTcyM1x1NGY1NVx1NTg1ZVBFRyBURUNIIiwgInBvcnQiOiA1NDAwMiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTgyODJcdTcwYjkiLCAiYWRkIjogImNmNS52cG42Ni5ldS5vcmciLCAicG9ydCI6IDgwODAsICJpZCI6ICI1ZjA5ODAyOC1lYTIyLTQyZWEtYWJmZC05MjIyY2IyOThiNzQiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogInZjZXUudnBuNjYuZXUub3JnIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIn0=
+trojan://m8krTirthj@216.52.59.50:20458#%E7%BE%8E%E5%9B%BD+V2CROSS.COM
+vmess://eyJhZGQiOiAiNDUuNTguMTg2LjgxIiwgImFpZCI6IDY0LCAiaG9zdCI6ICIiLCAiaWQiOiAiNGExMzhlMTktMDU5NS00ZDUxLTgzYzYtZmQyNzZjZjdkMzA3IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicG9ydCI6IDUxMTQwLCAicHMiOiAiXHU4Mzc3XHU1MTcwIFx1NTMxN1x1ODM3N1x1NTE3MFx1NzcwMVx1OTYzZlx1NTljNlx1NjVhZlx1NzI3OVx1NGUzOVNoYXJrdGVjaFx1NjU3MFx1NjM2ZVx1NGUyZFx1NWZjMyIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIFx1NTJhMFx1NTIyOVx1Nzk4Zlx1NWMzY1x1NGU5YVx1NWRkZVx1NTcyM1x1NGY1NVx1NTg1ZU1VTFRBQ09NXHU2NzNhXHU2MjNmIiwgImFkZCI6ICI0NS4xOTkuMTM4Ljc2IiwgInBvcnQiOiAiNDk1OTgiLCAidHlwZSI6ICJub25lIiwgImlkIjogIjM3YzI5ZjQyLWI3YzctNDBjNy05ZGE5LTc0M2RjYzQ4OTViYyIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAiaG9zdCI6ICIiLCAidGxzIjogIiJ9
+trojan://5505f6ba-cd37-30ce-8f92-be4120c83d7f@official.taipeicitygovernment.kiev.ua:8443#%E5%B9%BF%E4%B8%9C%E7%9C%81+%E7%A7%BB%E5%8A%A8
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU1ZTdmXHU0ZTFjXHU3NzAxXHU1ZTdmXHU1ZGRlXHU1ZTAyIFx1NzUzNVx1NGZlMSIsICJhZGQiOiAiaW4wNi5teTExODgub3JnIiwgInBvcnQiOiA2MzAwMywgImlkIjogImY5ZDU2OTBjLTA4ZTktMzAyYS05NjU0LWY3Y2ZlZTkyMTViYSIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAiYXUwMS1yaWNoLnRlbmNlbnQuYmVzdCIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+trojan://32068eda-adad-431a-bfd4-2f7d4c73507c@pqawsjp03.gsjc.cfd:443?peer=18-140-66-207.nhost.00cdn.com&tfo=1#%E7%BE%8E%E5%9B%BD+Xerox
+trojan://d906afe5-7c3c-4ddc-aaa4-61c154a82e5e@152.70.74.66:443?security=tls&type=tcp&headerType=none#%E7%BE%8E%E5%9B%BD+V2CROSS.COM
+vmess://eyJhZGQiOiAiMTU2LjI1MS4xMzUuMTQiLCAidiI6ICIyIiwgInBzIjogIlx1N2Y4ZVx1NTZmZFx1NTJhMFx1NTIyOVx1Nzk4Zlx1NWMzY1x1NGU5YVx1NWRkZVx1NmQxYlx1Njc0OVx1NzdmNiBWMkNST1NTLkNPTSIsICJwb3J0IjogNTMzMDIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAiYWlkIjogIjY0IiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICIiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIvIiwgInRscyI6ICIifQ==
+vmess://eyJhZGQiOiAiMTk4LjIuMjA0LjI1MyIsICJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkXHU1MmEwXHU1MjI5XHU3OThmXHU1YzNjXHU0ZTlhXHU1ZGRlXHU2ZDFiXHU2NzQ5XHU3N2Y2IFBldGFFeHByZXNzIiwgInBvcnQiOiA0NjkwMiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+trojan://32068eda-adad-431a-bfd4-2f7d4c73507c@217.79.184.76:443?peer=downloadde.xn--mes358aby2apfg.com&tfo=1#%E5%BE%B7%E5%9B%BD+V2CROSS.COM
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU0ZTBhXHU2ZDc3XHU1ZTAyIFx1ODA1NFx1OTAxYSIsICJhZGQiOiAiaW4wNS5teTExODgub3JnIiwgInBvcnQiOiA2MzA5NSwgImlkIjogImY5ZDU2OTBjLTA4ZTktMzAyYS05NjU0LWY3Y2ZlZTkyMTViYSIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAiaGt0LXJpY2gyZy50ZW5jZW50LmJlc3QiLCAicGF0aCI6ICIvIiwgInRscyI6ICIifQ==
+
+上方节点（部分）永久订阅地址：https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+上方订阅地址二维码
+
+更多节点、免费订阅地址及订阅转换请下载本站提供的共享节点app软件ShadowShare导出节点使用，支持iOS、Android下载，Android用户建议直接使用shadowrocket for android安卓小火箭，内置所有免费节点。
+建议国内iOS用户及早 App Store下载 留存，可能会在未来的某个时间下架
+
+Clash、SS等客户端订阅地址一键转换：
+SS/SSR/V2ray客户端若无法直接使用SSR节点链接，用下面链接的工具转换成订阅地址后，SSR/SSD/Surge/Quantum/Surfboard/Loon等手机、电脑的客户端就可以使用了：
+https://acl4ssr-sub.github.io
+V2ray/SSR安卓苹果手机/电脑客户端下载
+V2Ray客户端下载
+最新版V2ray Windows客户端、V2ray安卓客户端、苹果电脑V2ray MacOS客户端和苹果手机V2ray iOS客户端以及V2ray Linux客户端下载链接也一并送上。
+Windows7/8/10-V2ray WinPC电脑客户端程序下载
+V2rayN下载官网下载V2rayW下载官网下载Clash下载官网下载V2rayS下载官网下载Mellow下载官网下载Qv2ray下载官网下载
+Android/小米MIUI/华为EMUI-V2ray安卓手机客户端Apk程序下载
+V2rayNG下载官网下载安卓小火箭下载官网下载BifrostV下载市场下载Clash下载官网下载Kitsunebi下载市场下载
+MacOS-V2ray 苹果电脑客户端程序下载
+V2rayU下载官网下载V2rayX下载官网下载ClashX下载官网下载
+Linux–V2ray Ubuntu/Centos电脑客户端程序下载
+Qv2ray下载官网下载Mellow下载官网下载V2rayL下载官方安装文档
+iOS-V2ray苹果手机客户端App程序下载
+苹果AppStore市场里还没有免费的V2ray iOS客户端，付费的app目前有小火箭Shadowrocket、pepi、i2Ray、Kitsunebi和Quantumult（圈儿，圈叉）可用。
+ShadowsocksR/SSR客户端下载
+ShadowsocksR简称SSR，还有酸酸乳、粉色小飞机、纸飞机这些可爱的昵称，使用较为广泛。
+整理了最新版SSR Windows客户端、SSR安卓客户端、苹果电脑SSR MacOS客户端和苹果手机SSR iOS客户端的下载地址分享给大家。
+Windows7/8/10-SSR小飞机 WinPC电脑客户端程序下载
+官网下载
+Android/小米MIUI/华为EMUI-SSR小飞机 安卓手机客户端Apk程序下载
+官网下载
+MacOS-SSR小飞机 苹果电脑客户端程序下载
+官网下载
+iOS-SSR小飞机 苹果手机客户端App程序下载
+iPhone或者iPad打开苹果App Store，搜索Mume(暮梅)、Potatso Lite、FastSocks、Shadowrocket（小火箭）。
+
+
+
+
+
+
+
+
+
+    Go
+
+ 
+
+
+
+
+
+
+
+
+
+Footer
+
+
+
+
+
+
+
+ 
+        © 2023 GitHub, Inc.
+        
+
+
+
+Footer navigation
+
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    You can’t perform that action at this time.
+  
+
+
+
+
+
+
+
+
+
+
+
