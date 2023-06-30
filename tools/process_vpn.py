@@ -26,7 +26,7 @@ def decode_base64(encoded_data):
 def extract_links(content):
     # 使用正则表达式提取特定格式的链接
     formats = ['vmess://', 'trojan://', 'clash://', 'ss://', 'vlss://']
-    links = re.findall(r'(' + '|'.join(formats) + r')\S+', content)
+    links = re.findall(r'(' + '|'.join(formats) + r')[^\s]+', content)
     return links
 
 def process_file(file_path, rest_urls_file):
