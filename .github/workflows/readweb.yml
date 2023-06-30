@@ -1,0 +1,42 @@
+name: 搜索订阅
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 11 10,20,1 * *'
+
+jobs:
+  extract_urls:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install beautifulsoup4
+          pip install requests          
+  
+      - name: Remove duplicate URLs
+        run: python ./tools/remove_duplicates.py sec_urls
+        
+      - name: Remove non-alphanumeric URLs
+        run: python ./tools/remove_non_alphanumeric_urls.py sec_urls
+      
+      - name: Extract URLs
+        run: python ./tools/readweb.py sec_urls data
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Add extracted URLs"
+          git push
