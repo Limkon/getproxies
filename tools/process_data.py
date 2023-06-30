@@ -25,10 +25,12 @@ def has_specific_format(content):
 
 def is_base64_encoded(content):
     try:
+        content.encode('ascii')  # 转换为ASCII编码
         base64.b64decode(content)
         return True
-    except base64.binascii.Error:
+    except (UnicodeEncodeError, base64.binascii.Error):
         return False
+
 
 def extract_links(content):
     # 使用正则表达式提取链接
