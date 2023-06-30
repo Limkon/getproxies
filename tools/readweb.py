@@ -50,7 +50,8 @@ def process_url(url, output_dir, rest_urls_file):
             file_name = save_content(content, output_dir, url)
             return f"处理 {url} 成功", file_name
         else:
-            extract_and_save_links(content, rest_urls_file)
+            extracted_urls = extract_links(content)
+            save_links(extracted_urls, rest_urls_file)
             return f"处理 {url} 成功", None
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}", None
@@ -85,8 +86,11 @@ def is_base64_encoded(content):
         return False
 
 
-def extract_and_save_links(content, rest_urls_file):
-    urls = re.findall(r'(https?://\S+)', content)
+def extract_links(content):
+    return re.findall(r'(https?://\S+)', content)
+
+
+def save_links(urls, rest_urls_file):
     with open(rest_urls_file, 'a', encoding='utf-8') as file:
         for url in urls:
             file.write(url + '\n')
