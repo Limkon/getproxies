@@ -31,7 +31,6 @@ def is_base64_encoded(content):
     except (UnicodeEncodeError, base64.binascii.Error):
         return False
 
-
 def extract_links(content):
     # 使用正则表达式提取链接
     links = re.findall(r'(https?://\S+)', content)
@@ -57,14 +56,19 @@ def process_file(file_path, rest_urls_file):
         # 保留 BASE64 编码文件
         return
 
-    # 提取链接并保存到 rest_urls 文件中
+    # 提取链接
     links = extract_links(content)
+
+    # 删除原始文件
+    os.remove(file_path)
+
+    if not links:
+        return
+
+    # 保存链接到 rest_urls 文件中
     with open(rest_urls_file, 'a', encoding='utf-8') as file:
         for link in links:
             file.write(link + '\n')
-
-    # 删除对应的文件
-    os.remove(file_path)
 
 def process_files_in_directory(directory, rest_urls_file):
     for filename in os.listdir(directory):
