@@ -36,14 +36,14 @@ jobs:
           declare -a search_queries=("节点订阅" "节点池2023" "VEMSS节点订阅")
           for query in "${search_queries[@]}"; do
             echo "Searching for: $query"
-            python extract_urls.py "$query"
+            python ./tools/extract_urls.py "$query"
           done
 
       - name: Remove duplicate URLs
-        run: python remove_duplicates.py furls
+        run: python ./tools/remove_duplicates.py furls
         
       - name: Remove non-alphanumeric URLs
-        run: python remove_non_alphanumeric_urls.py furls
+        run: python ./tools/remove_non_alphanumeric_urls.py furls
 
       - name: Commit and push changes
         run: |
