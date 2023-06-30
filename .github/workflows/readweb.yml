@@ -45,6 +45,9 @@ jobs:
         
       - name: 分析网页
         run: python ./tools/process_data.py data rest_urls
+        
+      - name: 读取订阅
+        run: python ./tools/readweb.py rest_urls data 10
 
       - name: Commit and push changes
         run: |
