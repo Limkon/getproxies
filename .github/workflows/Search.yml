@@ -40,10 +40,10 @@ jobs:
           done
 
       - name: Remove duplicate URLs
-        run: python ./tools/remove_duplicates.py furls
+        run: python ./tools/remove_duplicates.py sec_urls
         
       - name: Remove non-alphanumeric URLs
-        run: python ./tools/remove_non_alphanumeric_urls.py furls
+        run: python ./tools/remove_non_alphanumeric_urls.py sec_urls
 
       - name: Commit and push changes
         run: |
