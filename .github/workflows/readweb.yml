@@ -1,4 +1,4 @@
-name: 搜索订阅
+name: 分析提取
 
 on:
   workflow_dispatch:
