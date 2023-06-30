@@ -1,10 +1,9 @@
 import os
 import re
 import sys
-import time
 import datetime
 import requests
-
+from concurrent.futures import ThreadPoolExecutor
 from bs4 import BeautifulSoup
 
 
@@ -12,8 +11,6 @@ def extract_content(url):
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
-        # 在此编写选择和提取页面内容的代码
-        # 例如：提取页面的文本内容
         content = soup.get_text()
         return content
     else:
@@ -29,13 +26,19 @@ def save_content(content, output_dir, url):
     print(f"网站 {url} 内容已保存至文件：{file_name}")
 
 
+def process_url(url, output_dir):
+    try:
+        content = extract_content(url)
+        save_content(content, output_dir, url)
+    except Exception as e:
+        print(f"处理 {url} 失败：{str(e)}")
+
+
 def process_urls(urls, output_dir):
-    for url in urls:
-        try:
-            content = extract_content(url)
-            save_content(content, output_dir, url)
-        except Exception as e:
-            print(f"处理 {url} 失败：{str(e)}")
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = [executor.submit(process_url, url, output_dir) for url in urls]
+        for future in futures:
+            future.result()
 
 
 def main():
