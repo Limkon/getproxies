@@ -25,10 +25,10 @@ jobs:
           pip install beautifulsoup4
           pip install requests
      
-      - name: test
+      - name: Test
         id: search
         run: |
-               python ./tools/process_vpn.py rest_urls
+          python ./tools/process_vpn.py rest_urls
           done
       
       - name: Commit and push changes
