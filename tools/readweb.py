@@ -23,7 +23,7 @@ def extract_content(url):
 def save_content(content, output_dir, url):
     date = datetime.datetime.now().strftime('%Y-%m-%d')
     url_without_protocol = re.sub(r'^(https?://)', '', url)
-    file_name = os.path.join(output_dir, f"{re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)}_{date}.txt")
+    file_name = os.path.join(output_dir, f"{re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)}_{date}.txt".replace("\\", "\\\\"))
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(content)
     print(f"网站 {url} 内容已保存至文件：{file_name}")
