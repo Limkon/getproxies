@@ -29,7 +29,7 @@ jobs:
       - name: Test
         id: search
         run: |
-          python ./tools/process_vpn.py rest_urls
+          python ./tools/process_vpn.py data ./share/rest.txt
           done
       
       - name: Commit and push changes
