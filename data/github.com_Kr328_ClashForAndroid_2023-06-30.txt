@@ -504,11 +504,11 @@ You switched accounts on another tab or window. Reload to refresh your session.
 
 
 
-        Pawdroid
+        Kr328
  
 /
 
-shadowrocket_for_android
+ClashForAndroid
 
 Public
 
@@ -525,7 +525,7 @@ Notifications
  
 
 Fork
-    21
+    2.8k
 
 
 
@@ -534,7 +534,7 @@ Fork
 
 
           Star
- 312
+ 25.3k
   
 
 
@@ -546,28 +546,29 @@ Fork
 
 
 
-        A V2Ray client for Android, builtin lots of available servers, 安卓小火箭官方库，内置大量免费节点，欢迎下载体验。
+        A rule-based tunnel for Android.
       
+License
 
 
 
 
 
-shadowrocket.v2cross.com
+     GPL-3.0 license
+    
 
 
 
 
 
 
-
-312
+25.3k
           stars
  
 
 
 
-21
+2.8k
           forks
  
 
@@ -607,8 +608,24 @@ Code
 
 
 
+Issues
+144
+
+
+
+
+
+
 Pull requests
-0
+12
+
+
+
+
+
+
+Discussions
+
 
 
 
@@ -658,7 +675,15 @@ More
  
 
 
+                  Issues
+ 
+
+
                   Pull requests
+ 
+
+
+                  Discussions
  
 
 
@@ -683,7 +708,7 @@ More
 
 
 
-Pawdroid/shadowrocket_for_android
+Kr328/ClashForAndroid
 
 
 
@@ -791,14 +816,14 @@ Name already in use
 
 
 
-1
-branch
+3
+branches
 
 
 
 
 
-8
+116
 tags
 
 
@@ -965,9 +990,9 @@ Latest commit
 
 
 
-Pawdroid
+Kr328
 
-Update README.md
+Chore: bump version
 
 
 
@@ -978,19 +1003,19 @@ Update README.md
 
 
 
-        c5aa68b
+        8506303
       
 
-Mar 26, 2023
+Nov 17, 2022
 
 
 
 
 
-Update README.md
+Chore: bump version
 
 
-c5aa68b
+8506303
 
 
 
@@ -1002,7 +1027,7 @@ Git stats
 
 
 
-8
+216
 
                       commits
                     
@@ -1038,15 +1063,393 @@ Commit time
 
 
 
+.github
+
+
+
+Chore: update dependencies & remove appcenter tracker
+
+
+
+July 1, 2022 12:07
+
+
+
+
+
+
+
+
+
+.idea/codeStyles
+
+
+
+Initial: initial commit
+
+
+
+May 15, 2021 00:51
+
+
+
+
+
+
+
+
+
+app
+
+
+
+Chore: update dependencies & remove appcenter tracker
+
+
+
+July 1, 2022 12:07
+
+
+
+
+
+
+
+
+
+common
+
+
+
+Chore: update dependencies
+
+
+
+March 22, 2022 13:48
+
+
+
+
+
+
+
+
+
+core
+
+
+
+Chore: remove temp debug code
+
+
+
+July 2, 2022 11:01
+
+
+
+
+
+
+
+
+
+design
+
+
+
+Chore: Translation: Update zh-rTW strings (#1537)
+
+
+
+July 4, 2022 10:30
+
+
+
+
+
+
+
+
+
+gradle/wrapper
+
+
+
+Chore: update dependencies
+
+
+
+May 12, 2022 20:15
+
+
+
+
+
+
+
+
+
+hideapi
+
+
+
+Refactor: refactor project structure & update clash core (#1174)
+
+
+
+September 11, 2021 14:53
+
+
+
+
+
+
+
+
+
+service
+
+
+
+Fix: decrease mtu
+
+
+
+November 17, 2022 00:31
+
+
+
+
+
+
+
+
+
+.gitattributes
+
+
+
+Chore: add .gitattributes (#1191)
+
+
+
+September 13, 2021 18:34
+
+
+
+
+
+
+
+
+
+.gitignore
+
+
+
+Chore: update gitignore
+
+
+
+September 26, 2021 10:04
+
+
+
+
+
+
+
+
+
+.gitmodules
+
+
+
+Refactor: refactor clash core building
+
+
+
+September 12, 2021 00:39
+
+
+
+
+
+
+
+
+
+CONTRIBUTING.md
+
+
+
+Chore: update CONTRIBUTING.md
+
+
+
+May 15, 2021 02:01
+
+
+
+
+
+
+
+
+
+LICENSE
+
+
+
+Initial: initial commit
+
+
+
+May 15, 2021 00:51
+
+
+
+
+
+
+
+
+
+NOTICE
+
+
+
+Initial: initial commit
+
+
+
+May 15, 2021 00:51
+
+
+
+
+
+
+
+
+
+PRIVACY_POLICY.md
+
+
+
+Chore: update PRIVACY_POLICY.md
+
+
+
+November 17, 2022 00:43
+
+
+
+
+
+
+
+
+
 README.md
 
 
 
-Update README.md
+Chore: Add <version> to match output apks (#1509)
 
 
 
-March 27, 2023 03:03
+July 1, 2022 11:15
+
+
+
+
+
+
+
+
+
+build.gradle.kts
+
+
+
+Chore: bump version
+
+
+
+November 17, 2022 00:44
+
+
+
+
+
+
+
+
+
+gradle.properties
+
+
+
+Chore: remove unused dependencies & improve gradle properties & code …
+
+
+
+September 13, 2021 17:49
+
+
+
+
+
+
+
+
+
+gradlew
+
+
+
+Chore: update dependencies
+
+
+
+November 14, 2021 19:17
+
+
+
+
+
+
+
+
+
+gradlew.bat
+
+
+
+Chore: update gradle wrapper & append sha256sum
+
+
+
+May 15, 2021 19:15
+
+
+
+
+
+
+
+
+
+settings.gradle.kts
+
+
+
+Chore: update dependencies & remove appcenter tracker
+
+
+
+July 1, 2022 12:07
 
 
 
@@ -1068,11 +1471,12 @@ March 27, 2023 03:03
 
 
 
-shadowrocket_for_android
-Downloads
-Website
-Free servers
-ShadowShare for iOS
+Clash for Android
+Feature
+Requirement
+License
+Privacy Policy
+Build
 
 
 
@@ -1083,21 +1487,49 @@ README.md
 
 
 
-shadowrocket_for_android
-A V2Ray client for Android, builtin lots of available servers
-Downloads
-app-shadowrocket-arm64-v8a-release.apk
-app-shadowrocket-armeabi-v7a-release.apk
-app-shadowrocket-x86-release.apk
-app-shadowrocket-x86_64-release.apk
-Website
-https://shadowrocket.v2cross.com
-Free servers
-Update every 6 hours
+Clash for Android
+A Graphical user interface of clash for Android
+ or Releases
+Feature
+Fully feature of clash (Exclude external-controller
+Requirement
 
-https://v2cross.com/archives/1884
-ShadowShare for iOS
-https://shadowshare.v2cross.com
+Android 5.0+ (minimum)
+Android 7.0+ (recommend)
+armeabi-v7a , arm64-v8a, x86 or x86_64 Architecture
+
+License
+See also LICENSE and NOTICE
+Privacy Policy
+See also PRIVACY_POLICY.md
+Build
+
+
+Update submodules
+git submodule update --init --recursive
+
+
+Install OpenJDK 11, Android SDK, CMake and Golang
+
+
+Create local.properties in project root with
+sdk.dir=/path/to/android-sdk
+
+
+Create signing.properties in project root with
+keystore.path=/path/to/keystore/file
+keystore.password=<key store password>
+key.alias=<key alias>
+key.password=<key password>
+
+
+Build
+./gradlew app:assembleFossRelease
+
+
+Pick app-<version>-foss-<arch>-release.apk in app/build/outputs/apk/foss/release/
+
+
 
 
 
@@ -1109,45 +1541,8 @@ https://shadowshare.v2cross.com
 
 About
 
-      A V2Ray client for Android, builtin lots of available servers, 安卓小火箭官方库，内置大量免费节点，欢迎下载体验。
+      A rule-based tunnel for Android.
     
-
-
-
-
-
-shadowrocket.v2cross.com
-
-
-Topics
-
-
-
-  android
-
-
-  proxy
-
-
-  proxypool
-
-
-  v2ray
-
-
-  shadowrocket
-
-
-  gfw
-
-
-  ss
-
-
-  free-servers
-
-
-
 Resources
 
 
@@ -1156,6 +1551,15 @@ Resources
 
         Readme
  
+License
+
+
+
+
+
+     GPL-3.0 license
+    
+
 
 
 Stars
@@ -1164,7 +1568,7 @@ Stars
 
 
 
-312
+25.3k
     stars
 
 Watchers
@@ -1173,7 +1577,7 @@ Watchers
 
 
 
-13
+404
     watching
 
 Forks
@@ -1182,7 +1586,7 @@ Forks
 
 
 
-21
+2.8k
     forks
 
 
@@ -1196,7 +1600,7 @@ Forks
 
 
     Releases
-      8
+      90
 
 
 
@@ -1204,15 +1608,15 @@ Forks
 
 
 
-10.6.0
+v2.5.12
 
           Latest
  
-Mar 26, 2023
+Nov 16, 2022
 
  
 
-        + 7 releases
+        + 89 releases
 
 
 
@@ -1229,6 +1633,117 @@ Mar 26, 2023
 
 
 
+
+
+
+
+
+
+
+
+
+    Contributors
+      10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Languages
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kotlin
+86.1%
+
+
+
+
+
+
+
+Go
+8.8%
+
+
+
+
+
+
+
+C
+4.9%
+
+
+
+
+
+
+
+Other
+0.2%
 
 
 

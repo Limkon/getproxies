@@ -1,0 +1,2461 @@
+
+
+Skip to content
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+            Sign up
+          
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Product
+        
+
+
+
+
+
+
+
+
+
+
+
+
+Actions
+        Automate any workflow
+      
+
+
+
+
+
+
+
+Packages
+        Host and manage packages
+      
+
+
+
+
+
+
+
+Security
+        Find and fix vulnerabilities
+      
+
+
+
+
+
+
+
+Codespaces
+        Instant dev environments
+      
+
+
+
+
+
+
+
+Copilot
+        Write better code with AI
+      
+
+
+
+
+
+
+
+Code review
+        Manage code changes
+      
+
+
+
+
+
+
+
+Issues
+        Plan and track work
+      
+
+
+
+
+
+
+
+Discussions
+        Collaborate outside of code
+      
+
+
+
+
+Explore
+
+
+
+      All features
+
+    
+
+
+
+      Documentation
+
+    
+
+
+
+
+
+      GitHub Skills
+
+    
+
+
+
+
+
+      Blog
+
+    
+
+
+
+
+
+
+
+
+
+        Solutions
+        
+
+
+
+
+
+For
+
+
+
+      Enterprise
+
+    
+
+
+
+      Teams
+
+    
+
+
+
+      Startups
+
+    
+
+
+
+      Education
+
+    
+
+
+
+
+
+
+By Solution
+
+
+
+      CI/CD & Automation
+
+    
+
+
+
+      DevOps
+
+    
+
+
+
+
+
+      DevSecOps
+
+    
+
+
+
+
+
+
+Case Studies
+
+
+
+      Customer Stories
+
+    
+
+
+
+      Resources
+
+    
+
+
+
+
+
+
+
+
+
+        Open Source
+        
+
+
+
+
+
+
+
+
+
+GitHub Sponsors
+        Fund open source developers
+      
+
+
+
+
+
+
+
+
+The ReadME Project
+        GitHub community articles
+      
+
+
+
+
+Repositories
+
+
+
+      Topics
+
+    
+
+
+
+      Trending
+
+    
+
+
+
+      Collections
+
+    
+
+
+
+
+
+
+Pricing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+No suggested jump to results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this user
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+ 
+
+
+
+
+              Sign in
+            
+
+
+              Sign up
+            
+
+
+
+
+
+
+
+
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Kr328
+ 
+/
+
+ClashForAndroid
+
+Public
+
+
+
+
+
+ 
+
+Notifications
+
+
+
+ 
+
+Fork
+    2.8k
+
+
+
+
+ 
+
+
+          Star
+ 25.3k
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Code
+
+
+
+
+
+
+
+Issues
+144
+
+
+
+
+
+
+Pull requests
+12
+
+
+
+
+
+
+Discussions
+
+
+
+
+
+
+
+Actions
+
+
+
+
+
+
+
+Projects
+0
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Insights
+
+
+
+ 
+ 
+
+
+
+More
+
+
+ 
+
+
+                  Code
+ 
+
+
+                  Issues
+ 
+
+
+                  Pull requests
+ 
+
+
+                  Discussions
+ 
+
+
+                  Actions
+ 
+
+
+                  Projects
+ 
+
+
+                  Security
+ 
+
+
+                  Insights
+ 
+
+
+
+
+
+
+
+Releases: Kr328/ClashForAndroid
+
+
+
+
+Releases
+Tags
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Releases · Kr328/ClashForAndroid
+
+
+v2.5.12
+
+
+
+
+      16 Nov 16:48    
+
+
+
+Kr328
+
+
+
+
+
+
+
+
+            v2.5.12
+          
+
+
+
+
+
+
+
+8506303
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v2.5.12
+Latest
+
+
+
+
+Latest
+
+
+
+
+
+
+
+
+Update zh-rTW translation
+Decrease mtu
+
+
+
+
+
+ Assets
+12
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+576
+ LYXCHN, subat05, ybakiame, 2wwe11, gxmandppx, ailinician, Extas, rzashakeri, RuCu6, lgernierO, and 566 more reacted with thumbs up emoji
+ 😄
+58
+ lisy22, haitau, da7778, Lilei688699, liu-kong, ZWST, Gzfyz, Kyro-Li, NewBeeNee, Fester3139, and 48 more reacted with laugh emoji
+ 🎉
+56
+ sugar0818, xieakun, zhujunsan, Dragon1573, nchxiaowei, ltt2077, wannaw-i, laggardkernel, haitau, KOF136, and 46 more reacted with hooray emoji
+ ❤️
+64
+ ookiineko, haitau, Lilei688699, ahmaduxui, liu-kong, 2323154166, aswifi, davidqiuxw, ZWST, jasem20221363, and 54 more reacted with heart emoji
+ 🚀
+38
+ wangling996, TOPLEEE, banmenglive, poxaer, kevindcurant, xuyun100, yjmtd1987, Bematricman, jingantan, Naser11114, and 28 more reacted with rocket emoji
+ 👀
+67
+ sgaffic, mxc123, ERR0RPR0MPT, pharos123, zkitefly, Summittk, wangling996, wsy018, huayi1997, kevindcurant, and 57 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+576 reactions
+
+
+😄
+58 reactions
+
+
+🎉
+56 reactions
+
+
+❤️
+64 reactions
+
+
+🚀
+38 reactions
+
+
+👀
+67 reactions
+
+
+
+
+
+ 706 people reacted
+
+
+
+
+
+
+
+v2.5.11
+
+
+
+
+      02 Jul 03:32    
+
+
+
+Kr328
+
+
+
+
+
+
+
+
+            v2.5.11
+          
+
+
+
+
+
+
+
+628eb28
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v2.5.11
+Pre-release
+
+
+
+
+Pre-release
+
+
+
+
+
+
+
+
+increase mtu
+add option to enable tls sniff
+update core
+
+
+
+
+
+ Assets
+12
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+229
+ ddzzkunye, zhumingchengyexi, IH31C, Dragon1573, nmflytz, itjun, LinnyR, qcind, srterq, CapitanArdeshir, and 219 more reacted with thumbs up emoji
+ 😄
+25
+ qcind, Tangzih, Thaomtam, CortexCore, MreDiaos, justtasteg, 304655145, codesbuff, 6544875254144, Otakumonarch, and 15 more reacted with laugh emoji
+ 🎉
+26
+ adityaphra, Iamyahyaw, rezconf, MreDiaos, Zxilly, Dragon1573, luokn, qcind, Tangzih, lkcnads, and 16 more reacted with hooray emoji
+ ❤️
+14
+ MreDiaos, Dragon1573, qcind, Tangzih, sakuyalice, JieWenJun, CortexCore, W12jx, justtasteg, 6544875254144, and 4 more reacted with heart emoji
+ 🚀
+23
+ MreDiaos, shandonghezecaoxianwuhujichang, qcind, Tangzih, JohnHow0537, CortexCore, CFrank227, justtasteg, 892453, lksin, and 13 more reacted with rocket emoji
+ 👀
+18
+ MreDiaos, qcind, aswifi, Tangzih, CortexCore, justtasteg, 892453, OSSSY152, julewater, 6544875254144, and 8 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+229 reactions
+
+
+😄
+25 reactions
+
+
+🎉
+26 reactions
+
+
+❤️
+14 reactions
+
+
+🚀
+23 reactions
+
+
+👀
+18 reactions
+
+
+
+
+
+ 282 people reacted
+
+
+
+
+
+
+
+v2.5.10
+
+
+
+
+      01 Jul 06:01    
+
+
+
+Kr328
+
+
+
+
+
+
+
+
+            v2.5.10
+          
+
+
+
+
+
+
+
+eb7cd89
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v2.5.10
+Pre-release
+
+
+
+
+Pre-release
+
+
+
+
+
+
+
+
+Fix I-Fly IME supprt
+Fix process name resolving for legacy devices (#1514)
+Improve default fake-ip list
+Update clash core
+Remove appcenter tracker
+Enable TLS sniff by default
+
+
+
+
+
+ Assets
+12
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+32
+ HualinXMN, caiysmy, flin-ux, panda-mute, kytrun, chenyue404, Dig007, 0xZhangKe, AzureFlute, Iamyahyaw, and 22 more reacted with thumbs up emoji
+ 🎉
+7
+ text01001, KOF136, AzureFlute, 2155507151, 3293465859, haoyue1573, and userName-hey reacted with hooray emoji
+ ❤️
+5
+ malikshi, a185039136, AzureFlute, Sendevia, and AABBCCDD12 reacted with heart emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+32 reactions
+
+
+🎉
+7 reactions
+
+
+❤️
+5 reactions
+
+
+
+
+
+ 41 people reacted
+
+
+
+
+
+
+
+v2.5.9
+
+
+
+
+      13 May 05:55    
+
+
+
+Kr328
+
+
+
+
+
+
+
+
+            v2.5.9
+          
+
+
+
+
+
+
+
+ffa559a
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v2.5.9
+
+
+
+
+
+
+
+
+
+
+
+Full Changelog: v2.5.8...v2.5.9
+
+
+
+
+ Assets
+12
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+234
+ Pcodcsja, Puqns67, qcind, kfyfz, OnClickListener2048, chenyue404, moyuwuhen601, FredMan95, viewv, hackeryang, and 224 more reacted with thumbs up emoji
+ 😄
+18
+ qcind, cyy1105, jgckM, akaarthurjohn, julewater, feng6544, cyclekiller, ezllll, pkshowtime, RomainYangyzy, and 8 more reacted with laugh emoji
+ 🎉
+33
+ qcind, text01001, wosika, a-kun1999, Wonitaniwo, MONSTERMASH1999, ivangotoy, Apollote, sehowyoung, Milkoil, and 23 more reacted with hooray emoji
+ ❤️
+15
+ qcind, jgckM, akaarthurjohn, feng6544, wLaLaLa, austinchen1988, adityaphra, lululoid, baigeiyun, Chenxl10, and 5 more reacted with heart emoji
+ 🚀
+18
+ remaincense, Wonitaniwo, Apollote, sehowyoung, Milkoil, SanQian880088, QVQzzz56, qcind, chirstain, jgckM, and 8 more reacted with rocket emoji
+ 👀
+38
+ aswifi, a-kun1999, Wonitaniwo, Apollote, sehowyoung, Milkoil, SanQian880088, QVQzzz56, xiaoxiujie, xxx70868, and 28 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+234 reactions
+
+
+😄
+18 reactions
+
+
+🎉
+33 reactions
+
+
+❤️
+15 reactions
+
+
+🚀
+18 reactions
+
+
+👀
+38 reactions
+
+
+
+
+
+ 285 people reacted
+
+
+
+
+
+
+
+v2.5.8
+
+
+
+
+      25 Apr 15:18    
+
+
+
+Kr328
+
+
+
+
+
+
+
+
+            v2.5.8
+          
+
+
+
+
+
+
+
+f16b004
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v2.5.8
+
+
+
+
+
+
+
+
+
+
+
+
+Update clash core
+Close all connections on stopped
+
+
+
+
+
+ Assets
+12
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+61
+ WC-Dream, love4taylor, KOF136, Khf20, Dragon1573, Pcodcsja, A1s2xD, aguabei, Iamyahyaw, Kinglsw, and 51 more reacted with thumbs up emoji
+ 😄
+6
+ Khf20, adityaphra, qcind, 51fenta, neroddc, and TwilightKHQ reacted with laugh emoji
+ 🎉
+14
+ Khf20, Dragon1573, Misaka7077, text01001, kingkeny, histion, qcind, liang7758520, neroddc, Jasonzyt, and 4 more reacted with hooray emoji
+ ❤️
+6
+ qcind, Sauckey, Khf20, neroddc, TwilightKHQ, and hahahumble reacted with heart emoji
+ 🚀
+5
+ Khf20, qcind, neroddc, TwilightKHQ, and yzpstart reacted with rocket emoji
+ 👀
+7
+ Khf20, ln-Qll, qcind, himingway, Zxilly, 51fenta, and neroddc reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+61 reactions
+
+
+😄
+6 reactions
+
+
+🎉
+14 reactions
+
+
+❤️
+6 reactions
+
+
+🚀
+5 reactions
+
+
+👀
+7 reactions
+
+
+
+
+
+ 75 people reacted
+
+
+
+
+
+
+
+v2.5.7
+
+
+
+
+      14 Apr 06:18    
+
+
+
+Kr328
+
+
+
+
+
+
+
+
+            v2.5.7
+          
+
+
+
+
+
+
+
+b92fc86
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v2.5.7
+Pre-release
+
+
+
+
+Pre-release
+
+
+
+
+
+
+
+
+Add zero-copy support
+Update clash core
+
+
+
+
+
+ Assets
+12
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+59
+ a982027400, lbwstco, Ryananana, Dudengtai, OnClickListener2048, LinnyR, asuka909, adityaphra, Khf20, issaccv, and 49 more reacted with thumbs up emoji
+ 😄
+8
+ Dudengtai, adityaphra, Khf20, MreDiaos, czs555666, qcind, wanglx125, and haiyun-li reacted with laugh emoji
+ 🎉
+7
+ adityaphra, Khf20, MreDiaos, czs555666, aswifi, qcind, and Doria-7 reacted with hooray emoji
+ ❤️
+7
+ adityaphra, Khf20, MreDiaos, czs555666, a2000c, qcind, and lison1969 reacted with heart emoji
+ 🚀
+5
+ adityaphra, Khf20, MreDiaos, czs555666, and qcind reacted with rocket emoji
+ 👀
+7
+ adityaphra, Khf20, MreDiaos, czs555666, xiao-515, qcind, and haiyun-li reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+59 reactions
+
+
+😄
+8 reactions
+
+
+🎉
+7 reactions
+
+
+❤️
+7 reactions
+
+
+🚀
+5 reactions
+
+
+👀
+7 reactions
+
+
+
+
+
+ 64 people reacted
+
+
+
+
+
+
+
+v2.5.6
+
+
+
+
+      11 Apr 13:07    
+
+
+
+Kr328
+
+
+
+
+
+
+
+
+            v2.5.6
+          
+
+
+
+
+
+
+
+5a6ca2c
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v2.5.6
+Pre-release
+
+
+
+
+Pre-release
+
+
+
+
+
+
+
+
+Update clash core
+Fix traffic format
+Add *.jd.com to system proxy blacklist
+Minor dns config changes
+
+
+
+
+
+ Assets
+12
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+22
+ 2285903447, ookiineko, itheabyss, lison1969, Khf20, A1s2xD, gwlmaster, Mrlihao, XiangNorth, Kernel2333, and 12 more reacted with thumbs up emoji
+ 😄
+4
+ Khf20, 2285903447, LinnyR, and adityaphra reacted with laugh emoji
+ 🎉
+10
+ malikshi, Dragon1573, adiprasetya, Iamyahyaw, BoyceMa, 2285903447, Khf20, ss916, LinnyR, and adityaphra reacted with hooray emoji
+ ❤️
+8
+ FredMan95, Dragon1573, Iamyahyaw, Khf20, 2285903447, LinnyR, adityaphra, and kfyfz reacted with heart emoji
+ 🚀
+3
+ Khf20, 2285903447, and unlimitbladeworks reacted with rocket emoji
+ 👀
+1
+ 2285903447 reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+22 reactions
+
+
+😄
+4 reactions
+
+
+🎉
+10 reactions
+
+
+❤️
+8 reactions
+
+
+🚀
+3 reactions
+
+
+👀
+1 reaction
+
+
+
+
+
+ 30 people reacted
+
+
+
+
+
+
+
+v2.5.5
+
+
+
+
+      22 Mar 05:59    
+
+
+
+Kr328
+
+
+
+
+
+
+
+
+            v2.5.5
+          
+
+
+
+
+
+
+
+ab96790
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v2.5.5
+Pre-release
+
+
+
+
+Pre-release
+
+
+
+
+
+
+
+
+Update clash core
+Improve domain type rule provider memory consumption
+Improve tun2socket udp packet throughput
+Fix tun2socket fake ping response
+
+
+
+
+
+ Assets
+12
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+65
+ QAZqazWSXwsx, lige47, adityaphra, Iamyahyaw, congshengwu, nimakhoshnoudfar, 1ronh1d3, xiaodongus, River2017CN, 2351548518, and 55 more reacted with thumbs up emoji
+ 😄
+10
+ adityaphra, Lordmarno, tiddlerhxy, qcind, MreDiaos, cccnnm22, AkiraXue, a185039136, ericsyj, and 24thstmission reacted with laugh emoji
+ 🎉
+12
+ malikshi, JohnCanny52, adityaphra, Dragon1573, histion, tiddlerhxy, qcind, MreDiaos, cccnnm22, AkiraXue, and 2 more reacted with hooray emoji
+ ❤️
+10
+ adityaphra, Dragon1573, tiddlerhxy, qcind, MreDiaos, z843433489, cccnnm22, a185039136, ericsyj, and mohsen67t reacted with heart emoji
+ 🚀
+10
+ adityaphra, tiddlerhxy, qcind, MreDiaos, Kele0113, cccnnm22, AkiraXue, zskk123, a185039136, and ericsyj reacted with rocket emoji
+ 👀
+14
+ adityaphra, tiddlerhxy, qcind, MreDiaos, leonce28, yyy210, cccnnm22, westcott233, duzhongyi, a185039136, and 4 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+65 reactions
+
+
+😄
+10 reactions
+
+
+🎉
+12 reactions
+
+
+❤️
+10 reactions
+
+
+🚀
+10 reactions
+
+
+👀
+14 reactions
+
+
+
+
+
+ 77 people reacted
+
+
+
+
+
+
+
+v2.5.4
+
+
+
+
+      14 Jan 16:37    
+
+
+
+Kr328
+
+
+
+
+
+
+
+
+            v2.5.4
+          
+
+
+
+
+
+
+
+791794f
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v2.5.4
+
+
+
+
+
+
+
+
+
+
+
+
+update core
+disable tproxy & redir by default
+update default fake-ip-filter
+remove avx2 support for x86
+minor icon change (#1341)
+
+
+
+
+
+ Assets
+12
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+137
+ wwwxxx0402, xuhuanxxx, Tomkrier, CPerdst, Leemoon5, Iamyahyaw, hanwang-cn, accors, bqliang, 2487254995, and 127 more reacted with thumbs up emoji
+ 😄
+26
+ youtehub, GIogiolianG, hohotan, a982027400, HQXSTICK, 17864200114, Dragon1573, sweatpart, nimakhoshnoudfar, gd1214b, and 16 more reacted with laugh emoji
+ 🎉
+31
+ malikshi, Dragon1573, jsbsjsjbs, shiinarimo, zkquan555, GIogiolianG, CelerDesigner, hohotan, a982027400, hadifarnoud, and 21 more reacted with hooray emoji
+ ❤️
+13
+ nimakhoshnoudfar, gd1214b, gooduc, wwxghh, FredMan95, qcind, iJayscn, Eglusaxie, cmmss, vaguetock, and 3 more reacted with heart emoji
+ 🚀
+9
+ 00grezt, gd1214b, wwxghh, qcind, c137king2dog, cmmss, vaguetock, mrnxdzgghh, and BitCrab00 reacted with rocket emoji
+ 👀
+29
+ C0828, shiinarimo, promisting, Evan-1999, youtehub, GIogiolianG, CelerDesigner, hohotan, ccdeTerry, a982027400, and 19 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+137 reactions
+
+
+😄
+26 reactions
+
+
+🎉
+31 reactions
+
+
+❤️
+13 reactions
+
+
+🚀
+9 reactions
+
+
+👀
+29 reactions
+
+
+
+
+
+ 168 people reacted
+
+
+
+
+
+
+
+v2.5.3
+
+
+
+
+      21 Nov 05:49    
+
+
+
+Kr328
+
+
+
+
+
+
+
+
+            v2.5.3
+          
+
+
+
+
+
+
+
+87f96b9
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v2.5.3
+Pre-release
+
+
+
+
+Pre-release
+
+
+
+
+
+
+
+
+fix bugs
+
+
+
+
+
+ Assets
+12
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+70
+ CyFeng16, Sauckey, Puqns67, xtellaris, mohamadkhalaj, Lpomoeabla, taamarin, a1101298599, Zhang21, adiprasetya, and 60 more reacted with thumbs up emoji
+ 😄
+19
+ nidaye233, Lpomoeabla, jonnylee221, adiprasetya, zhengzavan, Cherry-Ran, adityaphra, taamarin, ITKJ666, dakou5092, and 9 more reacted with laugh emoji
+ 🎉
+13
+ Lpomoeabla, Dragon1573, adiprasetya, zhengzavan, Viemean, AceBazzz, taamarin, ITKJ666, huihuishen, youtehub, and 3 more reacted with hooray emoji
+ ❤️
+16
+ Lpomoeabla, Dragon1573, zhengzavan, Cherry-Ran, taamarin, ITKJ666, kaiminz, dakou5092, chchoo, Julian666666, and 6 more reacted with heart emoji
+ 🚀
+15
+ Lpomoeabla, zhengzavan, Cherry-Ran, AceBazzz, taamarin, ITKJ666, dakou5092, wbmins, yang973, chchoo, and 5 more reacted with rocket emoji
+ 👀
+16
+ Lpomoeabla, zhengzavan, sunshaoyu, Hubedge, Cherry-Ran, dreamstation625, zccat, taamarin, ITKJ666, qinglang2145, and 6 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+70 reactions
+
+
+😄
+19 reactions
+
+
+🎉
+13 reactions
+
+
+❤️
+16 reactions
+
+
+🚀
+15 reactions
+
+
+👀
+16 reactions
+
+
+
+
+
+ 97 people reacted
+
+
+
+
+
+
+
+Previous 1 2 3 4 5 … 8 9 Next
+
+
+Previous Next
+
+
+
+
+
+
+
+
+
+Footer
+
+
+
+
+
+
+
+ 
+        © 2023 GitHub, Inc.
+        
+
+
+
+Footer navigation
+
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    You can’t perform that action at this time.
+  
+
+
+
+
+
+
+
