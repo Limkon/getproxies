@@ -60,5 +60,5 @@ if search_engine == "yandex":
     urls = urls_google + urls_yandex
 
 # 保存提取到的订阅地址到文件中
-with open("furls", "a") as file:
+with open("read_urls", "a") as file:
     file.write("\n".join(urls) + "\n")
