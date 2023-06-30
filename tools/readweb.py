@@ -10,18 +10,44 @@ import json
 import yaml
 
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 
 
 def extract_content(url):
-    response = requests.get(url)
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        # 在此编写选择和提取页面内容的代码
-        # 例如：提取页面的文本内容
-        content = soup.get_text()
-        return content
-    else:
-        raise Exception(f"Failed to fetch content from URL: {url}")
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")  # 无界面模式
+    chrome_service = Service('/path/to/chromedriver')  # 指定 chromedriver 路径
+    driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
+
+    driver.get(url)
+    time.sleep(5)  # 等待页面加载完成，根据需要调整等待时间
+
+    content = ''
+
+    selectors = [
+        '#app',                 # ID 选择器
+        '.content',             # 类选择器
+        'div',                  # 元素选择器
+        '.my-class',            # 类选择器
+        '#my-id',               # ID 选择器
+        '[name="my-name"]',     # 属性选择器
+        '.my-parent .my-child', # 后代选择器
+    ]
+
+    for selector in selectors:
+        try:
+            element = driver.find_element(By.CSS_SELECTOR, selector)
+            content = element.get_attribute('innerText')
+            if content:
+                break
+        except Exception as e:
+            print(f"尝试通过选择器 {selector} 获取 {url} 内容失败：{str(e)}")
+
+    driver.quit()
+    return content
 
 
 def save_content(content, output_dir, url):
@@ -55,7 +81,6 @@ def process_url(url, output_dir, rest_urls_file):
             return f"处理 {url} 成功", None
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}", None
-
 
 def is_yaml(content):
     try:
