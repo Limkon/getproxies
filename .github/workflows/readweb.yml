@@ -37,8 +37,11 @@ jobs:
       - name: Remove non-alphanumeric URLs
         run: python ./tools/remove_non_alphanumeric_urls.py sec_urls
       
-      - name: Extract URLs
+      - name: 读取网页
         run: python ./tools/readweb.py sec_urls data 10
+        
+      - name: 分析网页
+        run: python ./tools/process_data.py data rest_urls
 
       - name: Commit and push changes
         run: |
