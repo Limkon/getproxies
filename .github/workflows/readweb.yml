@@ -27,7 +27,7 @@ jobs:
       - name: 检查结果目录
         run: |         
           if [ ! -d "data" ]; then
-            mkdir bata
+            mkdir data
           fi
   
       - name: Remove duplicate URLs
