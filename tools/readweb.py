@@ -13,7 +13,31 @@ def extract_content(url):
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
-        # 在此编写选择和提取页面内容的代码
+
+        # 尝试不同的选择器
+        selectors = [
+            '#app',                 # ID 选择器
+            '.content',             # 类选择器
+            'div',                  # 元素选择器
+            '.my-class',            # 类选择器
+            '#my-id',               # ID 选择器
+            '[name="my-name"]',     # 属性选择器
+            '.my-parent .my-child', # 后代选择器
+        ]
+
+        for selector in selectors:
+            try:
+                element = soup.select_one(selector)
+                if element:
+                    content = element.get_text()
+                    return content
+            except Exception as e:
+                print(f"尝试通过选择器 {selector} 获取 {url} 内容失败：{str(e)}")
+
+        # 如果所有选择器都失败，则执行自定义的处理方法
+        print(f"所有选择器都无法获取 {url} 的内容，将执行自定义代码")
+
+        # 在此编写自定义的处理方法来选择和提取页面内容
         # 例如：提取页面的文本内容
         content = soup.get_text()
         return content
@@ -33,8 +57,11 @@ def save_content(content, output_dir, url):
 def process_url(url, output_dir):
     try:
         content = extract_content(url)
-        save_content(content, output_dir, url)
-        return f"处理 {url} 成功"
+        if content:
+            save_content(content, output_dir, url)
+            return f"处理 {url} 成功"
+        else:
+            return f"处理 {url} 失败：无法提取内容"
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}"
 
