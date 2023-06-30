@@ -50,7 +50,7 @@ jobs:
         run: python ./tools/readweb.py rest_urls data 10
         
       - name: 生成订阅
-        run: python ./tools/process_vpn.py ./share/rest.txt
+        run: python ./tools/process_vpn.py data ./share/rest.txt
 
       - name: Commit and push changes
         run: |
