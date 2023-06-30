@@ -44,5 +44,11 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Add extracted URLs"
-          git push
+
+          # 检查工作树是否有更改
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Add extracted URLs"
+            git push
+          else
+            echo "No changes to commit. Skipping commit and push."
+          fi
