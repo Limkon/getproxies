@@ -52,6 +52,9 @@ jobs:
       - name: 生成订阅
         run: python ./tools/process_vpn.py data ./share/rest.txt
         
+      - name: Remove non-alphanumeric URLs
+        run: python ./tools/remove_non_alphanumeric_urls.py ./share/rest.txt
+        
       - name: Remove duplicate vpn
         run: python ./tools/remove_duplicates.py ./share/rest.txt
 
