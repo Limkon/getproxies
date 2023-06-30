@@ -38,7 +38,7 @@ jobs:
         run: python ./tools/remove_non_alphanumeric_urls.py sec_urls
       
       - name: Extract URLs
-        run: python ./tools/readweb.py sec_urls data 10 rest_urls
+        run: python ./tools/readweb.py sec_urls data 10
 
       - name: Commit and push changes
         run: |
