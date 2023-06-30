@@ -52,7 +52,8 @@ jobs:
           # 检查工作树是否有更改
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Add extracted URLs"
-            git push
+            git pull --rebase origin master
+            git push origin master
           else
             echo "No changes to commit. Skipping commit and push."
           fi
