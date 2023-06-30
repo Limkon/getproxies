@@ -8,6 +8,7 @@ import concurrent.futures
 import base64
 import json
 import yaml
+import urllib.parse
 
 from bs4 import BeautifulSoup
 
@@ -15,6 +16,7 @@ from bs4 import BeautifulSoup
 def extract_content(url):
     response = requests.get(url)
     if response.status_code == 200:
+        response.encoding = 'utf-8'  # 指定编码
         soup = BeautifulSoup(response.text, 'html.parser')
         # 在此编写选择和提取页面内容的代码
         # 例如：提取页面的文本内容
@@ -29,7 +31,7 @@ def save_content(content, output_dir, url):
     url_without_protocol = re.sub(r'^(https?://)', '', url)
     file_name = os.path.join(output_dir, re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol) + "_" + date + ".txt")
     with open(file_name, 'w', encoding='utf-8') as file:
-        file.write(content)
+        file.write(content.encode('utf-8'))  # 编码内容
     print(f"网站 {url} 内容已保存至文件：{file_name}")
     return file_name
 
@@ -54,7 +56,9 @@ def process_url(url, output_dir, rest_urls_file):
             save_links(extracted_urls, rest_urls_file)
             return f"处理 {url} 成功", None
     except Exception as e:
-        return f"处理 {url} 失败：{str(e)}", None
+        # 对链接进行编码，将非ASCII字符转换为URL安全的格式
+        encoded_url = urllib.parse.quote(url, safe='')
+        return f"处理 {encoded_url} 失败：{str(e)}", None
 
 
 def is_yaml(content):
@@ -93,7 +97,7 @@ def extract_links(content):
 def save_links(urls, rest_urls_file):
     with open(rest_urls_file, 'a', encoding='utf-8') as file:
         for url in urls:
-            file.write(url + '\n')
+            file.write(url.encode('utf-8') + b'\n')  # 编码链接
 
 
 def process_urls(urls, output_dir, num_threads, rest_urls_file):
