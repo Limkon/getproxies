@@ -42,6 +42,7 @@ jobs:
         #./tools/readweb.py sec_urls data 10
         #./tools/readweb.py rest_urls data 10
         #./tools/process_data.py data rest_urls
+        #./tools/process_vpn.py data ./share/rest.txt
 
       
       - name: Commit and push changes
