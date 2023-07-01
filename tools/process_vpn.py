@@ -1,88 +1,74 @@
 import os
-import re
-import sys
-import time
-import datetime
-import requests
-import concurrent.futures
 import base64
-
-from bs4 import BeautifulSoup
-
-
-def extract_content(url):
-    response = requests.get(url)
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        content = soup.get_text()
-        return content
-    else:
-        raise Exception(f"Failed to fetch content from URL: {url}")
+import socket
+import yaml
+import sys
 
 
-def save_content(content, output_dir, url, file_name):
-    file_path = os.path.join(output_dir, file_name)
-    with open(file_path, 'a', encoding='utf-8') as file:
-        file.write(content + '\n')
-    print(f"网站 {url} 内容已保存至文件：{file_path}")
+def convert_json_to_v2ray(json_data):
+    # 转换 JSON 数据为 V2Ray（Vmess）格式
+    pass
 
 
-def process_url(url, output_dir, file_name):
-    try:
-        time.sleep(2)  # 等待页面加载
-        content = extract_content(url)
-        if content:
-            if re.match(r'^(vmess://|clash://|ss://|vlss://|trojan://)', content.strip()):
-                save_content(content, output_dir, url, file_name)
-                return f"处理 {url} 完成"
-            else:
-                decoded_content = base64_decode(content)
-                if re.match(r'^(vmess://|clash://|ss://|vlss://|trojan://)', decoded_content.strip()):
-                    save_content(decoded_content, output_dir, url, file_name)
-                    return f"处理 {url} 完成"
+def convert_yaml_to_v2ray(yaml_data):
+    # 转换 YAML 数据为 V2Ray（Vmess）格式
+    pass
+
+
+# 获取命令行参数
+data_dir = sys.argv[1]  # 数据文件所在目录
+output_file = sys.argv[2]  # 结果保存文件路径
+
+# 读取数据文件列表
+data_files = os.listdir(data_dir)
+
+merged_content = []
+
+# 遍历数据文件，逐个检测内容并处理
+for file in data_files:
+    file_path = os.path.join(data_dir, file)
+    with open(file_path, "r") as f:
+        content = f.read()
+
+        if file.endswith(".json"):
+            # 如果是 JSON 文件，尝试将其转换为 V2Ray（Vmess）格式
+            try:
+                json_data = json.loads(content)
+                v2ray_servers = convert_json_to_v2ray(json_data)
+                merged_content.extend(v2ray_servers)
+            except Exception as e:
+                print(f"Error processing JSON file {file}: {str(e)}")
+        elif file.endswith(".yaml"):
+            # 如果是 YAML 文件，尝试将其转换为 V2Ray（Vmess）格式
+            try:
+                yaml_data = yaml.safe_load(content)
+                v2ray_servers = convert_yaml_to_v2ray(yaml_data)
+                merged_content.extend(v2ray_servers)
+            except Exception as e:
+                print(f"Error processing YAML file {file}: {str(e)}")
+        elif file.endswith(".txt"):
+            try:
+                # 尝试解密 Base64 编码的内容
+                decoded_content = base64.b64decode(content).decode()
+                merged_content.append(decoded_content)
+            except Exception as e:
+                # 内容不是 Base64 编码，继续检测是否符合特定格式
+                if content.startswith("vmess://") or content.startswith("clash://") or content.startswith(
+                        "ss://") or content.startswith("vlss://") or content.startswith("trojan://"):
+                    merged_content.append(content)
                 else:
-                    return f"URL {url} 的内容不符合特定格式，未进行保存操作"
-        return f"处理 {url} 完成"
-    except Exception as e:
-        return f"处理 {url} 失败：{str(e)}"
+                    # 内容既不是 Base64 编码也不符合特定格式，跳过该文件并打印错误信息
+                    print(
+                        f"Error processing file {file}: Content is neither Base64 encoded nor has a special format.")
+                    continue
+        else:
+            print(f"Warning: Unknown file type for file {file}")
 
+# 保存合并后的内容到文件
+os.makedirs(os.path.dirname(output_file), exist_ok=True)  # 创建保存目录（如果不存在）
 
-def base64_decode(content):
-    try:
-        decoded_content = base64.b64decode(content).decode('utf-8')
-        return decoded_content
-    except Exception:
-        return content
+with open(output_file, 'w') as file:
+    for data in merged_content:
+        file.write(data + '\n')
 
-
-def process_urls(urls, output_dir, file_name, num_threads):
-    with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
-        futures = [executor.submit(process_url, url, output_dir, file_name) for url in urls]
-
-        for future in concurrent.futures.as_completed(futures):
-            result = future.result()
-            if result:
-                print(result)
-
-
-def main():
-    if len(sys.argv) != 5:
-        print("请提供要抓取的 URL 列表文件名、保存提取内容的目录、文件名和线程数")
-        print("示例: python extract_urls.py urls.txt data output.txt 10")
-        sys.exit(1)
-
-    urls_file = sys.argv[1]  # 存储要抓取的 URL 列表的文件名
-    output_dir = sys.argv[2]  # 保存提取内容的目录
-    file_name = sys.argv[3]  # 文件名
-    num_threads = int(sys.argv[4])  # 线程数
-
-    with open(urls_file, 'r', encoding='utf-8') as file:
-        urls = [line.strip() for line in file]
-
-    process_urls(urls, output_dir, file_name, num_threads)
-
-    print('所有网站内容保存完成！')
-
-
-if __name__ == '__main__':
-    main()
+print("所有网站内容保存完成！")
