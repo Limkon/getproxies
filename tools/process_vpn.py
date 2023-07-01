@@ -1,20 +1,18 @@
 import os
-import re
-import sys
 import json
 import yaml
 import base64
 
 def convert_json_to_v2ray(json_data):
-    # 实现将 JSON 数据转换为 V2Ray（Vmess）格式的代码
-    v2ray_servers = []  # 存储转换后的 V2Ray（Vmess）链接
-    # 编写转换逻辑，将每个 JSON 数据转换为 V2Ray（Vmess）格式，并添加到 v2ray_servers 列表中
+    v2ray_servers = []
+    # 编写将 JSON 数据转换为 V2Ray（Vmess）格式的逻辑
+    # 将转换后的 V2Ray（Vmess）链接添加到 v2ray_servers 列表中
     return v2ray_servers
 
 def convert_yaml_to_v2ray(yaml_data):
-    # 实现将 YAML 数据转换为 V2Ray（Vmess）格式的代码
-    v2ray_servers = []  # 存储转换后的 V2Ray（Vmess）链接
-    # 编写转换逻辑，将每个 YAML 数据转换为 V2Ray（Vmess）格式，并添加到 v2ray_servers 列表中
+    v2ray_servers = []
+    # 编写将 YAML 数据转换为 V2Ray（Vmess）格式的逻辑
+    # 将转换后的 V2Ray（Vmess）链接添加到 v2ray_servers 列表中
     return v2ray_servers
 
 def process_file(file_path, merged_content):
@@ -22,7 +20,6 @@ def process_file(file_path, merged_content):
         content = file.read()
 
     if file_path.endswith(".json"):
-        # 如果是 JSON 文件，尝试将其转换为 V2Ray（Vmess）格式
         try:
             json_data = json.loads(content)
             v2ray_servers = convert_json_to_v2ray(json_data)
@@ -30,7 +27,6 @@ def process_file(file_path, merged_content):
         except Exception as e:
             print(f"Error processing JSON file {file_path}: {str(e)}")
     elif file_path.endswith(".yaml"):
-        # 如果是 YAML 文件，尝试将其转换为 V2Ray（Vmess）格式
         try:
             yaml_data = yaml.safe_load(content)
             v2ray_servers = convert_yaml_to_v2ray(yaml_data)
@@ -39,14 +35,13 @@ def process_file(file_path, merged_content):
             print(f"Error processing YAML file {file_path}: {str(e)}")
     elif file_path.endswith(".txt"):
         try:
-            # 尝试解密 Base64 编码的内容
             decoded_content = base64.b64decode(content).decode()
             merged_content.append(decoded_content)
         except Exception as e:
             print(f"Error decoding Base64 content in file {file_path}: {str(e)}")
 
 def process_files_in_directory(directory):
-    merged_content = []  # 存储所有转换后的内容
+    merged_content = []
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
         if os.path.isfile(file_path):
@@ -59,9 +54,9 @@ def main(data_directory, rest_urls_file):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-       print("请提供数据目录和 rest_urls 文件路径作为参数")
-       print("示例: python process_data.py data rest_urls.txt")
-       sys.exit(1)
+        print("请提供数据目录和 rest_urls 文件路径作为参数")
+        print("示例: python process_data.py data rest_urls.txt")
+        sys.exit(1)
 
     data_directory = sys.argv[1]
     rest_urls_file = sys.argv[2]
