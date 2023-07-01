@@ -57,6 +57,12 @@ jobs:
       - name: 读取网页
         run: python ./tools/readweb.py sec_urls data 10
         
+      - name: Remove duplicate URLs
+        run: python ./tools/remove_duplicates.py rest_urls
+        
+      - name: Remove non-alphanumeric URLs
+        run: python ./tools/remove_non_alphanumeric_urls.py rest_urls
+        
       - name: 分析网页
         run: python ./tools/process_data.py data rest_urls
         
@@ -66,7 +72,7 @@ jobs:
       - name: 生成订阅
         run: python ./tools/process_vpn.py data ./share/rest.txt
         
-      - name: Remove non-alphanumeric URLs
+      - name: Remove non-alphanumeric vpn
         run: python ./tools/remove_non_alphanumeric_urls.py ./share/rest.txt
         
       - name: Remove duplicate vpn
