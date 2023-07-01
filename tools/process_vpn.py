@@ -3,17 +3,6 @@ import base64
 import socket
 import yaml
 import sys
-import json
-
-def convert_json_to_v2ray(json_data):
-    # 实现将 JSON 转换为 V2Ray（Vmess）格式的逻辑
-    # ...
-    pass
-
-def convert_yaml_to_v2ray(yaml_data):
-    # 实现将 YAML 转换为 V2Ray（Vmess）格式的逻辑
-    # ...
-    pass
 
 def process_data_files(data_dir, output_file):
     # 读取数据文件列表
@@ -57,12 +46,10 @@ def process_data_files(data_dir, output_file):
                         merged_content.append(content)
                         os.remove(file_path)  # 删除原始文件
                     else:
-                        # 内容既不是 Base64 编码也不符合特定格式，跳过该文件并打印错误信息
+                        # 内容既不是 Base64 编码也不符合特定格式，删除该文件并打印错误信息
                         print(f"Error processing file {file}: Content is neither Base64 encoded nor has a special format.")
-                        continue
+                        os.remove(file_path)  # 删除不符合条件的文件
             else:
-                # 删除未知类型的文件
-                os.remove(file_path)
                 print(f"Warning: Unknown file type for file {file}")
 
     # 保存合并后的内容到文件
@@ -71,14 +58,9 @@ def process_data_files(data_dir, output_file):
         for content in merged_content:
             f.write(content + "\n")
 
-if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Please provide the data directory and the output file path as arguments.")
-        print("Example: python process_data.py data_dir output_file.txt")
-        sys.exit(1)
+# 通过命令行参数传递目录和保存文件名
+data_dir = sys.argv[1]  # 第一个命令行参数为目录
+output_file = sys.argv[2]  # 第二个命令行参数为保存文件名
 
-    data_dir = sys.argv[1]  # 数据目录路径作为第一个命令行参数
-    output_file = sys.argv[2]  # 输出文件路径作为第二个命令行参数
-
-    # 处理数据文件
-    process_data_files(data_dir, output_file)
+# 处理数据文件
+process_data_files(data_dir, output_file)
