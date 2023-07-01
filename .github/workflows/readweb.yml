@@ -33,6 +33,15 @@ jobs:
           if [ ! -d "share" ]; then
             mkdir share
           fi
+          
+      - name: 搜索订阅
+        id: search
+        run: |
+          declare -a search_queries=("节点订阅" "节点池2023" "VEMSS节点订阅")
+          for query in "${search_queries[@]}"; do
+            echo "Searching for: $query"
+            python ./tools/extract_urls.py "$query"
+          done
   
       - name: Remove duplicate URLs
         run: python ./tools/remove_duplicates.py sec_urls
