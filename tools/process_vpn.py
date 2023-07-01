@@ -4,57 +4,66 @@ import socket
 import yaml
 import sys
 import json
-import re
 
-def extract_server_info(content):
-    # 正则表达式模式匹配格式为 address:port:user_id:alter_id
-    pattern = r"(\S+):(\d+):(\S+):(\d+)"
-    match = re.search(pattern, content)
-    if match:
-        address = match.group(1)
-        port = match.group(2)
-        user_id = match.group(3)
-        alter_id = match.group(4)
+def convert_json_to_v2ray(json_data):
+    v2ray_servers = []
 
-        # 构造V2Ray（Vmess）格式的服务器配置
-        v2ray_server = {
-            "address": address,
-            "port": int(port),
-            "users": [
-                {
-                    "id": user_id,
-                    "alterId": int(alter_id)
-                }
-            ]
-        }
+    # 遍历 JSON 数据中的每个服务器
+    for server in json_data:
+        # 从服务器对象中提取地址、端口、用户ID和alterId等参数
+        address = server.get("address")
+        port = server.get("port")
+        user_id = server.get("user_id")
+        alter_id = server.get("alter_id")
 
-        return v2ray_server
-    else:
-        return None
+        # 构建 V2Ray（Vmess）格式的字符串
+        v2ray_server = f"vmess://{base64.b64encode(f'{address}:{port}/{user_id}:{alter_id}'.encode()).decode()}"
 
-def convert_to_v2ray(content):
-    # 尝试提取服务器信息并转换为V2Ray（Vmess）格式
-    server_info = extract_server_info(content)
-    if server_info:
-        v2ray_config = {
-            "v": "2",
-            "ps": "V2Ray Server",
-            "add": server_info["address"],
-            "port": server_info["port"],
-            "id": server_info["users"][0]["id"],
-            "aid": server_info["users"][0]["alterId"],
-            "net": "tcp",
-            "type": "none",
-            "host": "",
-            "path": "",
-            "tls": ""
-        }
+        v2ray_servers.append(v2ray_server)
 
-        v2ray_url = "vmess://" + base64.b64encode(json.dumps(v2ray_config).encode()).decode()
+    return v2ray_servers
 
-        return v2ray_url
-    else:
-        return None
+
+def convert_yaml_to_v2ray(yaml_data):
+    v2ray_servers = []
+
+    # 遍历 YAML 数据中的每个服务器
+    for server in yaml_data:
+        # 从服务器对象中提取地址、端口、用户ID和alterId等参数
+        address = server.get("address")
+        port = server.get("port")
+        user_id = server.get("user_id")
+        alter_id = server.get("alter_id")
+
+        # 构建 V2Ray（Vmess）格式的字符串
+        v2ray_server = f"vmess://{base64.b64encode(f'{address}:{port}/{user_id}:{alter_id}'.encode()).decode()}"
+
+        v2ray_servers.append(v2ray_server)
+
+    return v2ray_servers
+
+
+def convert_jsonl_to_v2ray(jsonl_data):
+    v2ray_servers = []
+
+    # 遍历 JSONL 数据中的每行数据
+    for line in jsonl_data:
+        # 解析 JSON 数据
+        json_data = json.loads(line)
+
+        # 从 JSON 数据中提取地址、端口、用户ID和alterId等参数
+        address = json_data.get("address")
+        port = json_data.get("port")
+        user_id = json_data.get("user_id")
+        alter_id = json_data.get("alter_id")
+
+        # 构建 V2Ray（Vmess）格式的字符串
+        v2ray_server = f"vmess://{base64.b64encode(f'{address}:{port}/{user_id}:{alter_id}'.encode()).decode()}"
+
+        v2ray_servers.append(v2ray_server)
+
+    return v2ray_servers
+
 
 def process_data_files(data_dir, output_file):
     # 读取数据文件列表
@@ -88,6 +97,16 @@ def process_data_files(data_dir, output_file):
                     # os.remove(file_path)  # 删除原始文件
                 except Exception as e:
                     print(f"Error processing YAML file {file}: {str(e)}")
+            elif file.endswith(".jsonl"):
+                # 如果是 JSONL 文件，尝试将其转换为 V2Ray（Vmess）格式
+                try:
+                    jsonl_data = content.splitlines()
+                    v2ray_servers = convert_jsonl_to_v2ray(jsonl_data)
+                    merged_content.extend(v2ray_servers)
+                    print(f"Processed JSONL file: {file}")
+                    # os.remove(file_path)  # 删除原始文件
+                except Exception as e:
+                    print(f"Error processing JSONL file {file}: {str(e)}")
             elif file.endswith(".txt"):
                 try:
                     # 尝试解密 Base64 编码的内容
@@ -96,10 +115,9 @@ def process_data_files(data_dir, output_file):
                     print(f"Processed Base64 file: {file}")
                     # os.remove(file_path)  # 删除原始文件
                 except Exception as e:
-                    # 内容不是 Base64 编码，尝试转换为V2Ray（Vmess）格式
-                    v2ray_url = convert_to_v2ray(content)
-                    if v2ray_url:
-                        merged_content.append(v2ray_url)
+                    # 内容不是 Base64 编码，继续检测是否符合特定格式
+                    if content.startswith("vmess://") or content.startswith("clash://") or content.startswith("ss://") or content.startswith("vlss://") or content.startswith("trojan://"):
+                        merged_content.append(content)
                         print(f"Processed special format file: {file}")
                         # os.remove(file_path)  # 删除原始文件
                     else:
