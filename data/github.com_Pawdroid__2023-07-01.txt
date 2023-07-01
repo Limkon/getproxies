@@ -508,7 +508,7 @@ You switched accounts on another tab or window. Reload to refresh your session.
  
 /
 
-shadowrocket_for_android
+Free-servers
 
 Public
 
@@ -525,7 +525,7 @@ Notifications
  
 
 Fork
-    21
+    308
 
 
 
@@ -534,7 +534,7 @@ Fork
 
 
           Star
- 312
+ 4.4k
   
 
 
@@ -546,14 +546,14 @@ Fork
 
 
 
-        A V2Ray client for Android, builtin lots of available servers, 安卓小火箭官方库，内置大量免费节点，欢迎下载体验。
+🚀 免费订阅地址，🚀 免费节点，🚀 6小时更新一次，共享节点，节点质量高可用，完全免费。免费clash订阅地址，免费翻墙、免费科学上网、免费梯子、免费ss/v2ray/trojan节点、谷歌商店、翻墙梯子。注意：目前进入官网需开启代理。
       
 
 
 
 
 
-shadowrocket.v2cross.com
+v2cross.com
 
 
 
@@ -561,13 +561,13 @@ shadowrocket.v2cross.com
 
 
 
-312
+4.4k
           stars
  
 
 
 
-21
+308
           forks
  
 
@@ -608,7 +608,7 @@ Code
 
 
 Pull requests
-0
+1
 
 
 
@@ -683,7 +683,7 @@ More
 
 
 
-Pawdroid/shadowrocket_for_android
+Pawdroid/Free-servers
 
 
 
@@ -798,7 +798,7 @@ branch
 
 
 
-8
+0
 tags
 
 
@@ -967,7 +967,7 @@ Latest commit
 
 Pawdroid
 
-Update README.md
+更新免费节点及订阅地址
 
 
 
@@ -978,19 +978,19 @@ Update README.md
 
 
 
-        c5aa68b
+        28af3bf
       
 
-Mar 26, 2023
+Jul 1, 2023
 
 
 
 
 
-Update README.md
+更新免费节点及订阅地址
 
 
-c5aa68b
+28af3bf
 
 
 
@@ -1002,7 +1002,7 @@ Git stats
 
 
 
-8
+11,376
 
                       commits
                     
@@ -1042,11 +1042,47 @@ README.md
 
 
 
-Update README.md
+更新免费节点及订阅地址
 
 
 
-March 27, 2023 03:03
+July 1, 2023 19:00
+
+
+
+
+
+
+
+
+
+sub
+
+
+
+更新免费节点及订阅地址
+
+
+
+July 1, 2023 19:00
+
+
+
+
+
+
+
+
+
+sub.png
+
+
+
+更新免费节点及订阅地址
+
+
+
+September 27, 2022 18:34
 
 
 
@@ -1068,11 +1104,27 @@ March 27, 2023 03:03
 
 
 
-shadowrocket_for_android
-Downloads
-Website
-Free servers
-ShadowShare for iOS
+
+
+
+免费节点及订阅地址：
+本页面由某人实时手动挨个节点测速，但不同地区运营商网络仍有差异，可能会有超时节点。
+节点列表：(这里仅展示部分节点，查看全部节点请下载app)
+上方节点（部分）永久订阅地址：https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+建议国内iOS用户及早 App Store下载 留存，可能会在未来的某个时间下架
+Clash、SS等客户端订阅地址一键转换：
+V2ray/SSR安卓苹果手机/电脑客户端下载
+V2Ray客户端下载
+Windows7/8/10-V2ray WinPC电脑客户端程序下载
+Android/小米MIUI/华为EMUI-V2ray安卓手机客户端Apk程序下载
+MacOS-V2ray 苹果电脑客户端程序下载
+Linux–V2ray Ubuntu/Centos电脑客户端程序下载
+iOS-V2ray苹果手机客户端App程序下载
+ShadowsocksR/SSR客户端下载
+Windows7/8/10-SSR小飞机 WinPC电脑客户端程序下载
+Android/小米MIUI/华为EMUI-SSR小飞机 安卓手机客户端Apk程序下载
+MacOS-SSR小飞机 苹果电脑客户端程序下载
+iOS-SSR小飞机 苹果手机客户端App程序下载
 
 
 
@@ -1083,21 +1135,59 @@ README.md
 
 
 
-shadowrocket_for_android
-A V2Ray client for Android, builtin lots of available servers
-Downloads
-app-shadowrocket-arm64-v8a-release.apk
-app-shadowrocket-armeabi-v7a-release.apk
-app-shadowrocket-x86-release.apk
-app-shadowrocket-x86_64-release.apk
-Website
-https://shadowrocket.v2cross.com
-Free servers
-Update every 6 hours
+免费节点及订阅地址：
 
-https://v2cross.com/archives/1884
-ShadowShare for iOS
-https://shadowshare.v2cross.com
+优质节点每天实时测速更新，6小时更新一次
+
+本页面由某人实时手动挨个节点测速，但不同地区运营商网络仍有差异，可能会有超时节点。
+
+吃饭->睡觉->测节点。
+
+节点列表：(这里仅展示部分节点，查看全部节点请下载app)
+trojan://32068eda-adad-431a-bfd4-2f7d4c73507c@163.123.192.60:443?peer=download.xn--mes358aby2apfg.com&tfo=1#%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM
+trojan://32068eda-adad-431a-bfd4-2f7d4c73507c@pqawsjp02.gsjc.cfd:443?peer=18-140-66-207.nhost.00cdn.com&tfo=1#%E7%BE%8E%E5%9B%BD+Xerox
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTgyODJcdTcwYjkiLCAiYWRkIjogImNmNS52cG42Ni5ldS5vcmciLCAicG9ydCI6IDgwODAsICJpZCI6ICI1ZjA5ODAyOC1lYTIyLTQyZWEtYWJmZC05MjIyY2IyOThiNzQiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogInZjZXUudnBuNjYuZXUub3JnIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTgyODJcdTcwYjkiLCAiYWRkIjogImNmLWx0LnNoYXJlY2VudHJlLm9ubGluZSIsICJwb3J0IjogIjgwODAiLCAiaWQiOiAiM2Q4Mjc0ZDMtYTk3Ny00YmMyLWE0NjEtODA4Njk2M2FhZmMwIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJzc3JzdWIudjAxLnNzcnN1Yi5jb20iLCAicGF0aCI6ICIvYXBpL3YzL2Rvd25sb2FkLmdldEZpbGUiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+trojan://32068eda-adad-431a-bfd4-2f7d4c73507c@pqawsjp03.gsjc.cfd:443?peer=18-140-66-207.nhost.00cdn.com&tfo=1#%E6%96%B0%E5%8A%A0%E5%9D%A1+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
+trojan://4b526505-3de3-4cb4-8f99-70b65adea09f@sg1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen:12025?type=tcp&sni=rfetch.yektanet.net&allowInsecure=1#%E6%96%B0%E5%8A%A0%E5%9D%A1+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
+vmess://eyJhZGQiOiAiMTM3LjE3NS4yOS4zMyIsICJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIFYyQ1JPU1MuQ09NIiwgInBvcnQiOiA1Mzk4NiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICIxMjkuMTUxLjIxNi41MCIsICJwb3J0IjogODAsICJpZCI6ICJlMmNhYTUyZC0xN2VhLTMyMzEtYTQxMS1jNTQzZjhhNjUzNGUiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogInY5LWR5Lml4aWd1YS5jb20iLCAicGF0aCI6ICIvdjJyYXkiLCAidGxzIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU1MzU3XHU5NzVlIFYyQ1JPU1MuQ09NIiwgImFkZCI6ICIxNTYuMjI1LjY3LjIzNCIsICJwb3J0IjogIjQ4MTIzIiwgImlkIjogIjkzNTAzZGQ1LTI0NWEtNGViMS1hZTJhLTU3YWI5ZjJiM2MyOSIsICJhaWQiOiAiNjQiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJcdWQ4M2NcdWRkZjNcdWQ4M2NcdWRkZjFOTFx1ODM3N1x1NTE3MCh5b3V0dWJlXHU5NjNmXHU0ZjFmXHU3OWQxXHU2MjgwMikiLCAicGF0aCI6ICIvIiwgInRscyI6ICIiLCAic25pIjogIiJ9
+vmess://eyJhZGQiOiAiMTcwLjE3OC4xNjIuMTM3IiwgInYiOiAiMiIsICJwcyI6ICJcdTdmOGVcdTU2ZmQgXHU1MmEwXHU1MjI5XHU3OThmXHU1YzNjXHU0ZTlhXHU1ZGRlXHU2ZDFiXHU2NzQ5XHU3N2Y2U2hhcmt0ZWNoXHU2NTcwXHU2MzZlXHU0ZTJkXHU1ZmMzIiwgInBvcnQiOiA1MTIxNywgImlkIjogIjI4ZGQ2YzI2LTA1YTUtNGJiYS04YTVkLTA1MmI3MGFjMTNiMiIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+
+上方节点（部分）永久订阅地址：https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+上方订阅地址二维码
+
+更多节点、免费订阅地址及订阅转换请下载本站提供的共享节点app软件ShadowShare导出节点使用，支持iOS、Android下载，Android用户建议直接使用shadowrocket for android安卓小火箭，内置所有免费节点。
+建议国内iOS用户及早 App Store下载 留存，可能会在未来的某个时间下架
+
+Clash、SS等客户端订阅地址一键转换：
+SS/SSR/V2ray客户端若无法直接使用SSR节点链接，用下面链接的工具转换成订阅地址后，SSR/SSD/Surge/Quantum/Surfboard/Loon等手机、电脑的客户端就可以使用了：
+https://acl4ssr-sub.github.io
+V2ray/SSR安卓苹果手机/电脑客户端下载
+V2Ray客户端下载
+最新版V2ray Windows客户端、V2ray安卓客户端、苹果电脑V2ray MacOS客户端和苹果手机V2ray iOS客户端以及V2ray Linux客户端下载链接也一并送上。
+Windows7/8/10-V2ray WinPC电脑客户端程序下载
+V2rayN下载官网下载V2rayW下载官网下载Clash下载官网下载V2rayS下载官网下载Mellow下载官网下载Qv2ray下载官网下载
+Android/小米MIUI/华为EMUI-V2ray安卓手机客户端Apk程序下载
+V2rayNG下载官网下载安卓小火箭下载官网下载BifrostV下载市场下载Clash下载官网下载Kitsunebi下载市场下载
+MacOS-V2ray 苹果电脑客户端程序下载
+V2rayU下载官网下载V2rayX下载官网下载ClashX下载官网下载
+Linux–V2ray Ubuntu/Centos电脑客户端程序下载
+Qv2ray下载官网下载Mellow下载官网下载V2rayL下载官方安装文档
+iOS-V2ray苹果手机客户端App程序下载
+苹果AppStore市场里还没有免费的V2ray iOS客户端，付费的app目前有小火箭Shadowrocket、pepi、i2Ray、Kitsunebi和Quantumult（圈儿，圈叉）可用。
+ShadowsocksR/SSR客户端下载
+ShadowsocksR简称SSR，还有酸酸乳、粉色小飞机、纸飞机这些可爱的昵称，使用较为广泛。
+整理了最新版SSR Windows客户端、SSR安卓客户端、苹果电脑SSR MacOS客户端和苹果手机SSR iOS客户端的下载地址分享给大家。
+Windows7/8/10-SSR小飞机 WinPC电脑客户端程序下载
+官网下载
+Android/小米MIUI/华为EMUI-SSR小飞机 安卓手机客户端Apk程序下载
+官网下载
+MacOS-SSR小飞机 苹果电脑客户端程序下载
+官网下载
+iOS-SSR小飞机 苹果手机客户端App程序下载
+iPhone或者iPad打开苹果App Store，搜索Mume(暮梅)、Potatso Lite、FastSocks、Shadowrocket（小火箭）。
 
 
 
@@ -1109,27 +1199,36 @@ https://shadowshare.v2cross.com
 
 About
 
-      A V2Ray client for Android, builtin lots of available servers, 安卓小火箭官方库，内置大量免费节点，欢迎下载体验。
+🚀 免费订阅地址，🚀 免费节点，🚀 6小时更新一次，共享节点，节点质量高可用，完全免费。免费clash订阅地址，免费翻墙、免费科学上网、免费梯子、免费ss/v2ray/trojan节点、谷歌商店、翻墙梯子。注意：目前进入官网需开启代理。
     
 
 
 
 
 
-shadowrocket.v2cross.com
+v2cross.com
 
 
 Topics
 
 
 
-  android
+  client
 
 
-  proxy
+  socket
 
 
-  proxypool
+  google
+
+
+  shadowsocks
+
+
+  trojan
+
+
+  clash
 
 
   v2ray
@@ -1138,13 +1237,34 @@ Topics
   shadowrocket
 
 
-  gfw
+  vmess
 
 
   ss
 
 
+  fq
+
+
+  fanqiang
+
+
+  tizi
+
+
+  vless
+
+
+  xtls
+
+
+  freefq
+
+
   free-servers
+
+
+  shadowshare
 
 
 
@@ -1164,7 +1284,7 @@ Stars
 
 
 
-312
+4.4k
     stars
 
 Watchers
@@ -1173,7 +1293,7 @@ Watchers
 
 
 
-13
+100
     watching
 
 Forks
@@ -1182,7 +1302,7 @@ Forks
 
 
 
-21
+308
     forks
 
 
@@ -1196,24 +1316,8 @@ Forks
 
 
     Releases
-      8
 
-
-
-
-
-
-
-10.6.0
-
-          Latest
- 
-Mar 26, 2023
-
- 
-
-        + 7 releases
-
+No releases published
 
 
 
@@ -1225,12 +1329,6 @@ Mar 26, 2023
 
 
         No packages published 
-
-
-
-
-
-
 
 
 
