@@ -100,7 +100,7 @@ def process_data_files(data_dir, output_file):
             elif file.endswith(".jsonl"):
                 # 如果是 JSONL 文件，尝试将其转换为 V2Ray（Vmess）格式
                 try:
-                    jsonl_data = content.splitlines()
+                    jsonl_data = content.strip().split("\n")
                     v2ray_servers = convert_jsonl_to_v2ray(jsonl_data)
                     merged_content.extend(v2ray_servers)
                     print(f"Processed JSONL file: {file}")
