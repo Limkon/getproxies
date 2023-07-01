@@ -69,6 +69,10 @@ jobs:
         
       - name: Remove duplicate vpn
         run: python ./tools/base64_encode.py ./share/rest.txt encoded
+        
+      - name: 清除 data 目录
+        run: |
+          find data/ -type f -exec rm {} +
 
       - name: Commit and push changes
         run: |
