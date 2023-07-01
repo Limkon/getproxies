@@ -2,6 +2,7 @@ import requests
 import random
 import os
 from bs4 import BeautifulSoup
+import sys
 
 def extract_subscription_urls(search_query, search_engine):
     if search_engine == "google":
@@ -35,30 +36,40 @@ def extract_subscription_urls(search_query, search_engine):
 
     return subscription_urls
 
+# 保存提取到的订阅地址到文件中，封装成一个函数，并接收文件名作为参数
+def save_urls_to_file(urls, file_name):
+    with open(file_name, "a") as file:  # 注意，这里使用 "a" 模式来追加内容到文件
+        file.write("\n".join(urls) + "\n")
+
 # 从环境变量中获取搜索关键字和搜索引擎
 search_query = os.getenv("SEARCH_QUERY", "订阅节点")
-search_engine = os.getenv("SEARCH_ENGINE", "google")  # 默认设置为"google"
+search_engine = os.getenv("SEARCH_ENGINE", "google")  # 默认设置为 "google"
 
-# 使用Google搜索并随机调整请求头信息
+# 获取保存文件名的命令行参数
+if len(sys.argv) > 1:
+    file_name = sys.argv[1]
+else:
+    file_name = "sec_urls"  # 如果未提供文件名参数，则使用默认文件名 "sec_urls"
+
+# 使用 Google 搜索并随机调整请求头信息
 if search_engine == "google":
     urls_google = extract_subscription_urls(search_query, "google")
     print("Google Search Results:")
     for url in urls_google:
         print(url)
 
-    # 将搜索引擎设置为"yandex"，继续执行搜索
+    # 将搜索引擎设置为 "yandex"，继续执行搜索
     search_engine = "yandex"
 
-# 使用yandex搜索并随机调整请求头信息
+# 使用 Yandex 搜索并随机调整请求头信息
 if search_engine == "yandex":
     urls_yandex = extract_subscription_urls(search_query, "yandex")
-    print("yandex Search Results:")
+    print("Yandex Search Results:")
     for url in urls_yandex:
         print(url)
 
-    # 合并Google和yandex的结果
+    # 合并 Google 和 Yandex 的结果
     urls = urls_google + urls_yandex
 
-# 保存提取到的订阅地址到文件中
-with open("sec_urls", "a") as file:
-    file.write("\n".join(urls) + "\n")
+    # 保存提取到的订阅地址到文件中，调用保存函数并传入文件名参数
+    save_urls_to_file(urls, file_name)
