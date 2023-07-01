@@ -39,8 +39,10 @@ def process_url(url, output_dir, file_name):
                     decoded_content = base64.b64decode(content).decode('utf-8')
                     if re.match(r'^(vmess://|clash://|ss://|vlss://|trojan://)', decoded_content.strip()):
                         save_content(decoded_content, output_dir, url, file_name)
+                    else:
+                        save_content(content, output_dir, url, file_name)
                 except Exception:
-                    pass
+                    save_content(content, output_dir, url, file_name)
         return f"处理 {url} 完成"
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}"
