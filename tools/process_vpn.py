@@ -58,10 +58,12 @@ def main(data_directory):
     # 执行后续操作，如保存到文件或进行其他处理
 
 if __name__ == '__main__':
-    if len(sys.argv) != 4:
+    if len(sys.argv) != 3:
        print("请提供数据目录和 rest_urls 文件路径作为参数")
        print("示例: python process_data.py data rest_urls.txt")
        sys.exit(1)
 
     data_directory = sys.argv[1]
-    main(data_directory)
+    rest_urls_file = sys.argv[2]
+    
+   main(data_directory, rest_urls_file)
