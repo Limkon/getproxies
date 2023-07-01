@@ -34,10 +34,12 @@ def process_url(url, output_dir, file_name):
         if content:
             if re.match(r'^(vmess://|clash://|ss://|vlss://|trojan://)', content.strip()):
                 save_content(content, output_dir, url, file_name)
+                return f"处理 {url} 完成"
             else:
                 decoded_content = base64_decode(content)
                 if re.match(r'^(vmess://|clash://|ss://|vlss://|trojan://)', decoded_content.strip()):
                     save_content(decoded_content, output_dir, url, file_name)
+                    return f"处理 {url} 完成"
                 else:
                     return f"URL {url} 的内容不符合特定格式，未进行保存操作"
         return f"处理 {url} 完成"
