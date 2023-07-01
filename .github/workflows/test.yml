@@ -26,6 +26,7 @@ jobs:
           pip install requests
           pip install pyyaml
           pip install python-magic
+          pip install magi
      
       - name: 检查结果目录
         run: |         
