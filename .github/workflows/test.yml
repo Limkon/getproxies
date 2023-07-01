@@ -26,11 +26,10 @@ jobs:
           pip install requests
           pip install pyyaml
      
-      - name: Test
+      - name: test
         id: search
-        run: |
-          python ./tools/process_vpn.py data ./share/rest.txt
-          done
+        run: python ./tools/process_vpn.py data ./share/rest.txt
+
       
       - name: Commit and push changes
         run: |
