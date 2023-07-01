@@ -29,8 +29,9 @@ def extract_content(url):
             try:
                 element = soup.select_one(selector)
                 if element:
-                    content = element.get_text()
-                    return content
+                    title = element.select_one('h1.title').get_text().strip()  # 选择标题
+                    content = element.select_one('.content').get_text().strip()  # 选择正文内容
+                    return title, content
             except Exception as e:
                 print(f"尝试通过选择器 {selector} 获取 {url} 内容失败：{str(e)}")
 
@@ -38,33 +39,31 @@ def extract_content(url):
         print(f"所有选择器都无法获取 {url} 的内容，将执行自定义代码")
 
         # 在此编写自定义的处理方法来选择和提取页面内容
-        # 例如：提取页面的文本内容
-        content = soup.get_text()
-        return content
+        # 例如：提取页面的标题和正文内容
+        title = soup.select_one('h1.title').get_text().strip()  # 选择标题
+        content = soup.select_one('.content').get_text().strip()  # 选择正文内容
+        return title, content
     else:
         raise Exception(f"Failed to fetch content from URL: {url}")
 
 
-def save_content(content, output_dir, url):
+def save_content(title, content, output_dir, url):
     date = datetime.datetime.now().strftime('%Y-%m-%d')
     url_without_protocol = re.sub(r'^(https?://)', '', url)
     url_without_protocol = re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)
     url_without_protocol = url_without_protocol[:20]  # 限制文件名长度不超过20个字符
     file_name = os.path.join(output_dir, url_without_protocol + "_" + date + ".txt")
     with open(file_name, 'w', encoding='utf-8') as file:
-        file.write(content)
+        file.write(f"Title: {title}\n\n{content}")
     print(f"网站 {url} 内容已保存至文件：{file_name}")
 
 
 def process_url(url, output_dir):
     try:
         time.sleep(2)  # 等待页面加载
-        content = extract_content(url)
-        if content:
-            save_content(content, output_dir, url)
-            return f"处理 {url} 成功"
-        else:
-            return f"处理 {url} 失败：无法提取内容"
+        title, content = extract_content(url)
+        save_content(title, content, output_dir, url)
+        return f"处理 {url} 成功"
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}"
 
