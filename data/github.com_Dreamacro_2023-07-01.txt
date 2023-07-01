@@ -1,0 +1,2894 @@
+
+
+Skip to content
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+            Sign up
+          
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Product
+        
+
+
+
+
+
+
+
+
+
+
+
+
+Actions
+        Automate any workflow
+      
+
+
+
+
+
+
+
+Packages
+        Host and manage packages
+      
+
+
+
+
+
+
+
+Security
+        Find and fix vulnerabilities
+      
+
+
+
+
+
+
+
+Codespaces
+        Instant dev environments
+      
+
+
+
+
+
+
+
+Copilot
+        Write better code with AI
+      
+
+
+
+
+
+
+
+Code review
+        Manage code changes
+      
+
+
+
+
+
+
+
+Issues
+        Plan and track work
+      
+
+
+
+
+
+
+
+Discussions
+        Collaborate outside of code
+      
+
+
+
+
+Explore
+
+
+
+      All features
+
+    
+
+
+
+      Documentation
+
+    
+
+
+
+
+
+      GitHub Skills
+
+    
+
+
+
+
+
+      Blog
+
+    
+
+
+
+
+
+
+
+
+
+        Solutions
+        
+
+
+
+
+
+For
+
+
+
+      Enterprise
+
+    
+
+
+
+      Teams
+
+    
+
+
+
+      Startups
+
+    
+
+
+
+      Education
+
+    
+
+
+
+
+
+
+By Solution
+
+
+
+      CI/CD & Automation
+
+    
+
+
+
+      DevOps
+
+    
+
+
+
+
+
+      DevSecOps
+
+    
+
+
+
+
+
+
+Case Studies
+
+
+
+      Customer Stories
+
+    
+
+
+
+      Resources
+
+    
+
+
+
+
+
+
+
+
+
+        Open Source
+        
+
+
+
+
+
+
+
+
+
+GitHub Sponsors
+        Fund open source developers
+      
+
+
+
+
+
+
+
+
+The ReadME Project
+        GitHub community articles
+      
+
+
+
+
+Repositories
+
+
+
+      Topics
+
+    
+
+
+
+      Trending
+
+    
+
+
+
+      Collections
+
+    
+
+
+
+
+
+
+Pricing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+No suggested jump to results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this user
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+ 
+
+
+
+
+              Sign in
+            
+
+
+              Sign up
+            
+
+
+
+
+
+
+
+
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Dreamacro
+ 
+/
+
+clash
+
+Public
+
+
+
+
+
+ 
+
+Notifications
+
+
+
+ 
+
+Fork
+    5.7k
+
+
+
+
+ 
+
+
+          Star
+ 43.9k
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Code
+
+
+
+
+
+
+
+Issues
+65
+
+
+
+
+
+
+Pull requests
+6
+
+
+
+
+
+
+Actions
+
+
+
+
+
+
+
+Projects
+0
+
+
+
+
+
+
+Wiki
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Insights
+
+
+
+ 
+ 
+
+
+
+More
+
+
+ 
+
+
+                  Code
+ 
+
+
+                  Issues
+ 
+
+
+                  Pull requests
+ 
+
+
+                  Actions
+ 
+
+
+                  Projects
+ 
+
+
+                  Wiki
+ 
+
+
+                  Security
+ 
+
+
+                  Insights
+ 
+
+
+
+
+
+
+
+Releases: Dreamacro/clash
+
+
+
+
+Releases
+Tags
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Releases · Dreamacro/clash
+
+
+v1.17.0
+
+
+
+
+      30 Jun 13:15    
+
+
+
+github-actions
+
+
+
+
+
+
+
+
+            v1.17.0
+          
+
+
+
+
+
+
+
+24186a4
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v1.17.0
+Latest
+
+
+
+
+Latest
+
+
+
+
+
+
+
+Feature
+
+add loong64 build (#2762) @znley
+add REDIRECT IPv6 support for FreeBSD (#2768) @yonas
+
+Change
+
+add alive for proxy api
+refactor find process (#2781) @Kr328
+replace std regex with regexp2 (#2802) @dyf991645
+
+Bugfixes
+
+filterable provider should be touch
+aysnc exchange with new context (#2788) @kamingchan
+proxy health check should check not alive proxy on lazy
+
+Document
+Thanks @BirkhoffLee @Akariln @a76yyyy for document improve
+New Contributors
+
+@Akariln made their first contribution in #2761
+@a76yyyy made their first contribution in #2763
+@znley made their first contribution in #2762
+@yonas made their first contribution in #2768
+@dyf991645 made their first contribution in #2802
+
+Full Changelog: v1.16.0...v1.17.0
+
+ 
+Contributors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    yonas, BirkhoffLee, and 6 other contributors
+  
+
+
+
+ Assets
+29
+
+ 
+
+
+ 
+
+
+
+
+clash-darwin-amd64-v1.17.0.gz
+
+ 
+3.86 MB
+2023-06-30T13:15:13Z
+
+ 
+
+
+
+
+clash-darwin-amd64-v3-v1.17.0.gz
+
+ 
+3.86 MB
+2023-06-30T13:15:13Z
+
+ 
+
+
+
+
+clash-darwin-arm64-v1.17.0.gz
+
+ 
+3.68 MB
+2023-06-30T13:15:13Z
+
+ 
+
+
+
+
+clash-freebsd-386-v1.17.0.gz
+
+ 
+3.51 MB
+2023-06-30T13:15:13Z
+
+ 
+
+
+
+
+clash-freebsd-amd64-v1.17.0.gz
+
+ 
+3.72 MB
+2023-06-30T13:15:13Z
+
+ 
+
+
+
+
+clash-freebsd-amd64-v3-v1.17.0.gz
+
+ 
+3.71 MB
+2023-06-30T13:15:13Z
+
+ 
+
+
+
+
+clash-freebsd-arm64-v1.17.0.gz
+
+ 
+3.36 MB
+2023-06-30T13:15:13Z
+
+ 
+
+
+
+
+clash-linux-386-v1.17.0.gz
+
+ 
+3.61 MB
+2023-06-30T13:15:13Z
+
+ 
+
+
+
+
+clash-linux-amd64-v1.17.0.gz
+
+ 
+3.81 MB
+2023-06-30T13:15:13Z
+
+ 
+
+
+
+
+clash-linux-amd64-v3-v1.17.0.gz
+
+ 
+3.81 MB
+2023-06-30T13:15:13Z
+
+ 
+
+
+
+
+Source code
+(zip)
+ 
+2023-06-30T13:03:58Z
+
+ 
+
+
+
+
+Source code
+(tar.gz)
+ 
+2023-06-30T13:03:58Z
+
+ 
+    Show all 29 assets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+9
+ turtleqiu, msshn, ShadowUser17, xue-lei, chromer030, Roshbach, Zero-Yi7, kamingchan, and GUANXINPENG reacted with thumbs up emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+9 reactions
+
+
+
+
+
+ 9 people reacted
+
+
+
+
+
+
+
+v1.16.0
+
+
+
+
+      19 May 14:07    
+
+
+
+github-actions
+
+
+
+
+
+
+
+
+            v1.16.0
+          
+
+
+
+
+
+
+
+d006b0f
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v1.16.0
+
+
+
+
+
+
+
+
+
+
+
+Feature
+
+support basic authentication for DoH (#2684) @damnever
+add provider proxies API (#2668) @yaling888
+support IPSET rule (#2693) @major1201
+new documentation site (#2723) @BirkhoffLee
+
+https://dreamacro.github.io/clash/
+
+
+
+Bugfixes
+
+adjust DNS TTL values based on minimum value (#2706) @KaitoHH
+potential token time attack, thanks @porcupineyhairs report
+PacketConn's internal remote address is overwritten (#2727) @Hackerl
+
+New Contributors
+
+@damnever made their first contribution in #2684
+@major1201 made their first contribution in #2693
+@georeth made their first contribution in #2711
+@KaitoHH made their first contribution in #2706
+@Hackerl made their first contribution in #2727
+
+Full Changelog: v1.15.1...v1.16.0
+
+ 
+Contributors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    major1201, georeth, and 6 other contributors
+  
+
+
+
+ Assets
+28
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+32
+ chromer030, ShadowUser17, IceCodeNew, Starry-OvO, xiangdongping999, hinak0, msshn, vaycore, D3ZOXY, xue-lei, and 22 more reacted with thumbs up emoji
+ 🎉
+8
+ xue-lei, Caishangqi, war-ning, ziqiang-wang, liyuhaos, BinuiL, ahmaduxui, and encodery reacted with hooray emoji
+ ❤️
+8
+ D3ZOXY, xue-lei, veeyoung, Caishangqi, war-ning, ziqiang-wang, ahmaduxui, and encodery reacted with heart emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+32 reactions
+
+
+🎉
+8 reactions
+
+
+❤️
+8 reactions
+
+
+
+
+
+ 35 people reacted
+
+
+
+
+
+
+
+v1.15.1
+
+
+
+
+      16 Apr 13:27    
+
+
+
+github-actions
+
+
+
+
+
+
+
+
+            v1.15.1
+          
+
+
+
+
+
+
+
+df61a58
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v1.15.1
+
+
+
+
+
+
+
+
+
+
+
+What's Changed
+
+for security reasons, the path of all providers of type: http cannot use path outer clash config path (~/.config/clash by default)  thanks @0xf4n9x for audit (#2680)
+
+New Contributors
+
+@0xf4n9x made their first contribution in #2680
+
+Full Changelog: v1.15.0...v1.15.1
+
+ 
+Contributors
+
+
+
+
+
+
+
+
+    0xf4n9x
+  
+
+
+
+ Assets
+28
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+28
+ sugarlemons, daaixx, raindownworld, Jia0201, ChowRex, noob408179557, shohoku3, xudaotutou, 37Zrh196, teanshawn, and 18 more reacted with thumbs up emoji
+ ❤️
+3
+ feiyuzhan, webPan, and Tfancy reacted with heart emoji
+ 🚀
+1
+ DingdingLuan reacted with rocket emoji
+ 👀
+59
+ ShadowUser17, RuiyuanWang, chromer030, chensir666, zyzy-csu, OpFi, GYF2003, CharonMac, 1528993321, 123liuxx, and 49 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+28 reactions
+
+
+❤️
+3 reactions
+
+
+🚀
+1 reaction
+
+
+👀
+59 reactions
+
+
+
+
+
+ 84 people reacted
+
+
+
+
+
+
+
+v1.15.0
+
+
+
+
+      13 Apr 13:03    
+
+
+
+github-actions
+
+
+
+
+
+
+
+
+            v1.15.0
+          
+
+
+
+
+
+
+
+8e05fbf
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v1.15.0
+
+
+
+
+
+
+
+
+
+
+
+Feature
+
+allow http outbound to set custom headers (#2647) @RommHui
+add filter option to proxy group (#2518) @yaling888
+bind socket to interface by native API on Windows (#2662) @yaling888
+
+Bugfixes
+
+potential panic in putMsgToCache (#2634) @lujjjh
+return pooled buffer when simple-obfs tls read error (#2643) @bdbai
+should always drop packet when handle UDP packet (#2659) @yaling888
+
+New Contributors
+
+@lujjjh made their first contribution in #2634
+@bdbai made their first contribution in #2643
+@RommHui made their first contribution in #2647
+
+Full Changelog: v1.14.0...v1.15.0
+
+ 
+Contributors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    lujjjh, bdbai, and 2 other contributors
+  
+
+
+
+ Assets
+28
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+3
+ msshn, spacexnasa, and aminuosi reacted with thumbs up emoji
+ ❤️
+5
+ UptonEdward, chromer030, msshn, spacexnasa, and Dragon1573 reacted with heart emoji
+ 👀
+4
+ ShadowUser17, ZWST, realth000, and 2731502523 reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+3 reactions
+
+
+❤️
+5 reactions
+
+
+👀
+4 reactions
+
+
+
+
+
+ 10 people reacted
+
+
+
+
+
+
+
+v1.14.0
+
+
+
+
+      18 Mar 12:32    
+
+
+
+github-actions
+
+
+
+
+
+
+
+
+            v1.14.0
+          
+
+
+
+
+
+
+
+d808576
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v1.14.0
+
+
+
+
+
+
+
+
+
+
+
+Feature
+
+support vmess 'zero' security (#2513) @fakeboboliu
+migration go1.20
+add meanDelay field on delay API.
+add support for dns search domains for A/AAAA (#2597) @jeff-an
+
+Change
+
+remove redir-host as config. since redir-host brings a lot of misunderstandings and problems (some of which are even hard to find). I decided to remove it. It is only used in the fake-ip-filter for a few domain name mappings. I know that it can be bypassed and "recovered" in fake-ip mode. If fake-ip-filter finds that it has been abused, I will delete the domain mapping mode completely.
+
+Bugfixes
+
+fix a fakeip udp bug, and you can try removing some of the fake-ip-filter lists for the game
+modify local ip to pass all test (#2595) @daveyuuuu
+
+New Contributors
+
+@daveyuuuu made their first contribution in #2595
+@jeff-an made their first contribution in #2597
+
+Full Changelog: v1.13.0...v1.14.0
+
+ 
+Contributors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    fakeboboliu, daveyuuuu, and jeff-an
+  
+
+
+
+ Assets
+28
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+42
+ chromer030, mahdibland, yangmour, wwxghh, bcaso, veeyoung, hinak0, horizonvc, ameaninglessname, easymoneypapi, and 32 more reacted with thumbs up emoji
+ 😄
+8
+ veeyoung, Wzzz-10086, AlphaCentauri71, Yingjianghong, lijianpeng0, Alexander-qiu, SJBGC-UP, and xjr353171020 reacted with laugh emoji
+ 🎉
+5
+ veeyoung, ameaninglessname, Yingjianghong, Misaki030112, and SJBGC-UP reacted with hooray emoji
+ ❤️
+5
+ veeyoung, ramroll, ameaninglessname, zhouxinghong, and SJBGC-UP reacted with heart emoji
+ 🚀
+9
+ veeyoung, April211, yourmake, songyongli, gaoqiangks, SJBGC-UP, li1234355, nonusg, and LLZ14 reacted with rocket emoji
+ 👀
+1
+ etoyz reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+42 reactions
+
+
+😄
+8 reactions
+
+
+🎉
+5 reactions
+
+
+❤️
+5 reactions
+
+
+🚀
+9 reactions
+
+
+👀
+1 reaction
+
+
+
+
+
+ 55 people reacted
+
+
+
+
+
+
+
+v1.13.0
+
+
+
+
+      29 Jan 11:02    
+
+
+
+github-actions
+
+
+
+
+
+
+
+
+            v1.13.0
+          
+
+
+
+
+
+
+
+58732ee
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v1.13.0
+
+
+
+
+
+
+
+
+
+
+
+Feature
+
+REDIRECT support IPv6 (#2473) @embeddedlove
+add dns query json API (/dns/query)
+
+response refer Google Public DNS and Cloudflare
+response without fakeip and hosts, can be used to debug dns issues
+
+
+add riscv64 build
+
+Change
+
+Since the previous udp fallback behavior caused a lot of troubles and problems, in this release, udp matching no longer performs fallback matching and drop packet by default. If you need this behavior, use the following configuration.
+
+experimental:
+  udp-fallback-match: true
+
+skip cache acme-challenge dns msg (#2469) @ffy
+
+Bugfixes
+
+drop UDP packet which mismatched destination for VMess (#2410) @ssz66666
+safeConnClose not working (#2463) @wwqgtxx
+immediately update provider file on startup when file modtime is outdated
+
+New Contributors
+
+@ssz66666 made their first contribution in #2410
+@igoogolx made their first contribution in #2470
+@ffy made their first contribution in #2469
+@embeddedlove made their first contribution in #2473
+@yaling888 made their first contribution in #2498
+
+Full Changelog: v1.12.0...v1.13.0
+
+ 
+Contributors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    wwqgtxx, ssz66666, and 4 other contributors
+  
+
+
+
+ Assets
+28
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+40
+ chromer030, Fndroid, char1iez, cubricmms, xue-lei, veeyoung, mahdibland, catmulti7, lieeew, SiaJeff, and 30 more reacted with thumbs up emoji
+ 🎉
+14
+ turtleqiu, yunyang088, ameaninglessname, cubricmms, xue-lei, NekoSilverFox, zhoukuncs, Zwchen1, Mazmots, good888666, and 4 more reacted with hooray emoji
+ 👀
+18
+ ShadowUser17, xue-lei, ssqdoit, cflhaha, zhoukuncs, caoyang9917, LmMax0, huhuhahaa, MoJoFan, Antibioticss, and 8 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+40 reactions
+
+
+🎉
+14 reactions
+
+
+👀
+18 reactions
+
+
+
+
+
+ 62 people reacted
+
+
+
+
+
+
+
+v1.12.0
+
+
+
+
+      25 Nov 12:54    
+
+
+
+github-actions
+
+
+
+
+
+
+
+
+            v1.12.0
+          
+
+
+
+
+
+
+
+ed988dc
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v1.12.0
+
+
+
+
+
+
+
+
+
+
+
+Feature
+
+add tunnels (like SSH local forwarding)
+
+tunnels:
+  # one line config
+  - tcp/udp,127.0.0.1:6553,114.114.114.114:53,proxy
+  - tcp,127.0.0.1:6666,rds.mysql.com:3306,vpn
+  # full yaml config
+  - network: [tcp, udp]
+    address: 127.0.0.1:7777
+    target: target.com
+    proxy: proxy
+Full Changelog: v1.11.12...v1.12.0
+
+
+
+
+ Assets
+27
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+33
+ PureWhite-RR, Gongjieee, ThreeAurora, zhuang1234, yizhongbear, ZXX-02, qjx321, ERR0RPR0MPT, NOPbb, gwo-001, and 23 more reacted with thumbs up emoji
+ 🎉
+34
+ arror, 1186443454, Ehco1996, lolnbalok, ilhaformosa, Nliver, DOGFranky, Slinet6056, Tomas-Lee, EXSPIRAVIT1104OFFICIAL, and 24 more reacted with hooray emoji
+ 🚀
+20
+ ionling, EXSPIRAVIT1104OFFICIAL, bittervan, Evavavava15132, YYJ324, fantasyfanwuren, liweijieatcs, cheldeblank, brahman001, LiuShiTong01, and 10 more reacted with rocket emoji
+ 👀
+23
+ ShadowUser17, aswifi, Nliver, DOGFranky, HellsingAshen, 1-1-2, EXSPIRAVIT1104OFFICIAL, scyphozoax, lvzhenbang, tcdym, and 13 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+33 reactions
+
+
+🎉
+34 reactions
+
+
+🚀
+20 reactions
+
+
+👀
+23 reactions
+
+
+
+
+
+ 92 people reacted
+
+
+
+
+
+
+
+v1.11.12
+
+
+
+
+      04 Nov 06:01    
+
+
+
+github-actions
+
+
+
+
+
+
+
+
+            v1.11.12
+          
+
+
+
+
+
+
+
+c246916
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v1.11.12
+
+
+
+
+
+
+
+
+
+
+
+Chore
+
+refactor Linux process resolving (#2305) @Kr328
+improve Dockerfile (#2246) @adriang-90
+update go.mod go version to 1.19 (#2331)
+
+Bugfixes
+
+fix fake ip pool offset calculated by (#2281) @Kr328
+URLTest fastSingle.Do() may cause providers to be untouched (#2378) @wwqgtxx
+macOS Ventura process name match
+
+New Contributors
+
+@x2c3z4 made their first contribution in #2284
+@adriang-90 made their first contribution in #2246
+@Roiocam made their first contribution in #2325
+
+Full Changelog: v1.11.8...v1.11.12
+
+ 
+Contributors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    wwqgtxx, x2c3z4, and 3 other contributors
+  
+
+
+
+ Assets
+27
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+23
+ text01001, Mosney, mj2068, aooohan, YHYJBPXR, yanggggjie, 1995parham, happytbs, Gzfyz, curtisrecords, and 13 more reacted with thumbs up emoji
+ 😄
+3
+ zhangpengdemen, xinebf, and SandroClinton reacted with laugh emoji
+ 🎉
+5
+ Mosney, its0x08, HsiYang506, zhangpengdemen, and xinebf reacted with hooray emoji
+ ❤️
+5
+ its0x08, Dkh58, HsiYang506, mj5219054, and yu-steven reacted with heart emoji
+ 🚀
+3
+ its0x08, aswifi, and HsiYang506 reacted with rocket emoji
+ 👀
+2
+ ipOu0 and ljh112 reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+23 reactions
+
+
+😄
+3 reactions
+
+
+🎉
+5 reactions
+
+
+❤️
+5 reactions
+
+
+🚀
+3 reactions
+
+
+👀
+2 reactions
+
+
+
+
+
+ 32 people reacted
+
+
+
+
+
+
+
+v1.11.8
+
+
+
+
+      26 Aug 13:37    
+
+
+
+github-actions
+
+
+
+
+
+
+
+
+            v1.11.8
+          
+
+
+
+
+
+
+
+2516169
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v1.11.8
+
+
+
+
+
+
+
+
+
+
+
+Chore
+
+update bug_report.yml (#2240) @archzi
+migration to go1.19
+reduce dhcp dns client cost
+
+Bugfixes
+
+query string parse on ws-opts (#2213) @LJea
+macOS udp connection find process should use an unspecified fallback
+ALPN should be on DoH instead of DoT (#2232) @Skyxim
+handle parse socks5 udp address correctly (#2220) @kamingchan
+satisfy RFC4343 - DNS case insensitivity (#2260) @fakeboboliu
+http2 should use DialTLSContext and some TLS handshake should with context
+
+Full Changelog: v1.11.4...v1.11.8
+
+ 
+Contributors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    fakeboboliu, kamingchan, and 3 other contributors
+  
+
+
+
+ Assets
+27
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+52
+ adityaphra, ShadowUser17, chromer030, spacexnasa, aswifi, yoophoon, narwhrl, Dajiang820, sunnybird, lceLCE, and 42 more reacted with thumbs up emoji
+ 😄
+12
+ Caaboe, JADE-2021, yu-steven, berg-1, xsjlmzs, qingdkj, SaiKAAA, WenZhiKun, kedvall, mj5219054, and 2 more reacted with laugh emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+52 reactions
+
+
+😄
+12 reactions
+
+
+
+
+
+ 58 people reacted
+
+
+
+
+
+
+
+v1.11.4
+
+
+
+
+      07 Jul 14:26    
+
+
+
+github-actions
+
+
+
+
+
+
+
+
+            v1.11.4
+          
+
+
+
+
+
+
+
+8c7c8f4
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v1.11.4
+
+
+
+
+
+
+
+
+
+
+
+Chore
+
+load-balance consistent hash needs to have a fallback strategy
+remove AddrType on Metadata (#2199)
+
+Bugfixes
+
+should unmap lAddr on tproxy udp listener
+proxy provider filter validation (#2198) @kamingchan
+fakeip logic improve (can help reduce the list of fake ip-filters, .e.g full-cone on Nintendo Switch network test)
+process rule type (#2206) @kamingchan
+
+Full Changelog: v1.11.0...v1.11.4
+
+ 
+Contributors
+
+
+
+
+
+
+
+
+    kamingchan
+  
+
+
+
+ Assets
+27
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+19
+ xizhesun, LinJinkang, gyup, allenwoode, williamcanon1, Devilsatan123, sspxiaolin, imzql, ShuJun-Junical, kunieone, and 9 more reacted with thumbs up emoji
+ 😄
+8
+ fyhzc, tarvfx, kongtaoxing, YaoFANGUK, hanjialeOK, williamcanon1, ShuJun-Junical, and Nebula9527 reacted with laugh emoji
+ ❤️
+6
+ EDK-Rise, hycao, Houjie80, williamcanon1, ShuJun-Junical, and lululoid reacted with heart emoji
+ 🚀
+5
+ williamcanon1, tohrux, liu-667, ShuJun-Junical, and agufan reacted with rocket emoji
+ 👀
+5
+ aswifi, Ricolxwz, lichanmao, Houjie80, and zlmsx reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+19 reactions
+
+
+😄
+8 reactions
+
+
+❤️
+6 reactions
+
+
+🚀
+5 reactions
+
+
+👀
+5 reactions
+
+
+
+
+
+ 36 people reacted
+
+
+
+
+
+
+
+Previous 1 2 3 4 5 6 Next
+
+
+Previous Next
+
+
+
+
+
+
+
+
+
+Footer
+
+
+
+
+
+
+
+ 
+        © 2023 GitHub, Inc.
+        
+
+
+
+Footer navigation
+
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    You can’t perform that action at this time.
+  
+
+
+
+
+
+
+

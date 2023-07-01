@@ -1,0 +1,2874 @@
+
+
+Skip to content
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+            Sign up
+          
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Product
+        
+
+
+
+
+
+
+
+
+
+
+
+
+Actions
+        Automate any workflow
+      
+
+
+
+
+
+
+
+Packages
+        Host and manage packages
+      
+
+
+
+
+
+
+
+Security
+        Find and fix vulnerabilities
+      
+
+
+
+
+
+
+
+Codespaces
+        Instant dev environments
+      
+
+
+
+
+
+
+
+Copilot
+        Write better code with AI
+      
+
+
+
+
+
+
+
+Code review
+        Manage code changes
+      
+
+
+
+
+
+
+
+Issues
+        Plan and track work
+      
+
+
+
+
+
+
+
+Discussions
+        Collaborate outside of code
+      
+
+
+
+
+Explore
+
+
+
+      All features
+
+    
+
+
+
+      Documentation
+
+    
+
+
+
+
+
+      GitHub Skills
+
+    
+
+
+
+
+
+      Blog
+
+    
+
+
+
+
+
+
+
+
+
+        Solutions
+        
+
+
+
+
+
+For
+
+
+
+      Enterprise
+
+    
+
+
+
+      Teams
+
+    
+
+
+
+      Startups
+
+    
+
+
+
+      Education
+
+    
+
+
+
+
+
+
+By Solution
+
+
+
+      CI/CD & Automation
+
+    
+
+
+
+      DevOps
+
+    
+
+
+
+
+
+      DevSecOps
+
+    
+
+
+
+
+
+
+Case Studies
+
+
+
+      Customer Stories
+
+    
+
+
+
+      Resources
+
+    
+
+
+
+
+
+
+
+
+
+        Open Source
+        
+
+
+
+
+
+
+
+
+
+GitHub Sponsors
+        Fund open source developers
+      
+
+
+
+
+
+
+
+
+The ReadME Project
+        GitHub community articles
+      
+
+
+
+
+Repositories
+
+
+
+      Topics
+
+    
+
+
+
+      Trending
+
+    
+
+
+
+      Collections
+
+    
+
+
+
+
+
+
+Pricing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+No suggested jump to results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this user
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        In this repository
+      
+
+        All GitHub
+      
+↵
+
+
+      Jump to
+      ↵
+
+
+
+
+
+
+ 
+
+
+
+
+              Sign in
+            
+
+
+              Sign up
+            
+
+
+
+
+
+
+
+
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Fndroid
+ 
+/
+
+clash_for_windows_pkg
+
+Public
+
+
+
+
+
+ 
+
+Notifications
+
+
+
+ 
+
+Fork
+    6.7k
+
+
+
+
+ 
+
+
+          Star
+ 57.2k
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Code
+
+
+
+
+
+
+
+Issues
+240
+
+
+
+
+
+
+Pull requests
+1
+
+
+
+
+
+
+Actions
+
+
+
+
+
+
+
+Wiki
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Insights
+
+
+
+ 
+ 
+
+
+
+More
+
+
+ 
+
+
+                  Code
+ 
+
+
+                  Issues
+ 
+
+
+                  Pull requests
+ 
+
+
+                  Actions
+ 
+
+
+                  Wiki
+ 
+
+
+                  Security
+ 
+
+
+                  Insights
+ 
+
+
+
+
+
+
+
+Releases: Fndroid/clash_for_windows_pkg
+
+
+
+
+Releases
+Tags
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Releases · Fndroid/clash_for_windows_pkg
+
+
+v 0.20.27
+
+
+
+
+      21 Jun 07:36    
+
+
+
+Fndroid
+
+
+
+
+
+
+
+
+            0.20.27
+          
+
+
+
+
+
+
+
+642010e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v 0.20.27
+Latest
+
+
+
+
+Latest
+
+
+
+
+
+
+
+
+Clash Core: Upgraded to the latest premium version (2023.6.21).
+Electron: Updated to v22.3.13.
+Proxy Name Color: Now turns red if status is not alive (last dial status).
+Fallback Group Sorting: Will not be sorted by Latency.
+Title Bar Icons: Fixed an issue occurring in fullscreen mode (issue #4322).
+Miscellaneous: Addressed and fixed various minor glitches.
+
+
+
+
+
+ Assets
+15
+
+ 
+
+
+ 
+
+
+
+
+Clash.for.Windows-0.20.27-arm64-linux.tar.gz
+
+ 
+105 MB
+2023-06-21T07:22:04Z
+
+ 
+
+
+
+
+Clash.for.Windows-0.20.27-arm64-mac.7z
+
+ 
+70.6 MB
+2023-06-21T07:22:04Z
+
+ 
+
+
+
+
+Clash.for.Windows-0.20.27-arm64-win.7z
+
+ 
+75.1 MB
+2023-06-21T07:31:12Z
+
+ 
+
+
+
+
+Clash.for.Windows-0.20.27-arm64.dmg
+
+ 
+105 MB
+2023-06-21T07:22:04Z
+
+ 
+
+
+
+
+Clash.for.Windows-0.20.27-ia32-win.7z
+
+ 
+70.6 MB
+2023-06-21T07:31:17Z
+
+ 
+
+
+
+
+Clash.for.Windows-0.20.27-mac.7z
+
+ 
+70.9 MB
+2023-06-21T07:22:04Z
+
+ 
+
+
+
+
+Clash.for.Windows-0.20.27-win.7z
+
+ 
+74.4 MB
+2023-06-21T07:31:30Z
+
+ 
+
+
+
+
+Clash.for.Windows-0.20.27-x64-linux.tar.gz
+
+ 
+106 MB
+2023-06-21T07:22:04Z
+
+ 
+
+
+
+
+Clash.for.Windows-0.20.27.dmg
+
+ 
+109 MB
+2023-06-21T07:27:04Z
+
+ 
+
+
+
+
+Clash.for.Windows.Setup.0.20.27.arm64.exe
+
+ 
+82 MB
+2023-06-21T07:27:07Z
+
+ 
+
+
+
+
+Source code
+(zip)
+ 
+2023-02-21T15:42:59Z
+
+ 
+
+
+
+
+Source code
+(tar.gz)
+ 
+2023-02-21T15:42:59Z
+
+ 
+    Show all 15 assets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+95
+ G6700SylveonM, Wster11, krisp7zz, Antisunny, 66622a, Tonyha7, ruleroller, jonm58, Linxiaoyib, Zbun, and 85 more reacted with thumbs up emoji
+ 😄
+6
+ caiysmy, zhouxinghong, YamazakuraH, JitangWan, faicaiwawa, and zfxkj reacted with laugh emoji
+ 🎉
+9
+ caiysmy, zhouxinghong, anak1st, Jack-Chou-HZ, JitangWan, cloudy-sfu, maxu94, wamjj, and gaoyang reacted with hooray emoji
+ ❤️
+12
+ caiysmy, zhouxinghong, touchfeeling, victoria-sun, AlexMao97, JitangWan, Tuanshan2012, MeTe-30, vlgd01, gyo6, and 2 more reacted with heart emoji
+ 🚀
+7
+ caiysmy, zhouxinghong, edfan1221, JitangWan, AlphaPike, fy-deng, and Tuanshan2012 reacted with rocket emoji
+ 👀
+21
+ superego1984, Nihillusion, RainyCheeseF, Lyn6969, xue-lei, Sauckey, real-jiakai, hqlak47, dibin666, yaozijin, and 11 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+95 reactions
+
+
+😄
+6 reactions
+
+
+🎉
+9 reactions
+
+
+❤️
+12 reactions
+
+
+🚀
+7 reactions
+
+
+👀
+21 reactions
+
+
+
+
+
+ 123 people reacted
+
+
+
+
+
+
+
+v 0.20.26
+
+
+
+
+      21 Jun 03:42    
+
+
+
+Fndroid
+
+
+
+
+
+
+
+
+            0.20.26
+          
+
+
+
+
+
+
+
+642010e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v 0.20.26
+
+
+
+
+
+
+
+
+
+
+
+
+Clash Core: Upgraded to the latest premium version (2023.6.21).
+Electron: Updated to v22.3.13.
+Proxy Name Color: Now turns red if status is not alive (last dial status).
+Fallback Group Sorting: Will not be sorted by Latency.
+Title Bar Icons: Fixed an issue occurring in fullscreen mode (issue #4322).
+Miscellaneous: Addressed and fixed various minor glitches.
+
+
+
+
+
+ Assets
+15
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+25
+ caiysmy, Yamooya, jonm58, dibin666, majiajin2043, real-jiakai, Zbun, Hazelnut3221, kongyiji666, ChnMig, and 15 more reacted with thumbs up emoji
+ 😄
+3
+ caiysmy, Lyn6969, and xue-lei reacted with laugh emoji
+ 🎉
+3
+ caiysmy, xue-lei, and 0Reed0 reacted with hooray emoji
+ ❤️
+3
+ caiysmy, Lyn6969, and xue-lei reacted with heart emoji
+ 🚀
+2
+ caiysmy and Lyn6969 reacted with rocket emoji
+ 👀
+3
+ caiysmy, zeturn, and dibin666 reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+25 reactions
+
+
+😄
+3 reactions
+
+
+🎉
+3 reactions
+
+
+❤️
+3 reactions
+
+
+🚀
+2 reactions
+
+
+👀
+3 reactions
+
+
+
+
+
+ 27 people reacted
+
+
+
+
+
+
+
+v 0.20.25
+
+
+
+
+      08 Jun 07:48    
+
+
+
+Fndroid
+
+
+
+
+
+
+
+
+            0.20.25
+          
+
+
+
+
+
+
+
+642010e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v 0.20.25
+
+
+
+
+
+
+
+
+
+
+
+
+update Clash Core to v2023.05.29 Premium
+improve SSID change detection logic
+support static port for PAC server(Windows)(#4411)
+fix Enhanced Tray foreground color not working issue(Windows)(#4280)
+cache filter keyword in Connections module(#4282)
+fix service mode plist typo(Linux)(#4495)
+fix some other glitches
+
+
+
+
+
+ Assets
+15
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+120
+ onemoon, Zbun, Sakuzy0, YRu97, dibin666, saozimian, duanmu01, JoJoTsui, lihentian1, amihi, and 110 more reacted with thumbs up emoji
+ 😄
+2
+ xk-mt and zhouxinghong reacted with laugh emoji
+ 🎉
+3
+ 134545, qcind, and xk-mt reacted with hooray emoji
+ ❤️
+14
+ AsciiP, gzy1216, Heguician44, AlexMao97, lemon546364, Skp2006, 12wumingyu, bibabo520, ewewewew1, Mekbo, and 4 more reacted with heart emoji
+ 🚀
+24
+ caiysmy, JohnCanny52, dbn7370, MreAtKC, xue-lei, sinosman, 159357jing, Cliviaminiata, binkyle, L95270823, and 14 more reacted with rocket emoji
+ 👀
+12
+ hezhenbiao, gzy1216, gsjhstriker, JohnConner-dot, xing-yv, lemon546364, bibabo520, ewewewew1, Mekbo, sayJJh, and 2 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+120 reactions
+
+
+😄
+2 reactions
+
+
+🎉
+3 reactions
+
+
+❤️
+14 reactions
+
+
+🚀
+24 reactions
+
+
+👀
+12 reactions
+
+
+
+
+
+ 142 people reacted
+
+
+
+
+
+
+
+v 0.20.24
+
+
+
+
+      26 May 03:21    
+
+
+
+Fndroid
+
+
+
+
+
+
+
+
+            0.20.24
+          
+
+
+
+
+
+
+
+642010e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v 0.20.24
+
+
+
+
+
+
+
+
+
+
+
+
+update Clash Core to v2023.05.19 Premium
+update Electron to v22.3.10
+support single lantency test for provider proxies
+add an icon prompt for SSID strategy matches in the General module
+exit full-screen mode first when the "esc" key is pressed (macOS)
+fix some other glitches
+
+
+
+
+
+ Assets
+15
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+104
+ wwxghh, SKIKKA, xue-lei, hehellooedas, NanFeng683, cjjcn, steve02081504, NagatoYuki0943, Sakuzy0, mugerzhu, and 94 more reacted with thumbs up emoji
+ 😄
+9
+ dongdong156, keviiince, wingsui, haxi0222, dctoash, lf-27, mamamamy, zimuyanghua, and lingjiamian reacted with laugh emoji
+ 🎉
+12
+ xue-lei, jonm58, MreAtKC, caiysmy, egvalley, ltsok11, smily0216, qiziqiang, haxi0222, dctoash, and 2 more reacted with hooray emoji
+ ❤️
+15
+ D3ZOXY, ltsok11, Omgise, egvalley, Feohn, caiysmy, smily0216, dongdong156, kevinhan08163com, ATCHIC, and 5 more reacted with heart emoji
+ 🚀
+3
+ zhenguo040303, Bibabu330, and mamamamy reacted with rocket emoji
+ 👀
+8
+ XiongFangzhou, Skyrainy-M, cloudnine79, notnemed, JoshuaQSH, LOnlyHaveCherryBlossomSnow, WuTianming, and szbest61 reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+104 reactions
+
+
+😄
+9 reactions
+
+
+🎉
+12 reactions
+
+
+❤️
+15 reactions
+
+
+🚀
+3 reactions
+
+
+👀
+8 reactions
+
+
+
+
+
+ 131 people reacted
+
+
+
+
+
+
+
+v 0.20.23
+
+
+
+
+      12 May 08:09    
+
+
+
+Fndroid
+
+
+
+
+
+
+
+
+            0.20.23
+          
+
+
+
+
+
+
+
+642010e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v 0.20.23
+
+
+
+
+
+
+
+
+
+
+
+
+add SSID Strategy
+avoid triggering the hiding of the dashboard when in full screen mode(macOS)
+fix the issue where the info toast is not fully displayed in certain situations.
+fix some other glitches
+
+
+
+
+
+ Assets
+15
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+94
+ turtleqiu, Sakuzy0, Zbun, wwxghh, AurLemon, zhuji423, Couponpon, Eliasinworld, pickk, Omgise, and 84 more reacted with thumbs up emoji
+ 🎉
+1
+ luckyriko reacted with hooray emoji
+ ❤️
+7
+ D3ZOXY, wdjun, heheda12345615, xue-lei, wangsirio, Wenhao-Yang, and coolcgp reacted with heart emoji
+ 🚀
+21
+ 100pangci, aswifi, isinglever, q552412, Cheney2333, Yvan9518, 1841900407, liveforscience10086, Luoyue2002, NeonBubbles, and 11 more reacted with rocket emoji
+ 👀
+32
+ bor45632, venken, arrayMi, mu-bibai, ElonEvans, TricGrizen, JonasLang-dev, ColinGG, eastice, 2274855, and 22 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+94 reactions
+
+
+🎉
+1 reaction
+
+
+❤️
+7 reactions
+
+
+🚀
+21 reactions
+
+
+👀
+32 reactions
+
+
+
+
+
+ 134 people reacted
+
+
+
+
+
+
+
+v 0.20.22
+
+
+
+
+      28 Apr 01:01    
+
+
+
+Fndroid
+
+
+
+
+
+
+
+
+            0.20.22
+          
+
+
+
+
+
+
+
+642010e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v 0.20.22
+
+
+
+
+
+
+
+
+
+
+
+
+updated Clash core to v2023.04.16 Premium
+support for side by side mode switch in Diff dialog
+using Ctrl + click on a link in the editor will open it in an external browser
+fix some other glitches
+
+
+
+
+
+ Assets
+15
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+106
+ Zbun, This-is-Y, Alaia1999, turtleqiu, Hazelnut3221, GhostCOD404, joostshao, real-jiakai, Aegean-smoke, ad19900913, and 96 more reacted with thumbs up emoji
+ 😄
+18
+ Javcil, wldssft, e1239efgbg, An-Luo-x, mxylayout, wwxghh, xue-lei, songqingawa, zimuyanghua, Yukikaze056, and 8 more reacted with laugh emoji
+ 🎉
+14
+ tasty-x, Illusionary2233, Jack-Chou-HZ, wldssft, e1239efgbg, An-Luo-x, mxylayout, wwxghh, xue-lei, zimuyanghua, and 4 more reacted with hooray emoji
+ ❤️
+6
+ weixuehao, Tianhui68, LongfeiWong, hb2cpc, QinShi-SHE, and D3ZOXY reacted with heart emoji
+ 🚀
+8
+ mxylayout, terrytwomail, zimuyanghua, weixuehao, liqiang134619, wangjianqiang794, LongfeiWong, and hb2cpc reacted with rocket emoji
+ 👀
+22
+ edfan1221, CALMorACT, wldssft, e1239efgbg, paryihij382, An-Luo-x, mxylayout, zimuyanghua, weixuehao, Mysteryexe, and 12 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+106 reactions
+
+
+😄
+18 reactions
+
+
+🎉
+14 reactions
+
+
+❤️
+6 reactions
+
+
+🚀
+8 reactions
+
+
+👀
+22 reactions
+
+
+
+
+
+ 135 people reacted
+
+
+
+
+
+
+
+v 0.20.21
+
+
+
+
+      14 Apr 02:22    
+
+
+
+Fndroid
+
+
+
+
+
+
+
+
+            0.20.21
+          
+
+
+
+
+
+
+
+642010e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v 0.20.21
+
+
+
+
+
+
+
+
+
+
+
+
+updated Clash core to v2023.04.13 Premium
+refactor the storage logic for selected proxies
+changed Linux tray icon to 32*32
+fix some other glitches
+
+
+
+
+
+ Assets
+15
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+145
+ MarkLily, zhouxinghong, 905273164, Lyn6969, xue-lei, Zbun, scdyysf, wwxghh, G6700SylveonM, ChnMig, and 135 more reacted with thumbs up emoji
+ 😄
+15
+ LeemH1998, zkskskzkzk, lebaishi123, woshiwangyilei, gentle-zh, excellentgxg, minishmily, Entershifttab, qrmd0, ColdClear, and 5 more reacted with laugh emoji
+ 🎉
+6
+ excellentgxg, Jack-Chou-HZ, Entershifttab, kevinsong924, simon-lemon, and carrotlss reacted with hooray emoji
+ ❤️
+15
+ zhouxinghong, Lyn6969, xue-lei, Rumirad64, Snow-Scenic, QxloveGood, woshiwangyilei, gentle-zh, excellentgxg, chenyixiang1996, and 5 more reacted with heart emoji
+ 🚀
+16
+ xue-lei, tsinglinrain, LeemH1998, hiYuzu, April211, woshiwangyilei, gentle-zh, SweetDianDian, excellentgxg, begonal, and 6 more reacted with rocket emoji
+ 👀
+30
+ xue-lei, Erminio-22, yanglyao0623, huangdi95, LayneHe, lonelywolf09, njq2210, woshiwangyilei, YYYGO135, excellentgxg, and 20 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+145 reactions
+
+
+😄
+15 reactions
+
+
+🎉
+6 reactions
+
+
+❤️
+15 reactions
+
+
+🚀
+16 reactions
+
+
+👀
+30 reactions
+
+
+
+
+
+ 176 people reacted
+
+
+
+
+
+
+
+v 0.20.20
+
+
+
+
+      07 Apr 03:06    
+
+
+
+Fndroid
+
+
+
+
+
+
+
+
+            0.20.20
+          
+
+
+
+
+
+
+
+642010e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v 0.20.20
+
+
+
+
+
+
+
+
+
+
+
+
+update Electron v22.3.5
+add Hide time-out proxies button in Proxies module
+add GUI Data Folder setting
+break connections when proxy changes in tray menu
+persist filter keyword in Proxies module
+fix some other glitches
+
+
+
+
+
+ Assets
+15
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+108
+ guosic, Sandu1213, Jrohy, wwxghh, cathimeko, WuJin99, Leon19960120, wxupjack, kaixinhu, deadmarshal, and 98 more reacted with thumbs up emoji
+ 😄
+2
+ maqingxi and 2345vor reacted with laugh emoji
+ 🎉
+8
+ turtleqiu, haikouwang, aminwork2023, xue-lei, chineseheroisinvincible, xingis, aik2mlj, and maqingxi reacted with hooray emoji
+ ❤️
+11
+ aminwork2023, Laygogogo, evil-lg, xingis, TG-GOD, Farteary, cxbgzsfx, duanjianan, maqingxi, D3ZOXY, and net6379 reacted with heart emoji
+ 🚀
+13
+ Jrohy, zhyoch, Type-Cargeing, KOF136, haydenzhourepo, haikouwang, arrayMi, aminwork2023, xue-lei, xingis, and 3 more reacted with rocket emoji
+ 👀
+9
+ UICalc, aminwork2023, CciOmy, xingis, gaoyiping, Christin-zyx, FanRen1227, Hahamanchen, and maqingxi reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+108 reactions
+
+
+😄
+2 reactions
+
+
+🎉
+8 reactions
+
+
+❤️
+11 reactions
+
+
+🚀
+13 reactions
+
+
+👀
+9 reactions
+
+
+
+
+
+ 129 people reacted
+
+
+
+
+
+
+
+v 0.20.19
+
+
+
+
+      24 Mar 06:05    
+
+
+
+Fndroid
+
+
+
+
+
+
+
+
+            0.20.19
+          
+
+
+
+
+
+
+
+642010e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v 0.20.19
+
+
+
+
+
+
+
+
+
+
+
+
+update Clash core to v2023.03.18 Premium
+add Settings - Proxies - Delay Type to enable Mean Delay
+add Reset DNS Settings dialog to allow for DNS resetting after TUN has been disabled (macOS)
+converted into the same path if there is a common path between file type and http type providers
+fix some other glitches
+
+
+
+
+
+ Assets
+15
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+149
+ JohnCanny52, wwxghh, DemoJameson, xue-lei, KoakiMiku, Zbun, Aric-Sun, Outis9, lansonlu, Gao032921, and 139 more reacted with thumbs up emoji
+ 😄
+5
+ huguohui, Joe-White-Darcy, SoulFlavor, jsrdzhk, and SJBGC-UP reacted with laugh emoji
+ 🎉
+7
+ CXwudi, fanlushuai, Finn-Neo, richardxrs, zhouxinghong, gerardsdu, and SJBGC-UP reacted with hooray emoji
+ ❤️
+14
+ fanlushuai, Finn-Neo, BUdetian, zhouxinghong, amihi, jasmineamber, iYarnFog, nulikkk, 331242455, breadmakerQQQ, and 4 more reacted with heart emoji
+ 🚀
+16
+ xue-lei, LinYi6, I-am-TonyWu, fanlushuai, April211, Finn-Neo, wangzishi, 624879027, zhouxinghong, kfyfz, and 6 more reacted with rocket emoji
+ 👀
+26
+ MarkLily, xue-lei, Erminio-22, LinYi6, Jack880520, Finn-Neo, YosakuraSakuya, GaisaiYuno, Afightingcoder, zhouxinghong, and 16 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+149 reactions
+
+
+😄
+5 reactions
+
+
+🎉
+7 reactions
+
+
+❤️
+14 reactions
+
+
+🚀
+16 reactions
+
+
+👀
+26 reactions
+
+
+
+
+
+ 191 people reacted
+
+
+
+
+
+
+
+v 0.20.18
+
+
+
+
+      10 Mar 02:45    
+
+
+
+Fndroid
+
+
+
+
+
+
+
+
+            0.20.18
+          
+
+
+
+
+
+
+
+642010e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This commit was created on GitHub.com and signed with GitHub’s verified signature.
+          
+
+
+GPG key ID: 4AEE18F83AFDEB23
+
+
+Learn about vigilant mode.
+        
+
+
+
+
+
+
+ Compare
+
+
+
+
+
+
+Choose a tag to compare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+ 
+
+
+v 0.20.18
+
+
+
+
+
+
+
+
+
+
+
+
+update Clash core to v2023.03.04 Premium
+add Script Test dialog
+prevent Enhanced Tray from re-rendering if there is no data change
+add a prompt to trust unknown certificate
+fix some other glitches
+
+
+
+
+
+ Assets
+15
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 👍
+172
+ Zbun, Hub-ChenSir, HS7097, AlstarWU, helperhui, wwxghh, null530, hoangpq, xue-lei, WZHNKSA, and 162 more reacted with thumbs up emoji
+ 😄
+14
+ JADE-2021, qyyyy09315, loveprogramlovepython, dakou5092, CAZOZO, Jriszz, Wzy19930507, LoveMyGitHub, memgwe, zsrrs2077, and 4 more reacted with laugh emoji
+ 🎉
+14
+ xue-lei, guoxinqing, loveprogramlovepython, qiziqiang, peacemo, dakou5092, whatcolor1234, Wzy19930507, jack80342, ZHY88888888, and 4 more reacted with hooray emoji
+ ❤️
+11
+ liliexuan, loveprogramlovepython, Ray70607, peacemo, dakou5092, DLF1794, alexrom1990, yuzhuangnan, ChiuMungZitAlexander, jack80342, and zhen345 reacted with heart emoji
+ 🚀
+13
+ xue-lei, DarwinVinciWKC, guoxinqing, maenna521, dakou5092, Abiwillam, fmanfeng, BlackSpacee, jack80342, vacasin1, and 3 more reacted with rocket emoji
+ 👀
+24
+ xue-lei, dayang123, tqz520, qyyyy09315, PerfumeANY, zkpmmtlza898, ACodeHX, hatajzh, CedarXia, Drk152, and 14 more reacted with eyes emoji
+
+
+ 
+All reactions
+
+
+
+
+👍
+172 reactions
+
+
+😄
+14 reactions
+
+
+🎉
+14 reactions
+
+
+❤️
+11 reactions
+
+
+🚀
+13 reactions
+
+
+👀
+24 reactions
+
+
+
+
+
+ 212 people reacted
+
+
+
+
+
+
+
+Previous 1 2 3 4 5 … 20 21 Next
+
+
+Previous Next
+
+
+
+
+
+
+
+
+
+Footer
+
+
+
+
+
+
+
+ 
+        © 2023 GitHub, Inc.
+        
+
+
+
+Footer navigation
+
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    You can’t perform that action at this time.
+  
+
+
+
+
+
+
+
