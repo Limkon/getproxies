@@ -59,9 +59,9 @@ def main(data_directory):
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:
-    print("请提供数据目录和 rest_urls 文件路径作为参数")
-    print("示例: python process_data.py data rest_urls.txt")
-    sys.exit(1)
+       print("请提供数据目录和 rest_urls 文件路径作为参数")
+       print("示例: python process_data.py data rest_urls.txt")
+       sys.exit(1)
 
     data_directory = sys.argv[1]
     main(data_directory)
