@@ -2,8 +2,7 @@ name: 测试
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 11 10,20,1 * *'
+  
 
 jobs:
   extract_urls:
@@ -38,7 +37,7 @@ jobs:
           
       - name: test
         id: search
-        run: python ./tools/process_vpn.py data ./share/rest.txt
+        run: python ./tools/process_vpn.py data ./share/rest.txt share
         
         #./tools/readweb.py sec_urls data 10
         #./tools/readweb.py rest_urls data 10
