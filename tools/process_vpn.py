@@ -4,6 +4,7 @@ import socket
 import yaml
 import sys
 import json
+import magi
 
 def convert_json_to_v2ray(json_data):
     v2ray_servers = []
@@ -24,45 +25,10 @@ def convert_json_to_v2ray(json_data):
     return v2ray_servers
 
 
-def convert_yaml_to_v2ray(yaml_data):
-    v2ray_servers = []
-
-    # 遍历 YAML 数据中的每个服务器
-    for server in yaml_data:
-        # 从服务器对象中提取地址、端口、用户ID和alterId等参数
-        address = server.get("address")
-        port = server.get("port")
-        user_id = server.get("user_id")
-        alter_id = server.get("alter_id")
-
-        # 构建 V2Ray（Vmess）格式的字符串
-        v2ray_server = f"vmess://{base64.b64encode(f'{address}:{port}/{user_id}:{alter_id}'.encode()).decode()}"
-
-        v2ray_servers.append(v2ray_server)
-
-    return v2ray_servers
-
-
-def convert_jsonl_to_v2ray(jsonl_data):
-    v2ray_servers = []
-
-    # 遍历 JSONL 数据中的每行数据
-    for line in jsonl_data:
-        # 解析 JSON 数据
-        json_data = json.loads(line)
-
-        # 从 JSON 数据中提取地址、端口、用户ID和alterId等参数
-        address = json_data.get("address")
-        port = json_data.get("port")
-        user_id = json_data.get("user_id")
-        alter_id = json_data.get("alter_id")
-
-        # 构建 V2Ray（Vmess）格式的字符串
-        v2ray_server = f"vmess://{base64.b64encode(f'{address}:{port}/{user_id}:{alter_id}'.encode()).decode()}"
-
-        v2ray_servers.append(v2ray_server)
-
-    return v2ray_servers
+def get_file_type(file_path):
+    mime = magic.Magic(mime=True)
+    file_type = mime.from_file(file_path)
+    return file_type
 
 
 def process_data_files(data_dir, output_file):
@@ -77,7 +43,8 @@ def process_data_files(data_dir, output_file):
         with open(file_path, "r") as f:
             content = f.read()
 
-            if file.endswith(".json"):
+            file_type = get_file_type(file_path)
+            if file_type == 'application/json':
                 # 如果是 JSON 文件，尝试将其转换为 V2Ray（Vmess）格式
                 try:
                     json_data = json.loads(content)
@@ -87,7 +54,7 @@ def process_data_files(data_dir, output_file):
                     # os.remove(file_path)  # 删除原始文件
                 except Exception as e:
                     print(f"Error processing JSON file {file}: {str(e)}")
-            elif file.endswith(".yaml"):
+            elif file_type == 'text/plain':
                 # 如果是 YAML 文件，尝试将其转换为 V2Ray（Vmess）格式
                 try:
                     yaml_data = yaml.safe_load(content)
@@ -97,7 +64,7 @@ def process_data_files(data_dir, output_file):
                     # os.remove(file_path)  # 删除原始文件
                 except Exception as e:
                     print(f"Error processing YAML file {file}: {str(e)}")
-            elif file.endswith(".jsonl"):
+            elif file_type == 'application/x-jsonlines':
                 # 如果是 JSONL 文件，尝试将其转换为 V2Ray（Vmess）格式
                 try:
                     jsonl_data = content.strip().split("\n")
@@ -107,7 +74,7 @@ def process_data_files(data_dir, output_file):
                     # os.remove(file_path)  # 删除原始文件
                 except Exception as e:
                     print(f"Error processing JSONL file {file}: {str(e)}")
-            elif file.endswith(".txt"):
+            elif file_type == 'text/plain' or file_type == 'application/octet-stream':
                 try:
                     # 尝试解密 Base64 编码的内容
                     decoded_content = base64.b64decode(content).decode()
