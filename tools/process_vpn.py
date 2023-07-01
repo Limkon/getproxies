@@ -10,9 +10,11 @@ def get_file_type(file_path):
     file_type = mime.from_file(file_path)
     return file_type
 
-def process_data_files(data_dir, output_dir, v2ray_dir):
+def process_data_files(data_dir, output_dir, rest_file):
     # 创建保存目录（如果不存在）
     os.makedirs(output_dir, exist_ok=True)
+
+    rest_content = []
 
     # 遍历数据文件，逐个检测内容并处理
     for file in os.listdir(data_dir):
@@ -38,19 +40,15 @@ def process_data_files(data_dir, output_dir, v2ray_dir):
                     # 尝试解密 Base64 编码的内容
                     decoded_content = base64.b64decode(content).decode()
 
-                    # 保存解密后的内容到文件
-                    new_file_path = os.path.join(v2ray_dir, file)
-                    with open(new_file_path, "w") as new_file:
-                        new_file.write(decoded_content)
+                    # 将解密后的内容追加保存到 rest.txt 文件中
+                    rest_content.append(decoded_content)
 
                     print(f"Processed Base64 file: {file}")
                 except Exception as e:
                     # 内容不是 Base64 编码，继续检测是否符合特定格式
                     if content.startswith(("vmess://", "clash://", "ss://", "vlss://", "trojan://")):
-                        # 保存特定格式的内容到文件
-                        new_file_path = os.path.join(v2ray_dir, file)
-                        with open(new_file_path, "w") as new_file:
-                            new_file.write(content)
+                        # 将特定格式的内容追加保存到 rest.txt 文件中
+                        rest_content.append(content)
 
                         print(f"Processed special format file: {file}")
                     else:
@@ -60,14 +58,19 @@ def process_data_files(data_dir, output_dir, v2ray_dir):
             else:
                 print(f"Warning: Unknown file type for file {file}")
 
+    # 将 rest.txt 文件保存到指定目录
+    with open(os.path.join(output_dir, rest_file), "a") as rest:
+        for content in rest_content:
+            rest.write(content + "\n")
+
 # 通过命令行参数传递目录和保存目录
 if len(sys.argv) < 4:
-    print("Usage: python convert.py <data_directory> <output_directory> <v2ray_directory>")
+    print("Usage: python convert.py <data_directory> <output_directory> <rest_file>")
     sys.exit(1)
 
 data_dir = sys.argv[1]  # 第一个命令行参数为数据目录
 output_dir = sys.argv[2]  # 第二个命令行参数为保存目录
-v2ray_dir = sys.argv[3]  # 第三个命令行参数为 V2Ray 文件保存目录
+rest_file = sys.argv[3]  # 第三个命令行参数为保存的 rest.txt 文件名
 
 # 处理数据文件
-process_data_files(data_dir, output_dir, v2ray_dir)
+process_data_files(data_dir, output_dir, rest_file)
