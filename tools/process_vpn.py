@@ -3,6 +3,17 @@ import base64
 import socket
 import yaml
 import sys
+import json
+
+def convert_json_to_v2ray(json_data):
+    # 实现将 JSON 转换为 V2Ray（Vmess）格式的逻辑
+    # ...
+    pass
+
+def convert_yaml_to_v2ray(yaml_data):
+    # 实现将 YAML 转换为 V2Ray（Vmess）格式的逻辑
+    # ...
+    pass
 
 def process_data_files(data_dir, output_file):
     # 读取数据文件列表
@@ -22,6 +33,7 @@ def process_data_files(data_dir, output_file):
                     json_data = json.loads(content)
                     v2ray_servers = convert_json_to_v2ray(json_data)
                     merged_content.extend(v2ray_servers)
+                    os.remove(file_path)  # 删除原始文件
                 except Exception as e:
                     print(f"Error processing JSON file {file}: {str(e)}")
             elif file.endswith(".yaml"):
@@ -30,6 +42,7 @@ def process_data_files(data_dir, output_file):
                     yaml_data = yaml.safe_load(content)
                     v2ray_servers = convert_yaml_to_v2ray(yaml_data)
                     merged_content.extend(v2ray_servers)
+                    os.remove(file_path)  # 删除原始文件
                 except Exception as e:
                     print(f"Error processing YAML file {file}: {str(e)}")
             elif file.endswith(".txt"):
@@ -37,15 +50,19 @@ def process_data_files(data_dir, output_file):
                     # 尝试解密 Base64 编码的内容
                     decoded_content = base64.b64decode(content).decode()
                     merged_content.append(decoded_content)
+                    os.remove(file_path)  # 删除原始文件
                 except Exception as e:
                     # 内容不是 Base64 编码，继续检测是否符合特定格式
                     if content.startswith("vmess://") or content.startswith("clash://") or content.startswith("ss://") or content.startswith("vlss://") or content.startswith("trojan://"):
                         merged_content.append(content)
+                        os.remove(file_path)  # 删除原始文件
                     else:
                         # 内容既不是 Base64 编码也不符合特定格式，跳过该文件并打印错误信息
                         print(f"Error processing file {file}: Content is neither Base64 encoded nor has a special format.")
                         continue
             else:
+                # 删除未知类型的文件
+                os.remove(file_path)
                 print(f"Warning: Unknown file type for file {file}")
 
     # 保存合并后的内容到文件
