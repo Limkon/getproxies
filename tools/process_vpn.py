@@ -4,7 +4,7 @@ import socket
 import yaml
 import sys
 import json
-import magi
+import magic
 
 def convert_json_to_v2ray(json_data):
     v2ray_servers = []
