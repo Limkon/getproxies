@@ -33,7 +33,7 @@ def is_base64_encoded(content):
 
 def extract_links(content):
     # 使用正则表达式提取链接
-    links = re.findall(r'(https?://\S+)', content)
+    links = re.findall(r'https?://\S+', content)
     return links
 
 def process_file(file_path, rest_urls_file):
