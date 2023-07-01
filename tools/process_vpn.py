@@ -68,7 +68,7 @@ if len(sys.argv) < 4:
     print("Usage: python convert.py <data_directory> <output_directory> <rest_file>")
     sys.exit(1)
 
-data_dir = sys.argv[1]  # 第一个命令行参数为数据目录
+data_dir = sys.argv[1]  # 第一个命令行参数为目录
 output_dir = sys.argv[2]  # 第二个命令行参数为保存目录
 rest_file = sys.argv[3]  # 第三个命令行参数为保存的 rest.txt 文件名
 
