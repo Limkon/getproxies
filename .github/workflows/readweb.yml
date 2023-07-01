@@ -45,7 +45,7 @@ jobs:
           declare -a search_queries=("节点订阅" "节点池2023" "Free proxies")
           for query in "${search_queries[@]}"; do
             echo "Searching for: $query"
-            python ./tools/extract_urls.py "$query" sec_urls
+            python ./tools/extract_urls.py "$query"
           done
   
       - name: Remove duplicate URLs
