@@ -212,3 +212,46 @@ INFO:root:网站 https://yandex.com/support/smart-captcha?unique_key=dd1f0b9-a70
 INFO:root:处理 https://yandex.com/support/smart-captcha?unique_key=dd1f0b9-a70aa495-56bf26e3-b95d7083 成功
 INFO:root:网站 https://yandex.com/support/smart-captcha?unique_key=dd1f0b9-a70aa495-56bf26e3-b95d7083#help 内容已保存至文件：data/yandex.com_support_s_2023-07-01.txt
 INFO:root:处理 https://yandex.com/support/smart-captcha?unique_key=dd1f0b9-a70aa495-56bf26e3-b95d7083#help 成功
+ERROR:root:请求  发生异常：Invalid URL '': No scheme supplied. Perhaps you meant https://?
+INFO:root:处理  失败：无法提取内容
+ERROR:root:请求 https://9527521.xyz/pubconfig/oGfT3W7kMYnr6UwX 发生异常：HTTPSConnectionPool(host='9527521.xyz', port=443): Max retries exceeded with url: /pubconfig/oGfT3W7kMYnr6UwX (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe44e24f850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:root:处理 https://9527521.xyz/pubconfig/oGfT3W7kMYnr6UwX 失败：无法提取内容
+INFO:root:处理 https://acl4ssr-sub.github.io 失败：无法提取内容
+ERROR:root:请求 https://raw.githubusercontent.com/hkaa0/temporary/main/2307/0701回复关键词 发生异常：404 Client Error: Not Found for url: https://raw.githubusercontent.com/hkaa0/temporary/main/2307/0701%E5%9B%9E%E5%A4%8D%E5%85%B3%E9%94%AE%E8%AF%8D
+INFO:root:处理 https://raw.githubusercontent.com/hkaa0/temporary/main/2307/0701回复关键词 失败：无法提取内容
+INFO:root:所有选择器都无法获取 https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 的内容，将执行自定义代码
+INFO:root:网站 https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 内容已保存至文件：data/raw.githubuserconten_2023-07-01.txt
+INFO:root:处理 https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 成功
+ERROR:root:请求 https://sub.yihaojichang.xyz/api/v1/client/subscribe?token=264c014bcdac238314550862e0e70e40已用上行：6.439 发生异常：403 Client Error: Forbidden for url: https://sub.yihaojichang.xyz/api/v1/client/subscribe?token=264c014bcdac238314550862e0e70e40%E5%B7%B2%E7%94%A8%E4%B8%8A%E8%A1%8C%EF%BC%9A6.439
+INFO:root:处理 https://sub.yihaojichang.xyz/api/v1/client/subscribe?token=264c014bcdac238314550862e0e70e40已用上行：6.439 失败：无法提取内容
+INFO:root:处理 https://t.me/hkaa0/530回复关键词 失败：无法提取内容
+ERROR:root:请求 https://www.buffcloud.icu/api/v1/client/subscribe?token=18d38fc888d453062d78739cfed568b6已用上行：38.857 发生异常：403 Client Error: Forbidden for url: https://www.buffcloud.icu/api/v1/client/subscribe?token=18d38fc888d453062d78739cfed568b6%E5%B7%B2%E7%94%A8%E4%B8%8A%E8%A1%8C%EF%BC%9A38.857
+INFO:root:处理 https://www.buffcloud.icu/api/v1/client/subscribe?token=18d38fc888d453062d78739cfed568b6已用上行：38.857 失败：无法提取内容
+ERROR:root:请求 https://teddytales.love/api/v1/client/subscribe?token=c2szsvvrhbm5qjpc已用上行：116.063 发生异常：403 Client Error: Forbidden for url: https://teddytales.love/api/v1/client/subscribe?token=c2szsvvrhbm5qjpc%E5%B7%B2%E7%94%A8%E4%B8%8A%E8%A1%8C%EF%BC%9A116.063
+INFO:root:处理 https://teddytales.love/api/v1/client/subscribe?token=c2szsvvrhbm5qjpc已用上行：116.063 失败：无法提取内容
+ERROR:root:请求 https://sanfen003.xyz/api/v1/client/subscribe?token=6644a6ffd8007d6a1e9a4a135d1c7d40已用上行：90.770 发生异常：403 Client Error: Forbidden for url: https://sanfen003.xyz/api/v1/client/subscribe?token=6644a6ffd8007d6a1e9a4a135d1c7d40%E5%B7%B2%E7%94%A8%E4%B8%8A%E8%A1%8C%EF%BC%9A90.770
+INFO:root:处理 https://sanfen003.xyz/api/v1/client/subscribe?token=6644a6ffd8007d6a1e9a4a135d1c7d40已用上行：90.770 失败：无法提取内容
+ERROR:root:请求 https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=b672be8336fcfc68d734fc23df06da18已用上行：12.993 发生异常：403 Client Error: Forbidden for url: https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=b672be8336fcfc68d734fc23df06da18%E5%B7%B2%E7%94%A8%E4%B8%8A%E8%A1%8C%EF%BC%9A12.993
+INFO:root:处理 https://getinfo.bigwatermelon.org/api/v1/client/subscribe?token=b672be8336fcfc68d734fc23df06da18已用上行：12.993 失败：无法提取内容
+ERROR:root:请求 https://paste.gg/p/anonymous/26366093b9874f7695d67d724fdd508c/files/fe793f943b91471a84ecc6936a24f8ce/raw回复关键词 发生异常：404 Client Error: Not Found for url: https://paste.gg/p/anonymous/26366093b9874f7695d67d724fdd508c/files/fe793f943b91471a84ecc6936a24f8ce/raw%E5%9B%9E%E5%A4%8D%E5%85%B3%E9%94%AE%E8%AF%8D
+INFO:root:处理 https://paste.gg/p/anonymous/26366093b9874f7695d67d724fdd508c/files/fe793f943b91471a84ecc6936a24f8ce/raw回复关键词 失败：无法提取内容
+ERROR:root:请求 https://极速机场.com🛒频道: 发生异常：Failed to parse: https://极速机场.com🛒频道:
+INFO:root:处理 https://极速机场.com🛒频道: 失败：无法提取内容
+ERROR:root:处理 https://v2... 失败：Failed to parse: 'v2...', label empty or too long
+INFO:root:处理 https://v2... 失败：无法提取内容
+ERROR:root:请求 https://dingyue.cloudaccess.icu/api/v1/... 发生异常：403 Client Error: Forbidden for url: https://dingyue.cloudaccess.icu/api/v1/...
+ERROR:root:请求 https://big234.com/api/v1/client/subscribe?token=eb082373f1afb5fe7f87f0369c0a605f已用上行：265.690 发生异常：404 Client Error: Not Found for url: https://big234.com/api/v1/client/subscribe?token=eb082373f1afb5fe7f87f0369c0a605f%E5%B7%B2%E7%94%A8%E4%B8%8A%E8%A1%8C%EF%BC%9A265.690
+INFO:root:处理 https://big234.com/api/v1/client/subscribe?token=eb082373f1afb5fe7f87f0369c0a605f已用上行：265.690 失败：无法提取内容
+INFO:root:处理 https://dingyue.cloudaccess.icu/api/v1/... 失败：无法提取内容
+INFO:root:所有选择器都无法获取 https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 的内容，将执行自定义代码
+INFO:root:网站 https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 内容已保存至文件：data/raw.githubuserconten_2023-07-01.txt
+INFO:root:处理 https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 成功
+ERROR:root:请求 https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=bb818754b856a863049648f21eebaa33已用上行：6.595 发生异常：403 Client Error: Forbidden for url: https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=bb818754b856a863049648f21eebaa33%E5%B7%B2%E7%94%A8%E4%B8%8A%E8%A1%8C%EF%BC%9A6.595
+INFO:root:处理 https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=bb818754b856a863049648f21eebaa33已用上行：6.595 失败：无法提取内容
+ERROR:root:请求 https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=e393f1b6f0d48c0c8eb3ca489ea88c32已用上行：2.376 发生异常：403 Client Error: Forbidden for url: https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=e393f1b6f0d48c0c8eb3ca489ea88c32%E5%B7%B2%E7%94%A8%E4%B8%8A%E8%A1%8C%EF%BC%9A2.376
+INFO:root:处理 https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=e393f1b6f0d48c0c8eb3ca489ea88c32已用上行：2.376 失败：无法提取内容
+ERROR:root:请求 https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=e393f1b6f0d48c0c8eb3ca489ea88c32已用上行：1.106 发生异常：403 Client Error: Forbidden for url: https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=e393f1b6f0d48c0c8eb3ca489ea88c32%E5%B7%B2%E7%94%A8%E4%B8%8A%E8%A1%8C%EF%BC%9A1.106
+INFO:root:处理 https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=e393f1b6f0d48c0c8eb3ca489ea88c32已用上行：1.106 失败：无法提取内容
+ERROR:root:请求 https://9527521.xyz/pubconfig/oGfT3W7kMYnr6UwX 发生异常：HTTPSConnectionPool(host='9527521.xyz', port=443): Max retries exceeded with url: /pubconfig/oGfT3W7kMYnr6UwX (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe44e314390>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:root:处理 https://9527521.xyz/pubconfig/oGfT3W7kMYnr6UwX 失败：无法提取内容
+INFO:root:处理 https://acl4ssr-sub.github.io 失败：无法提取内容
