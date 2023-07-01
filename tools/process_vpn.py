@@ -4,6 +4,89 @@ import socket
 import yaml
 import sys
 import json
+import re
+
+def convert_to_v2ray_format(address, port, user_id, alter_id):
+    v2ray_config = {
+        "inbounds": [
+            {
+                "port": 7890,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": False
+                }
+            }
+        ],
+        "outbounds": [],
+        "routing": {
+            "rules": [
+                {
+                    "type": "field",
+                    "inboundTag": ["socks-in"],
+                    "outboundTag": "direct"
+                }
+            ]
+        }
+    }
+
+    v2ray_server = {
+        "tag": "vmess-server",
+        "protocol": "vmess",
+        "settings": {
+            "vnext": [
+                {
+                    "address": address,
+                    "port": port,
+                    "users": [
+                        {
+                            "id": user_id,
+                            "alterId": alter_id,
+                            "security": "auto"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    v2ray_config['outbounds'].append(v2ray_server)
+
+    return json.dumps(v2ray_config, indent=4)
+
+def extract_server_info(content):
+    server_info = {}
+    # 使用正则表达式从内容中提取服务器信息，具体根据原格式进行匹配
+    # 示例：假设内容的格式为 address:port:user_id:alter_id
+    match = re.match(r"(\S+):(\d+):(\S+):(\d+)", content)
+    if match:
+        server_info['address'] = match.group(1)
+        server_info['port'] = int(match.group(2))
+        server_info['user_id'] = match.group(3)
+        server_info['alter_id'] = int(match.group(4))
+    return server_info
+
+def convert_yaml_to_v2ray(data):
+    v2ray_servers = []
+    # 根据实际的数据结构提取服务器信息
+    for item in data:
+        # 假设服务器信息位于数据结构的特定位置，可以根据实际情况进行调整
+        server_info = extract_server_info(item['server'])
+        if server_info:
+            v2ray_content = convert_to_v2ray_format(server_info['address'], server_info['port'], server_info['user_id'], server_info['alter_id'])
+            v2ray_servers.append(v2ray_content)
+    return v2ray_servers
+
+def convert_json_to_v2ray(data):
+    v2ray_servers = []
+    # 根据实际的数据结构提取服务器信息
+    for item in data:
+        # 假设服务器信息位于数据结构的特定位置，可以根据实际情况进行调整
+        server_info = extract_server_info(item['server'])
+        if server_info:
+            v2ray_content = convert_to_v2ray_format(server_info['address'], server_info['port'], server_info['user_id'], server_info['alter_id'])
+            v2ray_servers.append(v2ray_content)
+    return v2ray_servers
 
 def process_data_files(data_dir, output_file):
     # 读取数据文件列表
