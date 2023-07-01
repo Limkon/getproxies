@@ -40,6 +40,15 @@ def process_file(file_path, rest_urls_file):
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
 
+    if has_specific_format(content):
+        # 保留特定格式文件并提取链接
+        links = extract_links(content)
+        if links:
+            with open(rest_urls_file, 'a', encoding='utf-8') as file:
+                for link in links:
+                    file.write(link + '\n')
+        return
+
     if is_yaml(content):
         # 保留 YAML 文件
         return
@@ -48,27 +57,12 @@ def process_file(file_path, rest_urls_file):
         # 保留 JSON 文件
         return
 
-    if has_specific_format(content):
-        # 保留特定格式文件
-        return
-
     if is_base64_encoded(content):
         # 保留 BASE64 编码文件
         return
 
-    # 提取链接
-    links = extract_links(content)
-
     # 删除原始文件
     os.remove(file_path)
-
-    if not links:
-        return
-
-    # 保存链接到 rest_urls 文件中
-    with open(rest_urls_file, 'a', encoding='utf-8') as file:
-        for link in links:
-            file.write(link + '\n')
 
 def process_files_in_directory(directory, rest_urls_file):
     for filename in os.listdir(directory):
