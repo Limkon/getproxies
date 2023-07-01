@@ -39,6 +39,7 @@ jobs:
         id: search
         run: python ./tools/readweb.py sec_urls data 10 
         #./tools/readweb.py rest_urls data 10
+        #./tools/readweb.py sec_urls data 10
 
       
       - name: Commit and push changes
