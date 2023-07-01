@@ -66,6 +66,9 @@ jobs:
         
       - name: Remove duplicate vpn
         run: python ./tools/remove_duplicates.py ./share/rest.txt
+        
+      - name: Remove duplicate vpn
+        run: python ./tools/base64_encode.py ./share/rest.txt encoded
 
       - name: Commit and push changes
         run: |
