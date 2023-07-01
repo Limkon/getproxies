@@ -42,7 +42,7 @@ jobs:
       - name: 搜索订阅
         id: search
         run: |
-          declare -a search_queries=("节点订阅" "节点池2023")
+          declare -a search_queries=("节点订阅" "节点池2023" "Free proxies")
           for query in "${search_queries[@]}"; do
             echo "Searching for: $query"
             python ./tools/extract_urls.py "$query" sec_urls
