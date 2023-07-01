@@ -71,9 +71,14 @@ def process_data_files(data_dir, output_file):
         for content in merged_content:
             f.write(content + "\n")
 
-# 通过命令行参数传递目录和保存文件名
-data_dir = sys.argv[1]  # 第一个命令行参数为目录
-output_file = sys.argv[2]  # 第二个命令行参数为保存文件名
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Please provide the data directory and the output file path as arguments.")
+        print("Example: python process_data.py data_dir output_file.txt")
+        sys.exit(1)
 
-# 处理数据文件
-process_data_files(data_dir, output_file)
+    data_dir = sys.argv[1]  # 数据目录路径作为第一个命令行参数
+    output_file = sys.argv[2]  # 输出文件路径作为第二个命令行参数
+
+    # 处理数据文件
+    process_data_files(data_dir, output_file)
