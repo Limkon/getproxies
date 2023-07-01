@@ -35,17 +35,20 @@ def process_url(url, output_dir, file_name):
             if re.match(r'^(vmess://|clash://|ss://|vlss://|trojan://)', content.strip()):
                 save_content(content, output_dir, url, file_name)
             else:
-                try:
-                    decoded_content = base64.b64decode(content).decode('utf-8')
-                    if re.match(r'^(vmess://|clash://|ss://|vlss://|trojan://)', decoded_content.strip()):
-                        save_content(decoded_content, output_dir, url, file_name)
-                    else:
-                        save_content(content, output_dir, url, file_name)
-                except Exception:
-                    save_content(content, output_dir, url, file_name)
+                decoded_content = base64_decode(content)
+                if re.match(r'^(vmess://|clash://|ss://|vlss://|trojan://)', decoded_content.strip()):
+                    save_content(decoded_content, output_dir, url, file_name)
         return f"处理 {url} 完成"
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}"
+
+
+def base64_decode(content):
+    try:
+        decoded_content = base64.b64decode(content).decode('utf-8')
+        return decoded_content
+    except Exception:
+        return content
 
 
 def process_urls(urls, output_dir, file_name, num_threads):
@@ -65,11 +68,11 @@ def main():
 
     urls_file = sys.argv[1]  # 存储要抓取的 URL 列表的文件名
     output_dir = sys.argv[2]  # 保存提取内容的目录
-    file_name = sys.argv[3]   # 保存内容的文件名
+    file_name = sys.argv[3]  # 文件名
     num_threads = int(sys.argv[4])  # 线程数
 
     with open(urls_file, 'r', encoding='utf-8') as file:
-        urls = [line.strip() for line in file if line.strip() != ""]
+        urls = [line.strip() for line in file]
 
     process_urls(urls, output_dir, file_name, num_threads)
 
