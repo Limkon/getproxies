@@ -26,6 +26,15 @@ jobs:
           pip install requests
           pip install pyyaml
      
+      - name: 检查结果目录
+        run: |         
+          if [ ! -d "data" ]; then
+            mkdir data
+          fi
+          if [ ! -d "share" ]; then
+            mkdir share
+          fi
+          
       - name: test
         id: search
         run: python ./tools/process_vpn.py data ./share/rest.txt
