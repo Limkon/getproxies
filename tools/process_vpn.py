@@ -59,7 +59,7 @@ def process_data_files(data_dir, output_dir, rest_file):
                 print(f"Warning: Unknown file type for file {file}")
 
     # 将 rest.txt 文件保存到指定目录
-    with open(os.path.join(output_dir, rest_file), "a") as rest:
+    with open(rest_file, "a") as rest:
         for content in rest_content:
             rest.write(content + "\n")
 
