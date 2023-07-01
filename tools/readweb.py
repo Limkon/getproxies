@@ -6,12 +6,7 @@ import datetime
 import random
 import requests
 import concurrent.futures
-import logging
 from bs4 import BeautifulSoup
-
-# 设置日志记录
-logging.basicConfig(filename='log.txt', level=logging.INFO)
-
 
 def extract_content(url):
     try:
@@ -39,9 +34,9 @@ def extract_content(url):
                     content = element.get_text()
                     return content.strip()
             except Exception as e:
-                logging.error(f"尝试通过选择器 {selector} 获取 {url} 内容失败：{str(e)}")
+                print(f"尝试通过选择器 {selector} 获取 {url} 内容失败：{str(e)}")
 
-        logging.info(f"所有选择器都无法获取 {url} 的内容，将执行自定义代码")
+        print(f"所有选择器都无法获取 {url} 的内容，将执行自定义代码")
 
         # 在此编写自定义的处理方法来选择和提取页面内容
         # 例如：提取页面的文本内容
@@ -49,9 +44,9 @@ def extract_content(url):
         return content.strip()
 
     except requests.exceptions.RequestException as e:
-        logging.error(f"请求 {url} 发生异常：{str(e)}")
+        print(f"请求 {url} 发生异常：{str(e)}")
     except Exception as e:
-        logging.error(f"处理 {url} 失败：{str(e)}")
+        print(f"处理 {url} 失败：{str(e)}")
 
     return None
 
@@ -64,7 +59,7 @@ def save_content(content, output_dir, url):
     file_name = os.path.join(output_dir, url_without_protocol + "_" + date + ".txt")
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(content)
-    logging.info(f"网站 {url} 内容已保存至文件：{file_name}")
+    print(f"网站 {url} 内容已保存至文件：{file_name}")
 
 
 def process_url(url, output_dir):
@@ -87,7 +82,6 @@ def process_urls(urls, output_dir, num_threads):
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
             print(result)
-            logging.info(result)
 
 
 def random_user_agent():
