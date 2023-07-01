@@ -48,7 +48,9 @@ def extract_content(url):
 def save_content(content, output_dir, url):
     date = datetime.datetime.now().strftime('%Y-%m-%d')
     url_without_protocol = re.sub(r'^(https?://)', '', url)
-    file_name = os.path.join(output_dir, re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol) + "_" + date + ".txt")
+    url_without_protocol = re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)
+    url_without_protocol = url_without_protocol[:20]  # 限制文件名长度不超过20个字符
+    file_name = os.path.join(output_dir, url_without_protocol + "_" + date + ".txt")
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(content)
     print(f"网站 {url} 内容已保存至文件：{file_name}")
@@ -56,6 +58,7 @@ def save_content(content, output_dir, url):
 
 def process_url(url, output_dir):
     try:
+        time.sleep(2)  # 等待页面加载
         content = extract_content(url)
         if content:
             save_content(content, output_dir, url)
