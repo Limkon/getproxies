@@ -67,7 +67,7 @@ def main():
     num_threads = int(sys.argv[4])  # 线程数
 
     with open(urls_file, 'r', encoding='utf-8') as file:
-        urls = [line.strip() for line in file]
+        urls = [line.strip() for line in file if line.strip() != ""]
 
     process_urls(urls, output_dir, file_name, num_threads)
 
