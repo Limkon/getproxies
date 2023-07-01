@@ -38,6 +38,8 @@ def process_url(url, output_dir, file_name):
                 decoded_content = base64_decode(content)
                 if re.match(r'^(vmess://|clash://|ss://|vlss://|trojan://)', decoded_content.strip()):
                     save_content(decoded_content, output_dir, url, file_name)
+                else:
+                    return f"URL {url} 的内容不符合特定格式，未进行保存操作"
         return f"处理 {url} 完成"
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}"
@@ -57,7 +59,8 @@ def process_urls(urls, output_dir, file_name, num_threads):
 
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
-            print(result)
+            if result:
+                print(result)
 
 
 def main():
