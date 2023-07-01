@@ -25,6 +25,11 @@ jobs:
           pip install requests
           pip install pyyaml
           
+      - name: 延时
+        run: |
+          delay=$((RANDOM % 9 + 1))
+          sleep "$delay"
+          
       - name: 检查结果目录
         run: |         
           if [ ! -d "data" ]; then
