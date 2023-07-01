@@ -53,7 +53,7 @@ def process_files_in_directory(directory):
             process_file(file_path, merged_content)
     return merged_content
 
-def main(data_directory):
+def main(data_directory, rest_urls_file):
     merged_content = process_files_in_directory(data_directory)
     # 执行后续操作，如保存到文件或进行其他处理
 
@@ -66,4 +66,4 @@ if __name__ == '__main__':
     data_directory = sys.argv[1]
     rest_urls_file = sys.argv[2]
     
-   main(data_directory, rest_urls_file)
+    main(data_directory, rest_urls_file)
