@@ -1,65 +1,62 @@
 import os
-import sys
-import json
-import yaml
 import base64
+import socket
+import yaml
+import sys
 
-def convert_json_to_v2ray(json_data):
-    v2ray_servers = []
-    # 编写将 JSON 数据转换为 V2Ray（Vmess）格式的逻辑
-    # 将转换后的 V2Ray（Vmess）链接添加到 v2ray_servers 列表中
-    return v2ray_servers
+def process_data_files(data_dir, output_file):
+    # 读取数据文件列表
+    data_files = os.listdir(data_dir)
 
-def convert_yaml_to_v2ray(yaml_data):
-    v2ray_servers = []
-    # 编写将 YAML 数据转换为 V2Ray（Vmess）格式的逻辑
-    # 将转换后的 V2Ray（Vmess）链接添加到 v2ray_servers 列表中
-    return v2ray_servers
-
-def process_file(file_path, merged_content):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        content = file.read()
-
-    if file_path.endswith(".json"):
-        try:
-            json_data = json.loads(content)
-            v2ray_servers = convert_json_to_v2ray(json_data)
-            merged_content.extend(v2ray_servers)
-        except Exception as e:
-            print(f"Error processing JSON file {file_path}: {str(e)}")
-    elif file_path.endswith(".yaml"):
-        try:
-            yaml_data = yaml.safe_load(content)
-            v2ray_servers = convert_yaml_to_v2ray(yaml_data)
-            merged_content.extend(v2ray_servers)
-        except Exception as e:
-            print(f"Error processing YAML file {file_path}: {str(e)}")
-    elif file_path.endswith(".txt"):
-        try:
-            decoded_content = base64.b64decode(content).decode()
-            merged_content.append(decoded_content)
-        except Exception as e:
-            print(f"Error decoding Base64 content in file {file_path}: {str(e)}")
-
-def process_files_in_directory(directory):
     merged_content = []
-    for filename in os.listdir(directory):
-        file_path = os.path.join(directory, filename)
-        if os.path.isfile(file_path):
-            process_file(file_path, merged_content)
-    return merged_content
 
-def main(data_directory, rest_urls_file):
-    merged_content = process_files_in_directory(data_directory)
-    # 执行后续操作，如保存到文件或进行其他处理
+    # 遍历数据文件，逐个检测内容并处理
+    for file in data_files:
+        file_path = os.path.join(data_dir, file)
+        with open(file_path, "r") as f:
+            content = f.read()
 
-if __name__ == '__main__':
-    if len(sys.argv) != 3:
-        print("请提供数据目录和 rest_urls 文件路径作为参数")
-        print("示例: python process_data.py data rest_urls.txt")
-        sys.exit(1)
+            if file.endswith(".json"):
+                # 如果是 JSON 文件，尝试将其转换为 V2Ray（Vmess）格式
+                try:
+                    json_data = json.loads(content)
+                    v2ray_servers = convert_json_to_v2ray(json_data)
+                    merged_content.extend(v2ray_servers)
+                except Exception as e:
+                    print(f"Error processing JSON file {file}: {str(e)}")
+            elif file.endswith(".yaml"):
+                # 如果是 YAML 文件，尝试将其转换为 V2Ray（Vmess）格式
+                try:
+                    yaml_data = yaml.safe_load(content)
+                    v2ray_servers = convert_yaml_to_v2ray(yaml_data)
+                    merged_content.extend(v2ray_servers)
+                except Exception as e:
+                    print(f"Error processing YAML file {file}: {str(e)}")
+            elif file.endswith(".txt"):
+                try:
+                    # 尝试解密 Base64 编码的内容
+                    decoded_content = base64.b64decode(content).decode()
+                    merged_content.append(decoded_content)
+                except Exception as e:
+                    # 内容不是 Base64 编码，继续检测是否符合特定格式
+                    if content.startswith("vmess://") or content.startswith("clash://") or content.startswith("ss://") or content.startswith("vlss://") or content.startswith("trojan://"):
+                        merged_content.append(content)
+                    else:
+                        # 内容既不是 Base64 编码也不符合特定格式，跳过该文件并打印错误信息
+                        print(f"Error processing file {file}: Content is neither Base64 encoded nor has a special format.")
+                        continue
+            else:
+                print(f"Warning: Unknown file type for file {file}")
 
-    data_directory = sys.argv[1]
-    rest_urls_file = sys.argv[2]
-    
-    main(data_directory, rest_urls_file)
+    # 保存合并后的内容到文件
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)  # 创建保存目录（如果不存在）
+    with open(output_file, "w") as f:
+        for content in merged_content:
+            f.write(content + "\n")
+
+# 通过命令行参数传递目录和保存文件名
+data_dir = sys.argv[1]  # 第一个命令行参数为目录
+output_file = sys.argv[2]  # 第二个命令行参数为保存文件名
+
+# 处理数据文件
+process_data_files(data_dir, output_file)
