@@ -37,7 +37,7 @@ jobs:
           
       - name: test
         id: search
-        run: python ./tools/process_vpn.py data ./share/rest.txt
+        run: python ./tools/readweb.py rest_urls data 10
 
       
       - name: Commit and push changes
