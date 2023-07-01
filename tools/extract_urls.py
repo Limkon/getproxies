@@ -54,9 +54,6 @@ else:
 # 使用 Google 搜索并随机调整请求头信息
 if search_engine == "google":
     urls_google = extract_subscription_urls(search_query, "google")
-    print("Google Search Results:")
-    for url in urls_google:
-        print(url)
 
     # 将搜索引擎设置为 "yandex"，继续执行搜索
     search_engine = "yandex"
@@ -64,9 +61,6 @@ if search_engine == "google":
 # 使用 Yandex 搜索并随机调整请求头信息
 if search_engine == "yandex":
     urls_yandex = extract_subscription_urls(search_query, "yandex")
-    print("Yandex Search Results:")
-    for url in urls_yandex:
-        print(url)
 
     # 合并 Google 和 Yandex 的结果
     urls = urls_google + urls_yandex
