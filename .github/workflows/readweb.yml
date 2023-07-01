@@ -68,7 +68,7 @@ jobs:
         run: python ./tools/remove_duplicates.py ./share/rest.txt
         
       - name: Remove duplicate vpn
-        run: python ./tools/base64_encode.py ./share/rest.txt encoded
+        run: python ./tools/base64_encode.py ./share/rest.txt ./share/encoded
         
       - name: 清除 data 目录
         run: |
