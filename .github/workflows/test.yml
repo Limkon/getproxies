@@ -36,7 +36,6 @@ jobs:
           fi
           
       - name: test
-        id: search
         run: python ./tools/remove_non_alphanumeric_urls.py rest_urls
         
         #./tools/readweb.py sec_urls data 10
