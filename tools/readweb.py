@@ -64,7 +64,7 @@ def save_content(content, output_dir, url):
 
 def process_url(url, output_dir):
     try:
-        time.sleep(2)  # 等待页面加载
+        time.sleep(5)  # 等待页面加载
         content = extract_content(url)
         if content:
             save_content(content, output_dir, url)
