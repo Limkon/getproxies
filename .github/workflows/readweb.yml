@@ -41,13 +41,8 @@ jobs:
           
       - name: 搜索订阅
         id: search
-        run: |
-          declare -a search_queries=("节点订阅" "节点池2023" "Free proxies")
-          for query in "${search_queries[@]}"; do
-            echo "Searching for: $query"
-            python ./tools/extract_urls.py "$query"
-          done
-  
+        run: python ./tools/extract_urls.py sec_urls
+          
       - name: Remove duplicate URLs
         run: python ./tools/remove_duplicates.py sec_urls
         
