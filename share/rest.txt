@@ -6,9 +6,8 @@ vmess://eyJhZGQiOiAiZGF0YWNlbnRlci5jbS4wMS5iaXFpYmFvLnNpdGUiLCAiYWlkIjogIjAiLCAi
 vmess://eyJhZGQiOiAiZGwudjAwMXNzc3YucHciLCAidiI6ICIyIiwgInBzIjogInYycmF5ZnJlZS5ldS5vcmcgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDE4IiwgInBvcnQiOiA4MCwgImlkIjogImE0YmI3ZjkzLWNlZTYtNDNkNy1iMmRkLWZhOWM3MGI4ODIzMyIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAidHlwZSI6ICIiLCAiaG9zdCI6ICJkbC52MDAxc3Nzdi5wdyIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
 trojan://4d23cf0e-5ceb-43e7-90d3-63982bfa6940@vpnhat.stablize.top:443#v2rayfree.eu.org - 美国Microsoft数据中心 19
 trojan://4d23cf0e-5ceb-43e7-90d3-63982bfa6940@jp.stablize.top:443#v2rayfree.eu.org - 美国Microsoft数据中心 20
-trojan://bce72830-6561-4af6-a2c4-052fccb94595@jp2.gsjc.cfd:443?peer=20-212-60-88.nhost.00cdn.com&tfo=1#%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
-trojan://97d557df-6f6a-5bad-9483-600aba02da3a@120.232.177.224:7308?type=tcp&sni=getandroid.com&allowInsecure=1#%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%B9%BF%E5%B7%9E%E5%B8%82+%E7%A7%BB%E5%8A%A8
-trojan://32068eda-adad-431a-bfd4-2f7d4c73507c@pqawssg02.gsjc.cfd:443?peer=18-140-66-207.nhost.00cdn.com&tfo=1#%E7%BE%8E%E5%9B%BD+Xerox
-vmess://eyJhZGQiOiAiMTM3LjE3NS4yOS4zMyIsICJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIFYyQ1JPU1MuQ09NIiwgInBvcnQiOiA1Mzk4NiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
-vmess://eyJhZGQiOiAiMTM3LjE3NS4yOS4zOCIsICJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIFYyQ1JPU1MuQ09NIiwgInBvcnQiOiA1Mzk4NiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
-trojan://5505f6ba-cd37-30ce-8f92-be4120c83d7f@official.taipeicitygovernment.kiev.ua:8443?sni=66.42.40.132#%E5%B9%BF%E4%B8%9C%E7%9C%81+%E7%A7%BB%E5%8A%A8
+trojan://3daac969-5f2d-4ca4-b55f-1f109f443ae1@link5.kuaidog004.top:53422#%E7%BE%8E%E5%9B%BD+%E4%BF%84%E5%8B%92%E5%86%88%E5%B7%9E%E6%B3%A2%E7%89%B9%E5%85%B0Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
+trojan://32068eda-adad-431a-bfd4-2f7d4c73507c@pqawsjp2.gsjc.cfd:443?peer=18-140-66-207.nhost.00cdn.com&tfo=1#%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
+trojan://32068eda-adad-431a-bfd4-2f7d4c73507c@pqawsjp01.gsjc.cfd:443?peer=18-140-66-207.nhost.00cdn.com&tfo=1#%E7%BE%8E%E5%9B%BD+Xerox
+trojan://5057f49b-3038-4683-a5d9-8d9657caef3c@fsctw.fscloud123456789.com:443#%E7%BE%8E%E5%9B%BD+Microsoft%E5%85%AC%E5%8F%B8
+trojan://bce72830-6561-4af6-a2c4-052fccb94595@sg1.gsjc.cfd:443?peer=20-212-60-88.nhost.00cdn.com&tfo=1#%E6%96%B0%E5%8A%A0%E5%9D%A1+Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
