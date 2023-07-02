@@ -67,11 +67,8 @@ jobs:
         run: python ./tools/process_data.py data rest_urls
         
       - name: 读取订阅
-        run: python ./tools/readweb.py rest_urls data 10
-        
-      - name: 生成订阅
-        run: python ./tools/process_vpn.py data ./share/rest.txt
-        
+        run: python ./tools/process_vpn.py rest_urls data 20 ./share/rest.txt
+               
       - name: Remove non-alphanumeric vpn
         run: python ./tools/remove_non_alphanumeric_urls.py ./share/rest.txt
         
