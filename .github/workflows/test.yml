@@ -37,7 +37,7 @@ jobs:
           
       - name: test
         id: search
-        run: python ./tools/process_data.py data rest_urls
+        run: python ./tools/process_data.py data ./share/rest.txt rest_urls
         
         #./tools/readweb.py sec_urls data 10
         #./tools/readweb.py rest_urls data 10
