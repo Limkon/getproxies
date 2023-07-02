@@ -55,7 +55,7 @@ jobs:
         run: python ./tools/remove_non_alphanumeric_urls.py sec_urls
       
       - name: 读取网页
-        run: python ./tools/readweb.py sec_urls data 10
+        run: python ./tools/readweb.py sec_urls data 20
         
       - name: Remove duplicate URLs
         run: python ./tools/remove_duplicates.py rest_urls
