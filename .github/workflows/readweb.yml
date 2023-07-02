@@ -52,15 +52,15 @@ jobs:
       
       - name: 读取网页
         run: python ./tools/readweb.py sec_urls data 20
+      
+      - name: 分析网页
+        run: python ./tools/process_data.py data ./share/rest.txt rest_urls
         
       - name: Remove duplicate URLs
         run: python ./tools/remove_duplicates.py rest_urls
         
       - name: Remove non-alphanumeric URLs
         run: python ./tools/remove_non_alphanumeric_urls.py rest_urls
-        
-      - name: 分析网页
-        run: python ./tools/process_data.py data ./share/rest.txt rest_urls
         
       - name: 读取订阅
         run: python ./tools/process_vpn.py rest_urls data 20 ./share/rest.txt
