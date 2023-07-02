@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 def extract_content(url):
     response = requests.get(url)
     if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
+        soup = BeautifulSoup(response.text, 'lxml')
 
         # 尝试不同的选择器
         selectors = [
@@ -33,13 +33,9 @@ def extract_content(url):
                     content = element.get_text()
                     return content
             except Exception as e:
-                print(f"尝试通过选择器 {selector} 获取 {url} 内容失败：{str(e)}")
+                pass
 
         # 如果所有选择器都失败，则执行自定义的处理方法
-        print(f"所有选择器都无法获取 {url} 的内容，将执行自定义代码")
-
-        # 在此编写自定义的处理方法来选择和提取页面内容
-        # 例如：提取页面的文本内容
         content = soup.get_text()
         return content
     else:
