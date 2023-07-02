@@ -1,8 +1,8 @@
 import requests
 import random
 import os
-import sys
 import concurrent.futures
+import argparse
 from bs4 import BeautifulSoup
 
 def extract_subscription_urls(search_query, search_engine):
@@ -13,7 +13,6 @@ def extract_subscription_urls(search_query, search_engine):
     else:
         raise ValueError("Invalid search engine")
 
-    # 随机选择User-Agent标头
     user_agents = [
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
@@ -37,68 +36,33 @@ def extract_subscription_urls(search_query, search_engine):
 
     return subscription_urls
 
-# 从环境变量中获取搜索关键字和搜索引擎
-search_query = os.getenv("SEARCH_QUERY", "订阅节点")
-search_engine = os.getenv("SEARCH_ENGINE", "google")  # 默认设置为"google"
+def search_and_save_urls(search_query, output_file):
+    engines = ["google", "yandex"]
 
-# 使用Google搜索并随机调整请求头信息
-if search_engine == "google":
-    urls_google = extract_subscription_urls(search_query, "google")
-    print("Google Search Results:")
-    for url in urls_google:
-        print(url)
+    with open(output_file, "a") as file:
+        for engine in engines:
+            urls = extract_subscription_urls(search_query, engine)
+            file.write(f"{engine.capitalize()} Search Results:\n")
+            file.write("\n".join(urls) + "\n\n")
 
-    # 将搜索引擎设置为"yandex"，继续执行搜索
-    search_engine = "yandex"
+    print('搜索和保存URL完成！')
 
-# 使用yandex搜索并随机调整请求头信息
-if search_engine == "yandex":
-    urls_yandex = extract_subscription_urls(search_query, "yandex")
-    print("yandex Search Results:")
-    for url in urls_yandex:
-        print(url)
-
-    # 合并Google和yandex的结果
-    urls = urls_google + urls_yandex
-
-# 保存提取到的订阅地址到文件中
-with open("sec_urls", "a") as file:
-    file.write("\n".join(urls) + "\n")
-
-
-def search_and_save_urls(search_query, search_engine):
-    urls = extract_subscription_urls(search_query, search_engine)
-
-    with open("sec_urls", "w") as file:
-        file.write("\n".join(urls) + "\n")
-
-    print(f"{search_engine.capitalize()} Search Results:")
-    for url in urls:
-        print(url)
-
-
-# 使用多线程执行搜索任务
 def main():
-    if len(sys.argv) != 3:
-        print("请提供要搜索的关键字和搜索引擎（google 或 yandex）")
-        print("示例: python search_urls.py 订阅节点 google")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description="Search and save subscription URLs")
+    parser.add_argument("output_file", help="Output file path")
+    args = parser.parse_args()
 
-    search_query = sys.argv[1]
-    search_engine = sys.argv[2]
-
+    search_queries = ["节点订阅", "节点池2023", "Free proxies"]
+    
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = []
-        if search_engine == "google" or search_engine == "all":
-            futures.append(executor.submit(search_and_save_urls, search_query, "google"))
-        if search_engine == "yandex" or search_engine == "all":
-            futures.append(executor.submit(search_and_save_urls, search_query, "yandex"))
+        for search_query in search_queries:
+            futures.append(executor.submit(search_and_save_urls, search_query, args.output_file))
 
         # 等待所有搜索任务完成
         concurrent.futures.wait(futures)
 
     print('搜索和保存URL完成！')
-
 
 if __name__ == '__main__':
     main()
