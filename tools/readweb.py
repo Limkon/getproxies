@@ -51,8 +51,14 @@ def save_content(content, output_dir, url):
     url_without_protocol = re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)
     url_without_protocol = url_without_protocol[:20]  # 限制文件名长度不超过20个字符
     file_name = os.path.join(output_dir, url_without_protocol + "_" + date + ".txt")
+
+    # 删除空白行
+    content_lines = content.splitlines()
+    non_empty_lines = [line for line in content_lines if line.strip()]
+    cleaned_content = '\n'.join(non_empty_lines)
+
     with open(file_name, 'w', encoding='utf-8') as file:
-        file.write(content)
+        file.write(cleaned_content)
     print(f"网站 {url} 内容已保存至文件：{file_name}")
 
 
