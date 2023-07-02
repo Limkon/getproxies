@@ -1,74 +1,155 @@
 import os
-import base64
-import socket
-import yaml
+import re
 import sys
+import time
+import datetime
+import requests
+import concurrent.futures
+import base64
 
+from bs4 import BeautifulSoup
 
-def convert_json_to_v2ray(json_data):
-    # 转换 JSON 数据为 V2Ray（Vmess）格式
-    pass
+def extract_content(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
 
+        # 尝试不同的选择器
+        selectors = [
+            '#app',                 # ID 选择器
+            '.content',             # 类选择器
+            'div',                  # 元素选择器
+            '.my-class',            # 类选择器
+            '#my-id',               # ID 选择器
+            '[name="my-name"]',     # 属性选择器
+            '.my-parent .my-child', # 后代选择器
+        ]
 
-def convert_yaml_to_v2ray(yaml_data):
-    # 转换 YAML 数据为 V2Ray（Vmess）格式
-    pass
-
-
-# 获取命令行参数
-data_dir = sys.argv[1]  # 数据文件所在目录
-output_file = sys.argv[2]  # 结果保存文件路径
-
-# 读取数据文件列表
-data_files = os.listdir(data_dir)
-
-merged_content = []
-
-# 遍历数据文件，逐个检测内容并处理
-for file in data_files:
-    file_path = os.path.join(data_dir, file)
-    with open(file_path, "r") as f:
-        content = f.read()
-
-        if file.endswith(".json"):
-            # 如果是 JSON 文件，尝试将其转换为 V2Ray（Vmess）格式
+        for selector in selectors:
             try:
-                json_data = json.loads(content)
-                v2ray_servers = convert_json_to_v2ray(json_data)
-                merged_content.extend(v2ray_servers)
+                element = soup.select_one(selector)
+                if element:
+                    content = element.get_text()
+                    return content
             except Exception as e:
-                print(f"Error processing JSON file {file}: {str(e)}")
-        elif file.endswith(".yaml"):
-            # 如果是 YAML 文件，尝试将其转换为 V2Ray（Vmess）格式
-            try:
-                yaml_data = yaml.safe_load(content)
-                v2ray_servers = convert_yaml_to_v2ray(yaml_data)
-                merged_content.extend(v2ray_servers)
-            except Exception as e:
-                print(f"Error processing YAML file {file}: {str(e)}")
-        elif file.endswith(".txt"):
-            try:
-                # 尝试解密 Base64 编码的内容
-                decoded_content = base64.b64decode(content).decode()
-                merged_content.append(decoded_content)
-            except Exception as e:
-                # 内容不是 Base64 编码，继续检测是否符合特定格式
-                if content.startswith("vmess://") or content.startswith("clash://") or content.startswith(
-                        "ss://") or content.startswith("vlss://") or content.startswith("trojan://"):
-                    merged_content.append(content)
-                else:
-                    # 内容既不是 Base64 编码也不符合特定格式，跳过该文件并打印错误信息
-                    print(
-                        f"Error processing file {file}: Content is neither Base64 encoded nor has a special format.")
-                    continue
+                print(f"尝试通过选择器 {selector} 获取 {url} 内容失败：{str(e)}")
+
+        # 如果所有选择器都失败，则执行自定义的处理方法
+        print(f"所有选择器都无法获取 {url} 的内容，将执行自定义代码")
+
+        # 在此编写自定义的处理方法来选择和提取页面内容
+        # 例如：提取页面的文本内容
+        content = soup.get_text()
+        return content
+    else:
+        raise Exception(f"无法从 URL 获取内容：{url}")
+
+
+def save_content(content, output_dir, url):
+    date = datetime.datetime.now().strftime('%Y-%m-%d')
+    url_without_protocol = re.sub(r'^(https?://)', '', url)
+    url_without_protocol = re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)
+    url_without_protocol = url_without_protocol[:20]  # 限制文件名长度不超过20个字符
+    file_name = os.path.join(output_dir, url_without_protocol + "_" + date + ".txt")
+
+    # 删除空白行
+    content_lines = content.splitlines()
+    non_empty_lines = [line for line in content_lines if line.strip()]
+    cleaned_content = '\n'.join(non_empty_lines)
+
+    with open(file_name, 'w', encoding='utf-8') as file:
+        file.write(cleaned_content)
+    print(f"网站 {url} 内容已保存至文件：{file_name}")
+
+
+def process_url(url, output_dir, rest_file):
+    try:
+        time.sleep(5)  # 等待页面加载
+        content = extract_content(url)
+        if content:
+            if is_base64_encoded(content):
+                decoded_content = base64.b64decode(content).decode('utf-8')
+                append_to_file(rest_file, decoded_content)
+            elif has_specific_format(content):
+                append_to_file(rest_file, content)
+            else:
+                delete_file(url, output_dir)
+                remove_url(url, urls_file)
+            return f"处理 {url} 成功"
         else:
-            print(f"Warning: Unknown file type for file {file}")
+            return f"处理 {url} 失败：无法提取内容"
+    except Exception as e:
+        return f"处理 {url} 失败：{str(e)}"
 
-# 保存合并后的内容到文件
-os.makedirs(os.path.dirname(output_file), exist_ok=True)  # 创建保存目录（如果不存在）
 
-with open(output_file, 'w') as file:
-    for data in merged_content:
-        file.write(data + '\n')
+def is_base64_encoded(content):
+    try:
+        content.encode('ascii')  # 转换为ASCII编码
+        base64.b64decode(content)
+        return True
+    except (UnicodeEncodeError, base64.binascii.Error):
+        return False
 
-print("所有网站内容保存完成！")
+
+def has_specific_format(content):
+    formats = ['vmess://', 'trojan://', 'clash://', 'ss://', 'vlss://']
+    return any(format in content for format in formats)
+
+
+def append_to_file(file_path, content):
+    with open(file_path, 'a', encoding='utf-8') as file:
+        file.write(content + '\n')
+
+
+def delete_file(url, output_dir):
+    date = datetime.datetime.now().strftime('%Y-%m-%d')
+    url_without_protocol = re.sub(r'^(https?://)', '', url)
+    url_without_protocol = re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)
+    url_without_protocol = url_without_protocol[:20]  # 限制文件名长度不超过20个字符
+    file_name = os.path.join(output_dir, url_without_protocol + "_" + date + ".txt")
+
+    if os.path.exists(file_name):
+        os.remove(file_name)
+        print(f"删除文件：{file_name}")
+
+
+def remove_url(url, urls_file):
+    with open(urls_file, 'r', encoding='utf-8') as file:
+        urls = file.readlines()
+
+    with open(urls_file, 'w', encoding='utf-8') as file:
+        for line in urls:
+            if line.strip() != url:
+                file.write(line)
+
+
+def process_urls(urls, output_dir, num_threads, rest_file):
+    with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
+        futures = [executor.submit(process_url, url, output_dir, rest_file) for url in urls]
+
+        for future in concurrent.futures.as_completed(futures):
+            result = future.result()
+            print(result)
+
+
+def main():
+    if len(sys.argv) != 5:
+        print("请提供要抓取的 URL 列表文件名、保存提取内容的目录、线程数和 REST 文件路径")
+        print("示例: python extract_urls.py urls.txt data 10 ./share/rest.txt")
+        sys.exit(1)
+
+    urls_file = sys.argv[1]  # 存储要抓取的 URL 列表的文件名
+    output_dir = sys.argv[2]  # 保存提取内容的目录
+    num_threads = int(sys.argv[3])  # 线程数
+    rest_file = sys.argv[4]  # REST 文件路径
+
+    with open(urls_file, 'r', encoding='utf-8') as file:
+        urls = [line.strip() for line in file]
+
+    process_urls(urls, output_dir, num_threads, rest_file)
+
+    print('所有网站内容保存完成！')
+
+
+if __name__ == '__main__':
+    main()
