@@ -9,6 +9,7 @@ import base64
 
 from bs4 import BeautifulSoup
 
+
 def extract_content(url):
     response = requests.get(url)
     if response.status_code == 200:
@@ -42,7 +43,7 @@ def extract_content(url):
         content = soup.get_text()
         return content
     else:
-        raise Exception(f"无法从 URL 获取内容：{url}")
+        raise Exception(f"Failed to fetch content from URL: {url}")
 
 
 def save_content(content, output_dir, url):
@@ -62,7 +63,7 @@ def save_content(content, output_dir, url):
     print(f"网站 {url} 内容已保存至文件：{file_name}")
 
 
-def process_url(url, output_dir, rest_file):
+def process_url(url, output_dir, rest_file, urls_file):
     try:
         time.sleep(5)  # 等待页面加载
         content = extract_content(url)
@@ -84,7 +85,7 @@ def process_url(url, output_dir, rest_file):
 
 def is_base64_encoded(content):
     try:
-        content.encode('ascii')  # 转换为ASCII编码
+        content.encode('ascii')  # 尝试编码为 ASCII
         base64.b64decode(content)
         return True
     except (UnicodeEncodeError, base64.binascii.Error):
@@ -115,17 +116,17 @@ def delete_file(url, output_dir):
 
 def remove_url(url, urls_file):
     with open(urls_file, 'r', encoding='utf-8') as file:
-        urls = file.readlines()
+        urls = [line.strip() for line in file]
+
+    urls = [u for u in urls if u != url]
 
     with open(urls_file, 'w', encoding='utf-8') as file:
-        for line in urls:
-            if line.strip() != url:
-                file.write(line)
+        file.write('\n'.join(urls))
 
 
-def process_urls(urls, output_dir, num_threads, rest_file):
+def process_urls(urls, output_dir, num_threads, rest_file, urls_file):
     with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
-        futures = [executor.submit(process_url, url, output_dir, rest_file) for url in urls]
+        futures = [executor.submit(process_url, url, output_dir, rest_file, urls_file) for url in urls]
 
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
@@ -134,19 +135,19 @@ def process_urls(urls, output_dir, num_threads, rest_file):
 
 def main():
     if len(sys.argv) != 5:
-        print("请提供要抓取的 URL 列表文件名、保存提取内容的目录、线程数和 REST 文件路径")
+        print("请提供要抓取的 URL 列表文件名、保存提取内容的目录、线程数和 REST 文件的路径")
         print("示例: python extract_urls.py urls.txt data 10 ./share/rest.txt")
         sys.exit(1)
 
     urls_file = sys.argv[1]  # 存储要抓取的 URL 列表的文件名
     output_dir = sys.argv[2]  # 保存提取内容的目录
     num_threads = int(sys.argv[3])  # 线程数
-    rest_file = sys.argv[4]  # REST 文件路径
+    rest_file = sys.argv[4]  # REST 文件的路径
 
     with open(urls_file, 'r', encoding='utf-8') as file:
         urls = [line.strip() for line in file]
 
-    process_urls(urls, output_dir, num_threads, rest_file)
+    process_urls(urls, output_dir, num_threads, rest_file, urls_file)
 
     print('所有网站内容保存完成！')
 
