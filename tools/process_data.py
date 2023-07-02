@@ -22,9 +22,12 @@ def process_file(file_path, rest_txt_file, rest_urls_file):
 
     if is_base64_encoded(content):
         # BASE64编码文件，解码并将内容追加到rest.txt文件
-        decoded_content = base64.b64decode(content).decode('utf-8')
-        with open(rest_txt_file, 'a', encoding='utf-8') as file:
-            file.write(decoded_content + '\n')
+        try:
+            decoded_content = base64.b64decode(content).decode('utf-8')
+            with open(rest_txt_file, 'a', encoding='utf-8') as file:
+                file.write(decoded_content + '\n')
+        except UnicodeDecodeError:
+            print(f"无法解码文件 {file_path} 的内容")
 
     else:
         # 检测特定格式
