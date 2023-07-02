@@ -59,7 +59,7 @@ jobs:
         run: python ./tools/remove_non_alphanumeric_urls.py rest_urls
         
       - name: 分析网页
-        run: python ./tools/process_data.py data ./share/rest.txt rest_urls 20
+        run: python ./tools/process_data.py data ./share/rest.txt rest_urls
         
       - name: 读取订阅
         run: python ./tools/process_vpn.py rest_urls data 20 ./share/rest.txt
