@@ -1,6 +1,7 @@
 import requests
 import random
 import os
+import concurrent.futures
 from bs4 import BeautifulSoup
 
 def extract_subscription_urls(search_query, search_engine):
@@ -62,3 +63,41 @@ if search_engine == "yandex":
 # 保存提取到的订阅地址到文件中
 with open("sec_urls", "a") as file:
     file.write("\n".join(urls) + "\n")
+
+
+def search_and_save_urls(search_query, search_engine):
+    urls = extract_subscription_urls(search_query, search_engine)
+
+    with open("sec_urls", "w") as file:
+        file.write("\n".join(urls) + "\n")
+
+    print(f"{search_engine.capitalize()} Search Results:")
+    for url in urls:
+        print(url)
+
+
+# 使用多线程执行搜索任务
+def main():
+    if len(sys.argv) != 3:
+        print("请提供要搜索的关键字和搜索引擎（google 或 yandex）")
+        print("示例: python search_urls.py 订阅节点 google")
+        sys.exit(1)
+
+    search_query = sys.argv[1]
+    search_engine = sys.argv[2]
+
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = []
+        if search_engine == "google" or search_engine == "all":
+            futures.append(executor.submit(search_and_save_urls, search_query, "google"))
+        if search_engine == "yandex" or search_engine == "all":
+            futures.append(executor.submit(search_and_save_urls, search_query, "yandex"))
+
+        # 等待所有搜索任务完成
+        concurrent.futures.wait(futures)
+
+    print('搜索和保存URL完成！')
+
+
+if __name__ == '__main__':
+    main()
