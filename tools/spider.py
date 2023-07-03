@@ -4,23 +4,23 @@ import threading
 import random
 import argparse
 
-# 命令参数解析
-parser = argparse.ArgumentParser(description='多线程爬虫')
-parser.add_argument('url_file', type=str, help='网址列表文件路径')
-parser.add_argument('save_directory', type=str, help='保存目录')
-parser.add_argument('--num_threads', type=int, default=5, help='线程数量')
+# Command-line argument parsing
+parser = argparse.ArgumentParser(description='Multi-threaded web crawler')
+parser.add_argument('url_file', type=str, help='Path to the file containing the list of URLs')
+parser.add_argument('save_directory', type=str, help='Directory to save the pages')
+parser.add_argument('--num_threads', type=int, default=5, help='Number of threads')
 args = parser.parse_args()
 
-# 网址列表文件路径
+# URL file path
 url_file = args.url_file
 
-# 保存目录
+# Save directory
 save_directory = args.save_directory
 
-# 线程数量
+# Number of threads
 num_threads = args.num_threads
 
-# 多个请求头，模拟多个浏览器
+# List of headers to simulate multiple browsers
 headers_list = [
     {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
@@ -37,45 +37,51 @@ headers_list = [
     {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0"
     },
-    # 添加更多的请求头...
+    # Add more headers...
 ]
+
 
 def save_page_content(url, headers):
     try:
-        # 发送HTTP请求获取页面内容
+        # Send HTTP request to get page content
         response = requests.get(url, headers=headers)
         response.raise_for_status()
 
-        # 获取文件名
+        # Get filename from URL
         file_name = os.path.basename(url)
-        save_path = os.path.join(save_directory, file_name + '.txt')
 
-        # 保存页面内容到文本文件
+        # Remove ".txt" extension from the filename
+        file_name, _ = os.path.splitext(file_name)
+
+        # Save page content to text file without ".txt" extension
+        save_path = os.path.join(save_directory, file_name)
         with open(save_path, 'w', encoding='utf-8') as file:
             file.write(response.text)
 
-        print(f"已保存 {url} 的页面内容到 {save_path}")
+        print(f"Saved page content of {url} to {save_path}")
     except Exception as e:
-        print(f"获取 {url} 页面内容时发生错误：{str(e)}")
+        print(f"Error occurred while retrieving page content of {url}: {str(e)}")
+
 
 def crawl_urls(urls):
     for url in urls:
         headers = random.choice(headers_list)
         save_page_content(url, headers)
 
+
 def main():
-    # 创建保存目录
+    # Create save directory if it doesn't exist
     os.makedirs(save_directory, exist_ok=True)
 
-    # 从文件中读取网址列表
+    # Read the list of URLs from the file
     with open(url_file, 'r') as file:
         urls = file.read().splitlines()
 
-    # 计算每个线程需要处理的网址数量
+    # Calculate the number of URLs each thread needs to handle
     num_urls = len(urls)
     urls_per_thread = num_urls // num_threads
 
-    # 创建线程并启动
+    # Create threads and start them
     threads = []
     for i in range(num_threads):
         start_index = i * urls_per_thread
@@ -86,11 +92,12 @@ def main():
         thread.start()
         threads.append(thread)
 
-    # 等待所有线程完成
+    # Wait for all threads to complete
     for thread in threads:
         thread.join()
 
-    print("爬取完成")
+    print("Crawling completed")
+
 
 if __name__ == "__main__":
     main()
