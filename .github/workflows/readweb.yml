@@ -1,4 +1,4 @@
-name: 订阅
+name: 搜索节点订阅
 
 on:
   workflow_dispatch:
