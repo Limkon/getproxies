@@ -35,7 +35,7 @@ jobs:
           fi
 
       - name: test
-        run: python ./tools/process_vpn.py rest_urls data 20 ./share/rest.txt
+        run: python ./tools/remove_non_alphanumeric_urls.py rest_urls
 
       - name: Commit and push changes
         run: |
