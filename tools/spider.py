@@ -31,6 +31,12 @@ headers_list = [
     {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
     },
+    {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15"
+    },
+    {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0"
+    },
     # 添加更多的请求头...
 ]
 
@@ -42,7 +48,7 @@ def save_page_content(url, headers):
 
         # 获取文件名
         file_name = os.path.basename(url)
-        save_path = os.path.join(save_directory, file_name)
+        save_path = os.path.join(save_directory, file_name + '.txt')
 
         # 保存页面内容到文本文件
         with open(save_path, 'w', encoding='utf-8') as file:
