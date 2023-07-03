@@ -2,8 +2,8 @@ name: 订阅
 
 on:
   workflow_dispatch:
-# schedule:
-#   - cron: '0 0 */10 * *'
+  schedule:
+  - cron: '0 0 */10 * *'
 
 jobs:
   extract_urls:
