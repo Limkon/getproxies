@@ -53,10 +53,10 @@ def save_page_content(url, headers):
         # Remove ".txt" extension from the filename
         file_name, _ = os.path.splitext(file_name)
 
-        # Save page content to text file without ".txt" extension
-        save_path = os.path.join(save_directory, file_name)
-        with open(save_path, 'w', encoding='utf-8') as file:
-            file.write(response.text)
+        # Save page content as HTML file
+        save_path = os.path.join(save_directory, file_name + '.html')
+        with open(save_path, 'wb') as file:
+            file.write(response.content)
 
         print(f"Saved page content of {url} to {save_path}")
     except Exception as e:
