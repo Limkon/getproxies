@@ -49,6 +49,6 @@ jobs:
           echo "更新于：$($(cat timestamp.txt) | TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" > README.md
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md
+          git add .
           git commit -m "Update README with last run timestamp"
           git push
