@@ -35,7 +35,8 @@ jobs:
           fi
 
       - name: test
-        run: python ./tools/spider.py rest_urls data 10
+        run: python ./tools/spider.py rest_urls data --num_threads 10
+
 
       - name: Display last run timestamp
         id: display_timestamp
