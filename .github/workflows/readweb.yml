@@ -81,9 +81,8 @@ jobs:
       - name: Display last run timestamp
         id: display_timestamp
         run: |
-          TZ='Asia/Shanghai' date -u +'%Y-%m-%d %H:%M:%S' >> timestamp.txt
-          echo "::set-output name=timestamp::$(cat timestamp.txt)"
-
+         echo "timestamp=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+         
       - name: Update README with last run timestamp
         run: |
           echo "更新于：$($(cat timestamp.txt) | TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" > README.md
