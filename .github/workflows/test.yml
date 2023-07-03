@@ -52,10 +52,9 @@ jobs:
       - name: Update README with last run timestamp
         uses: actions/github-script@v5
         with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        script: |
-         const fs = require('fs');
-         let readmeContent = fs.readFileSync('README.md', 'utf8');
-         const timestamp = '${{ steps.display_timestamp.outputs.timestamp }}';
-         readmeContent = readmeContent.replace(/代码最后一次运行时间：.*/, `代码最后一次运行时间：${timestamp}`);
-         fs.writeFileSync('README.md', readmeContent);
+          script: |
+            const fs = require('fs');
+            let readmeContent = fs.readFileSync('README.md', 'utf8');
+            const timestamp = '${{ steps.display_timestamp.outputs.timestamp }}';
+            readmeContent = readmeContent.replace(/代码最后一次运行时间：.*/, `代码最后一次运行时间：${timestamp}`);
+            fs.writeFileSync('README.md', readmeContent)
