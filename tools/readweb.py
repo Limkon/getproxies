@@ -1,100 +1,103 @@
 import os
-import re
-import sys
-import asyncio
-import datetime
-import httpx
+import requests
+import threading
+import random
+import argparse
 
-from bs4 import BeautifulSoup
-from httpx import Timeout
+# Command-line argument parsing
+parser = argparse.ArgumentParser(description='Multi-threaded web crawler')
+parser.add_argument('url_file', type=str, help='Path to the file containing the list of URLs')
+parser.add_argument('save_directory', type=str, help='Directory to save the pages')
+parser.add_argument('--num_threads', type=int, default=5, help='Number of threads')
+args = parser.parse_args()
 
-import httpx
-import asyncio
+# URL file path
+url_file = args.url_file
 
-from bs4 import BeautifulSoup
+# Save directory
+save_directory = args.save_directory
 
+# Number of threads
+num_threads = args.num_threads
 
-async def extract_content(url):
-    async with httpx.AsyncClient(timeout=Timeout(5.0)) as client:
-        response = await client.get(url)
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            # 在此编写自定义的处理方法来选择和提取页面内容
-            # 例如：提取页面的文本内容
-            content = soup.get_text()
-            return content
-        else:
-            raise Exception(f"Failed to fetch content from URL: {url}")
-
-
-def save_content(content, output_dir, url):
-    date = datetime.datetime.now().strftime('%Y-%m-%d')
-    url_without_protocol = re.sub(r'^(https?://)', '', url)
-    url_without_protocol = re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)
-    url_without_protocol = url_without_protocol[:20]  # 限制文件名长度不超过20个字符
-    file_name = os.path.join(output_dir, url_without_protocol + "_" + date + ".txt")
-
-    # 删除空白行
-    content_lines = content.splitlines()
-    non_empty_lines = [line for line in content_lines if line.strip()]
-    cleaned_content = '\n'.join(non_empty_lines)
-
-    with open(file_name, 'w', encoding='utf-8') as file:
-        file.write(cleaned_content)
-    print(f"网站 {url} 内容已保存至文件：{file_name}")
+# List of headers to simulate multiple browsers
+headers_list = [
+    {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+    },
+    {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+    },
+    {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+    },
+    {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15"
+    },
+    {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0"
+    },
+    # Add more headers...
+]
 
 
-async def process_url(url, output_dir):
+def save_page_content(url, headers):
     try:
-        content = await extract_content(url)
-        if content:
-            save_content(content, output_dir, url)
-            return f"处理 {url} 成功"
-        else:
-            return f"处理 {url} 失败：无法提取内容"
+        # Send HTTP request to get page content
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+
+        # Get filename from URL
+        file_name = os.path.basename(url)
+
+        # Remove ".txt" extension from the filename
+        file_name, _ = os.path.splitext(file_name)
+
+        # Save page content as text file
+        save_path = os.path.join(save_directory, file_name + '.txt')
+        with open(save_path, 'w', encoding='utf-8') as file:
+            file.write(response.text)
+
+        print(f"Saved page content of {url} to {save_path}")
     except Exception as e:
-        return f"处理 {url} 失败：{str(e)}"
+        print(f"Error occurred while retrieving page content of {url}: {str(e)}")
 
 
-async def process_urls(urls, output_dir, num_concurrent):
-    tasks = []
-    results = []
-
+def crawl_urls(urls):
     for url in urls:
-        task = process_url(url, output_dir)
-        tasks.append(task)
-
-        if len(tasks) >= num_concurrent:
-            results += await asyncio.gather(*tasks)
-            tasks = []
-
-    if tasks:
-        results += await asyncio.gather(*tasks)
-
-    return results
+        headers = random.choice(headers_list)
+        save_page_content(url, headers)
 
 
 def main():
-    if len(sys.argv) != 4:
-        print("请提供要抓取的 URL 列表文件名、保存提取内容的目录和并发请求数")
-        print("示例: python extract_urls.py urls.txt data 10")
-        sys.exit(1)
+    # Create save directory if it doesn't exist
+    os.makedirs(save_directory, exist_ok=True)
 
-    urls_file = sys.argv[1]  # 存储要抓取的 URL 列表的文件名
-    output_dir = sys.argv[2]  # 保存提取内容的目录
-    num_concurrent = int(sys.argv[3])  # 并发请求数
+    # Read the list of URLs from the file
+    with open(url_file, 'r') as file:
+        urls = file.read().splitlines()
 
-    with open(urls_file, 'r', encoding='utf-8') as file:
-        urls = [line.strip() for line in file]
+    # Calculate the number of URLs each thread needs to handle
+    num_urls = len(urls)
+    urls_per_thread = num_urls // num_threads
 
-    loop = asyncio.get_event_loop()
-    results = loop.run_until_complete(process_urls(urls, output_dir, num_concurrent))
+    # Create threads and start them
+    threads = []
+    for i in range(num_threads):
+        start_index = i * urls_per_thread
+        end_index = start_index + urls_per_thread if i < num_threads - 1 else num_urls
+        thread_urls = urls[start_index:end_index]
 
-    for result in results:
-        print(result)
+        thread = threading.Thread(target=crawl_urls, args=(thread_urls,))
+        thread.start()
+        threads.append(thread)
 
-    print('所有网站内容保存完成！')
+    # Wait for all threads to complete
+    for thread in threads:
+        thread.join()
+
+    print("Crawling completed")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
