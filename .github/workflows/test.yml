@@ -39,11 +39,13 @@ jobs:
 
       - name: Display last run timestamp
         id: display_timestamp
-        run: echo "::set-output name=timestamp::$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+        run: |
+          TZ='Asia/Shanghai' date -u +'%Y-%m-%dT%H:%M:%SZ' >> timestamp.txt
+          echo "::set-output name=timestamp::$(cat timestamp.txt)"
 
       - name: Update README with last run timestamp
         run: |
-          echo "代码最后一次运行时间：${{ steps.display_timestamp.outputs.timestamp }}" >> README.md
+          echo "更新于：$($(cat timestamp.txt) | TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> README.md
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
