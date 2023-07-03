@@ -37,24 +37,15 @@ jobs:
       - name: test
         run: python ./tools/remove_non_alphanumeric_urls.py rest_urls
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Add extracted URLs"
-          git push
-
       - name: Display last run timestamp
         id: display_timestamp
         run: echo "::set-output name=timestamp::$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 
       - name: Update README with last run timestamp
-        uses: actions/github-script@v5
-        with:
-          script: |
-            const fs = require('fs');
-            let readmeContent = fs.readFileSync('README.md', 'utf8');
-            const timestamp = '${{ steps.display_timestamp.outputs.timestamp }}';
-            readmeContent = readmeContent.replace(/代码最后一次运行时间：.*/, `代码最后一次运行时间：${timestamp}`);
-            fs.writeFileSync('README.md', readmeContent)
+        run: |
+          echo "代码最后一次运行时间：${{ steps.display_timestamp.outputs.timestamp }}" >> README.md
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update README with last run timestamp"
+          git push
