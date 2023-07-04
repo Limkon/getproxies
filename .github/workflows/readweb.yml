@@ -81,13 +81,13 @@ jobs:
       - name: Display last run timestamp
         id: display_timestamp
         run: |
-         echo "timestamp=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
-         
+          echo "timestamp=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+
       - name: Update README with last run timestamp
         run: |
-          echo "更新于：$($(cat timestamp.txt) | TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" > README.md
+          echo "更新于：$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" > README.md
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Update README with last run timestamp"
+          git add README.md
+          git commit -m "Update README with last run timestamp (${GITHUB_SHA})"
           git push
