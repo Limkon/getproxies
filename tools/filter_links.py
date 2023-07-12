@@ -14,19 +14,22 @@ temp_file = tempfile.NamedTemporaryFile(mode='w', delete=False)
 
 # 读取输入文件并筛选出以特定格式开头的行，并将结果写入临时文件
 with open(input_file, 'r') as file:
-    lines = file.readlines()
-    total_lines = len(lines)
-    valid_lines = [line for line in lines if any(line.startswith(prefix) for prefix in valid_prefixes)]
-    valid_line_count = len(valid_lines)
-    temp_file.write(''.join(valid_lines))
+    for line in file:
+        if any(line.startswith(prefix) for prefix in valid_prefixes):
+            temp_file.write(line)
 
 # 关闭临时文件
 temp_file.close()
 
-# 将临时文件复制回原始文件
-shutil.move(temp_file.name, input_file)
+# 备份原始文件
+backup_file = input_file + ".bak"
+shutil.copyfile(input_file, backup_file)
 
-# 输出处理结果
-print(f"Total lines: {total_lines}")
-print(f"Valid lines: {valid_line_count}")
+# 将临时文件复制回原始文件
+shutil.copyfile(temp_file.name, input_file)
+
+# 删除临时文件
+os.remove(temp_file.name)
+
+# 输出处理完成的消息
 print("File processing completed.")
