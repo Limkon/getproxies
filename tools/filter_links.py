@@ -15,9 +15,8 @@ temp_file = tempfile.NamedTemporaryFile(mode='w', delete=False)
 # 读取输入文件并筛选出以特定格式开头的行，并将结果写入临时文件
 with open(input_file, 'r') as file:
     lines = file.readlines()
-    for line in lines:
-        if any(line.startswith(prefix) for prefix in valid_prefixes):
-            temp_file.write(line)
+    valid_lines = [line for line in lines if any(line.startswith(prefix) for prefix in valid_prefixes)]
+    temp_file.writelines(valid_lines)
 
 # 关闭临时文件
 temp_file.close()
