@@ -51,7 +51,7 @@ jobs:
         run: python ./tools/remove_non_alphanumeric_urls.py sec_urls
       
       - name: 读取网页
-        run: python ./tools/readweb.py sec_urls data 20
+        run: python ./tools/readweb.py sec_urls data --num_threads 20
       
       - name: 分析网页
         run: python ./tools/process_data.py data ./share/rest.txt rest_urls
