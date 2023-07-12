@@ -71,6 +71,9 @@ jobs:
       - name: Remove duplicate vpn
         run: python ./tools/remove_duplicates.py ./share/rest.txt
         
+      - name: 删除非特定链接
+        run: python ./tools/filter_links.py ./share/rest.txt
+        
       - name: Remove duplicate vpn
         run: python ./tools/base64_encode.py ./share/rest.txt ./share/encoded
         
