@@ -9,7 +9,7 @@ valid_prefixes = ['vmess://', 'trojan://', 'clash://', 'ss://', 'vlss://']
 # 读取输入文件并筛选出符合特定格式的链接行
 with open(input_file, 'r') as file:
     lines = file.readlines()
-    valid_lines = [line for line in lines if line.startswith(tuple(valid_prefixes))]
+    valid_lines = [line.strip() for line in lines if line.strip().startswith(tuple(valid_prefixes))]
 
 # 将筛选后的链接行写回原文件
 with open(input_file, 'w') as file:
