@@ -1,4 +1,6 @@
+import os
 import sys
+import re
 
 # 获取命令行参数中的文件名
 input_file = sys.argv[1]
