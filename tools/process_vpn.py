@@ -98,7 +98,7 @@ def main():
     with open(urls_file, 'r', encoding='utf-8') as file:
         urls = [line.strip() for line in file]
 
-    process_urls(urls, output_dir, num_threads, rest_file, urls_file)
+    process_url(urls, output_dir, num_threads, rest_file, urls_file)
 
     print('所有网站内容保存完成！')
 
