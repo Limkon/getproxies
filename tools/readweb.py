@@ -3,6 +3,7 @@ import requests
 import threading
 import random
 import argparse
+import time
 
 # Command-line argument parsing
 parser = argparse.ArgumentParser(description='Multi-threaded web crawler')
@@ -40,6 +41,8 @@ headers_list = [
     # Add more headers...
 ]
 
+# Create a global variable to track the start time
+start_time = None
 
 def save_page_content(url, headers):
     try:
@@ -62,14 +65,21 @@ def save_page_content(url, headers):
     except Exception as e:
         print(f"Error occurred while retrieving page content of {url}: {str(e)}")
 
-
 def crawl_urls(urls):
+    global start_time
     for url in urls:
+        # Check if more than 10 minutes have passed, if so, save results and exit
+        if time.time() - start_time > 600:  # 10 minutes = 600 seconds
+            print("Exceeded 10-minute runtime, saving results and exiting")
+            return
+
         headers = random.choice(headers_list)
         save_page_content(url, headers)
 
-
 def main():
+    global start_time
+    start_time = time.time()
+    
     # Create save directory if it doesn't exist
     os.makedirs(save_directory, exist_ok=True)
 
@@ -97,7 +107,6 @@ def main():
         thread.join()
 
     print("Crawling completed")
-
 
 if __name__ == "__main__":
     main()
