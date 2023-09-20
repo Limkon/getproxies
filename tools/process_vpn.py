@@ -141,18 +141,28 @@ def main():
     with open(urls_file, 'r', encoding='utf-8') as file:
         urls = [line.strip() for line in file]
 
-    # 使用 multiprocessing 启动子进程运行代码
-    with multiprocessing.Process(target=process_urls, args=(urls, output_dir, num_threads, rest_file, urls_file)) as process:
+    # 使用 multiprocessing 创建并启动子进程
+    processes = []
+    for i in range(num_threads):
+        process = multiprocessing.Process(target=process_urls, args=(urls, output_dir, 1, rest_file, urls_file))
         process.start()
-        
-        # 设置最大运行时间（秒），例如 600 秒（10分钟）
-        max_runtime = 600
+        processes.append(process)
 
-        # 等待子进程完成或达到最大运行时间
-        while process.is_alive() and (time.time() - start_time) < max_runtime:
-            pass
+    # 设置最大运行时间（秒），例如 600 秒（10分钟）
+    max_runtime = 600
 
-        # 如果子进程仍在运行，终止它
+    # 等待子进程完成或达到最大运行时间
+    while (time.time() - start_time) < max_runtime:
+        all_finished = True
+        for process in processes:
+            if process.is_alive():
+                all_finished = False
+                break
+        if all_finished:
+            break
+
+    # 如果子进程仍在运行，终止它们
+    for process in processes:
         if process.is_alive():
             process.terminate()
             process.join()
