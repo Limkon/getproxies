@@ -91,6 +91,6 @@ jobs:
           echo "更新于：$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" > README.md
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md encoded rest.txt
+          git add README.md ./share/rest.txt ./share/encoded
           git commit -m "Update README with last run timestamp (${GITHUB_SHA})"
           git push
