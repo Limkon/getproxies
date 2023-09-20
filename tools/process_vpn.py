@@ -146,7 +146,10 @@ def main():
     with open(urls_file, 'r', encoding='utf-8') as file:
         urls = [line.strip() for line in file]
 
-    process_url(urls, output_dir, num_threads, rest_file, urls_file)
+    # 遍历URL列表，并为每个URL调用 process_url 函数
+    for url in urls:
+        result = process_url(url, output_dir, rest_file, urls_file)
+        print(result)
 
     print('所有网站内容保存完成！')
 
