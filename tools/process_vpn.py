@@ -79,7 +79,55 @@ def process_url(url, output_dir, rest_file, urls_file):
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}"
 
-# ... (其余部分代码保持不变)
+def is_base64_encoded(content):
+    try:
+        content.encode('ascii')  # 尝试编码为 ASCII
+        base64.b64decode(content)
+        return True
+    except (UnicodeEncodeError, base64.binascii.Error):
+        return False
+
+
+def has_specific_format(content):
+    formats = ['vmess://', 'trojan://', 'clash://', 'ss://', 'vlss://']
+    return any(format in content for format in formats)
+
+
+def append_to_file(file_path, content):
+    with open(file_path, 'a', encoding='utf-8') as file:
+        file.write(content + '\n')
+
+
+def delete_file(url, output_dir):
+    date = datetime.datetime.now().strftime('%Y-%m-%d')
+    url_without_protocol = re.sub(r'^(https?://)', '', url)
+    url_without_protocol = re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)
+    url_without_protocol = url_without_protocol[:20]  # 限制文件名长度不超过20个字符
+    file_name = os.path.join(output_dir, url_without_protocol + "_" + date + ".txt")
+
+    if os.path.exists(file_name):
+        os.remove(file_name)
+        print(f"删除文件：{file_name}")
+
+
+def remove_url(url, urls_file):
+    with open(urls_file, 'r', encoding='utf-8') as file:
+        urls = [line.strip() for line in file]
+
+    urls = [u for u in urls if u != url]
+
+    with open(urls_file, 'w', encoding='utf-8') as file:
+        file.write('\n'.join(urls))
+
+
+def process_urls(urls, output_dir, num_threads, rest_file, urls_file):
+    with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
+        futures = [executor.submit(process_url, url, output_dir, rest_file, urls_file) for url in urls]
+
+        for future in concurrent.futures.as_completed(futures):
+            result = future.result()
+            print(result)
+
 
 def main():
     global start_time
