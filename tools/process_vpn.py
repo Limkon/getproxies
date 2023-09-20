@@ -6,6 +6,7 @@ import datetime
 import requests
 import concurrent.futures
 import base64
+import multiprocessing
 
 from bs4 import BeautifulSoup
 
@@ -87,16 +88,13 @@ def is_base64_encoded(content):
     except (UnicodeEncodeError, base64.binascii.Error):
         return False
 
-
 def has_specific_format(content):
     formats = ['vmess://', 'trojan://', 'clash://', 'ss://', 'vlss://']
     return any(format in content for format in formats)
 
-
 def append_to_file(file_path, content):
     with open(file_path, 'a', encoding='utf-8') as file:
         file.write(content + '\n')
-
 
 def delete_file(url, output_dir):
     date = datetime.datetime.now().strftime('%Y-%m-%d')
@@ -109,7 +107,6 @@ def delete_file(url, output_dir):
         os.remove(file_name)
         print(f"删除文件：{file_name}")
 
-
 def remove_url(url, urls_file):
     with open(urls_file, 'r', encoding='utf-8') as file:
         urls = [line.strip() for line in file]
@@ -119,7 +116,6 @@ def remove_url(url, urls_file):
     with open(urls_file, 'w', encoding='utf-8') as file:
         file.write('\n'.join(urls))
 
-
 def process_urls(urls, output_dir, num_threads, rest_file, urls_file):
     with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
         futures = [executor.submit(process_url, url, output_dir, rest_file, urls_file) for url in urls]
@@ -127,7 +123,6 @@ def process_urls(urls, output_dir, num_threads, rest_file, urls_file):
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
             print(result)
-
 
 def main():
     global start_time
@@ -146,10 +141,21 @@ def main():
     with open(urls_file, 'r', encoding='utf-8') as file:
         urls = [line.strip() for line in file]
 
-    # 遍历URL列表，并为每个URL调用 process_url 函数
-    for url in urls:
-        result = process_url(url, output_dir, rest_file, urls_file)
-        print(result)
+    # 使用 multiprocessing 启动子进程运行代码
+    with multiprocessing.Process(target=process_urls, args=(urls, output_dir, num_threads, rest_file, urls_file)) as process:
+        process.start()
+        
+        # 设置最大运行时间（秒），例如 600 秒（10分钟）
+        max_runtime = 600
+
+        # 等待子进程完成或达到最大运行时间
+        while process.is_alive() and (time.time() - start_time) < max_runtime:
+            pass
+
+        # 如果子进程仍在运行，终止它
+        if process.is_alive():
+            process.terminate()
+            process.join()
 
     print('所有网站内容保存完成！')
 
