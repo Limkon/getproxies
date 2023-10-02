@@ -6,10 +6,8 @@ import datetime
 import requests
 import concurrent.futures
 import base64
-import multiprocessing
 
 from bs4 import BeautifulSoup
-
 
 def extract_content(url):
     response = requests.get(url)
@@ -40,7 +38,6 @@ def extract_content(url):
     else:
         raise Exception(f"Failed to fetch content from URL: {url}")
 
-
 def save_content(content, output_dir, url):
     date = datetime.datetime.now().strftime('%Y-%m-%d')
     url_without_protocol = re.sub(r'^(https?://)', '', url)
@@ -56,12 +53,11 @@ def save_content(content, output_dir, url):
         file.write(cleaned_content)
     print(f"网站 {url} 内容已保存至文件：{file_name}")
 
-
-def process_url(url, output_dir, rest_file, urls_file):
+def process_url(url, output_dir, rest_file, urls_file, start_time, max_runtime):
     try:
         with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
             future = executor.submit(extract_content, url)
-            content = future.result(timeout=600)
+            content = future.result(timeout=max_runtime)
 
         if content:
             if is_base64_encoded(content):
@@ -80,7 +76,6 @@ def process_url(url, output_dir, rest_file, urls_file):
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}"
 
-
 def is_base64_encoded(content):
     try:
         content.encode('ascii')
@@ -89,16 +84,13 @@ def is_base64_encoded(content):
     except (UnicodeEncodeError, base64.binascii.Error):
         return False
 
-
 def has_specific_format(content):
     formats = ['vmess://', 'trojan://', 'clash://', 'ss://', 'vlss://']
     return any(format in content for format in formats)
 
-
 def append_to_file(file_path, content):
     with open(file_path, 'a', encoding='utf-8') as file:
         file.write(content + '\n')
-
 
 def delete_file(url, output_dir):
     date = datetime.datetime.now().strftime('%Y-%m-%d')
@@ -111,7 +103,6 @@ def delete_file(url, output_dir):
         os.remove(file_name)
         print(f"删除文件：{file_name}")
 
-
 def remove_url(url, urls_file):
     with open(urls_file, 'r', encoding='utf-8') as file:
         urls = [line.strip() for line in file]
@@ -121,34 +112,34 @@ def remove_url(url, urls_file):
     with open(urls_file, 'w', encoding='utf-8') as file:
         file.write('\n'.join(urls))
 
+def process_urls(urls, output_dir, num_threads, rest_file, urls_file, max_runtime):
+    start_time = time.time()
 
-def process_urls(urls, output_dir, num_threads, rest_file, urls_file):
     with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
-        futures = [executor.submit(process_url, url, output_dir, rest_file, urls_file) for url in urls]
+        futures = [executor.submit(process_url, url, output_dir, rest_file, urls_file, start_time, max_runtime) for url in urls]
 
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
             print(result)
 
-
 def main():
-    if len(sys.argv) != 5:
-        print("请提供要抓取的 URL 列表文件名、保存提取内容的目录、线程数和 REST 文件的路径")
-        print("示例: python extract_urls.py urls.txt data 10 ./share/rest.txt")
+    if len(sys.argv) != 6:
+        print("请提供要抓取的 URL 列表文件名、保存提取内容的目录、线程数、REST 文件的路径和最大运行时间（秒）")
+        print("示例: python extract_urls.py urls.txt data 10 ./share/rest.txt 600")
         sys.exit(1)
 
     urls_file = sys.argv[1]
     output_dir = sys.argv[2]
     num_threads = int(sys.argv[3])
     rest_file = sys.argv[4]
+    max_runtime = int(sys.argv[5])
 
     with open(urls_file, 'r', encoding='utf-8') as file:
         urls = [line.strip() for line in file]
 
-    process_urls(urls, output_dir, num_threads, rest_file, urls_file)
+    process_urls(urls, output_dir, num_threads, rest_file, urls_file, max_runtime)
 
     print('所有网站内容保存完成！')
-
 
 if __name__ == '__main__':
     main()
