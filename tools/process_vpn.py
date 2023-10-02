@@ -6,6 +6,7 @@ import datetime
 import requests
 import concurrent.futures
 import base64
+import multiprocessing
 
 from bs4 import BeautifulSoup
 
@@ -15,15 +16,14 @@ def extract_content(url):
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'lxml')
 
-        # 尝试不同的选择器
         selectors = [
-            '#app',                 # ID 选择器
-            '.content',             # 类选择器
-            'div',                  # 元素选择器
-            '.my-class',            # 类选择器
-            '#my-id',               # ID 选择器
-            '[name="my-name"]',     # 属性选择器
-            '.my-parent .my-child', # 后代选择器
+            '#app',
+            '.content',
+            'div',
+            '.my-class',
+            '#my-id',
+            '[name="my-name"]',
+            '.my-parent .my-child',
         ]
 
         for selector in selectors:
@@ -35,7 +35,6 @@ def extract_content(url):
             except Exception as e:
                 pass
 
-        # 如果所有选择器都失败，则执行自定义的处理方法
         content = soup.get_text()
         return content
     else:
@@ -46,10 +45,9 @@ def save_content(content, output_dir, url):
     date = datetime.datetime.now().strftime('%Y-%m-%d')
     url_without_protocol = re.sub(r'^(https?://)', '', url)
     url_without_protocol = re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)
-    url_without_protocol = url_without_protocol[:20]  # 限制文件名长度不超过20个字符
+    url_without_protocol = url_without_protocol[:20]
     file_name = os.path.join(output_dir, url_without_protocol + "_" + date + ".txt")
 
-    # 删除空白行
     content_lines = content.splitlines()
     non_empty_lines = [line for line in content_lines if line.strip()]
     cleaned_content = '\n'.join(non_empty_lines)
@@ -61,8 +59,10 @@ def save_content(content, output_dir, url):
 
 def process_url(url, output_dir, rest_file, urls_file):
     try:
-        time.sleep(5)  # 等待页面加载
-        content = extract_content(url)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+            future = executor.submit(extract_content, url)
+            content = future.result(timeout=600)
+
         if content:
             if is_base64_encoded(content):
                 decoded_content = base64.b64decode(content).decode('utf-8')
@@ -75,13 +75,15 @@ def process_url(url, output_dir, rest_file, urls_file):
             return f"处理 {url} 成功"
         else:
             return f"处理 {url} 失败：无法提取内容"
+    except concurrent.futures.TimeoutError:
+        return f"处理 {url} 超时"
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}"
 
 
 def is_base64_encoded(content):
     try:
-        content.encode('ascii')  # 尝试编码为 ASCII
+        content.encode('ascii')
         base64.b64decode(content)
         return True
     except (UnicodeEncodeError, base64.binascii.Error):
@@ -102,7 +104,7 @@ def delete_file(url, output_dir):
     date = datetime.datetime.now().strftime('%Y-%m-%d')
     url_without_protocol = re.sub(r'^(https?://)', '', url)
     url_without_protocol = re.sub(r'[:?<>|\"*\r\n/]', '_', url_without_protocol)
-    url_without_protocol = url_without_protocol[:20]  # 限制文件名长度不超过20个字符
+    url_without_protocol = url_without_protocol[:20]
     file_name = os.path.join(output_dir, url_without_protocol + "_" + date + ".txt")
 
     if os.path.exists(file_name):
@@ -135,10 +137,10 @@ def main():
         print("示例: python extract_urls.py urls.txt data 10 ./share/rest.txt")
         sys.exit(1)
 
-    urls_file = sys.argv[1]  # 存储要抓取的 URL 列表的文件名
-    output_dir = sys.argv[2]  # 保存提取内容的目录
-    num_threads = int(sys.argv[3])  # 线程数
-    rest_file = sys.argv[4]  # REST 文件的路径
+    urls_file = sys.argv[1]
+    output_dir = sys.argv[2]
+    num_threads = int(sys.argv[3])
+    rest_file = sys.argv[4]
 
     with open(urls_file, 'r', encoding='utf-8') as file:
         urls = [line.strip() for line in file]
