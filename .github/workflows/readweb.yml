@@ -39,6 +39,13 @@ jobs:
           if [ ! -d "share" ]; then
             mkdir share
           fi
+
+      - name: 清空文件
+        run: |
+          > ./share/rest.txt
+          > ./share/encoded
+          > rest_urls
+          > sec_urls
           
       - name: 搜索订阅
         id: search
