@@ -63,7 +63,7 @@ jobs:
         run: python ./tools/remove_non_alphanumeric_urls.py rest_urls
         
       - name: 读取订阅
-        run: python ./tools/process_vpn.py rest_urls data 20 ./share/rest.txt
+        run: python ./tools/process_vpn.py rest_urls data 20 ./share/rest.txt 600
                
       - name: Remove non-alphanumeric vpn
         run: python ./tools/remove_non_alphanumeric_urls.py ./share/rest.txt
