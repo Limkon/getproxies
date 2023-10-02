@@ -19,11 +19,15 @@ def remove_non_alphanumeric_urls(filename):
 
                 lines_to_keep.append(line)
 
+                # 检查是否达到了300条URL的限制，如果达到了，停止添加新的URL
+                if len(lines_to_keep) >= 300:
+                    break
+
     # 将结果写回原文件
     with open(filename, 'w') as file:
         file.write('\n'.join(lines_to_keep))
 
-    print("已剔除不以字母或数字结尾（除斜杠“/”外）的网址，并删除中文字符及其后面的内容。")
+    print(f"已剔除不以字母或数字结尾（除斜杠“/”外）的网址，并删除中文字符及其后面的内容，保留最多300条URL。")
 
 # 获取命令行参数
 if len(sys.argv) != 2:
