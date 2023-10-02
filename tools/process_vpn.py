@@ -9,6 +9,11 @@ import base64
 
 from bs4 import BeautifulSoup
 
+# 最大运行时间（秒）
+MAX_RUNTIME = 600  # 10分钟
+
+# 全局变量，用于跟踪总运行时间
+total_runtime = 0
 
 def extract_content(url):
     response = requests.get(url)
@@ -60,6 +65,8 @@ def save_content(content, output_dir, url):
 
 
 def process_url(url, output_dir, rest_file, urls_file):
+    global total_runtime
+    start_time = time.time()
     try:
         time.sleep(5)  # 等待页面加载
         content = extract_content(url)
@@ -77,6 +84,13 @@ def process_url(url, output_dir, rest_file, urls_file):
             return f"处理 {url} 失败：无法提取内容"
     except Exception as e:
         return f"处理 {url} 失败：{str(e)}"
+    finally:
+        end_time = time.time()
+        runtime = end_time - start_time
+        total_runtime += runtime
+        if total_runtime > MAX_RUNTIME:
+            print(f"总运行时间超过 {MAX_RUNTIME} 秒，停止处理后续的URL")
+            sys.exit(0)  # 停止处理后续的URL并保存已处理的结果
 
 
 def is_base64_encoded(content):
